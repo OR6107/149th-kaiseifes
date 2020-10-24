@@ -1,0 +1,16 @@
+[
+  {
+    "name": "test",
+    "path": "/test",
+    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/test.vue",
+    "chunkName": "pages/test",
+    "_name": "_3ff6c14e"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_5091b874"
+  }
+]
