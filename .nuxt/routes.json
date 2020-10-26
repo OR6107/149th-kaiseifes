@@ -1,10 +1,10 @@
 [
   {
-    "name": "test",
-    "path": "/test",
-    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/test.vue",
-    "chunkName": "pages/test",
-    "_name": "_3ff6c14e"
+    "name": "hoge",
+    "path": "/hoge",
+    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/hoge.vue",
+    "chunkName": "pages/hoge",
+    "_name": "_5d196f61"
   },
   {
     "name": "index",
