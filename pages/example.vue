@@ -31,15 +31,17 @@ export default {
 <style lang="scss" scoped>
 $title-size: 100px;
 
-.container-didot {
-  font-family: linotype-didot, serif;
+div[class^='container'] {
   font-style: normal;
   font-weight: normal;
-
   text-align: center;
   .title {
     font-size: $title-size;
   }
+}
+
+.container-didot {
+  font-family: linotype-didot, serif;
   .subtitle {
     color: blue;
     font-size: 20px;
@@ -48,34 +50,13 @@ $title-size: 100px;
 
 .container-helvetica {
   font-family: neue-haas-grotesk-display, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-
-  text-align: center;
-  .title {
-    font-size: $title-size;
-  }
 }
 
 .container-din {
   font-family: din-2014, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-
-  text-align: center;
-  .title {
-    font-size: $title-size;
-  }
 }
 
 .container-udnewgothic {
   font-family: a-otf-ud-shin-go-pr6n, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-
-  text-align: center;
-  .title {
-    font-size: $title-size;
-  }
 }
 </style>
