@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h1>Hello! Itoh!!!</h1>
+    <h1>
+      Hello!
+      笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑笑!!!
+    </h1>
     上が赤くなってるのはassetsのmain.scssが効いているから〜
     <div class="container-didot">
       <div class="title">Didot</div>

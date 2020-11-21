@@ -2,13 +2,25 @@
   {
     "name": "example",
     "path": "/example",
-    "component": "C:\\\\Users\\\\mencotton\\\\Documents\\\\GitHub\\\\149th-kaiseifes\\\\pages\\\\example.vue",
+    "component": "/mnt/c/Users/user/149th-kaiseifes/pages/example.vue",
     "chunkName": "pages/example"
+  },
+  {
+    "name": "example2",
+    "path": "/example2",
+    "component": "/mnt/c/Users/user/149th-kaiseifes/pages/example2.vue",
+    "chunkName": "pages/example2"
+  },
+  {
+    "name": "itm",
+    "path": "/itm",
+    "component": "/mnt/c/Users/user/149th-kaiseifes/pages/itm.vue",
+    "chunkName": "pages/itm"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\mencotton\\\\Documents\\\\GitHub\\\\149th-kaiseifes\\\\pages\\\\index.vue",
+    "component": "/mnt/c/Users/user/149th-kaiseifes/pages/index.vue",
     "chunkName": "pages/index"
   }
 ]
