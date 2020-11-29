@@ -5,17 +5,6 @@
     "component": "/mnt/c/Users/user/149th-kaiseifes/pages/example.vue",
     "chunkName": "pages/example"
   },
-  {
-    "name": "example2",
-    "path": "/example2",
-    "component": "/mnt/c/Users/user/149th-kaiseifes/pages/example2.vue",
-    "chunkName": "pages/example2"
-  },
-  {
-    "name": "itm",
-    "path": "/itm",
-    "component": "/mnt/c/Users/user/149th-kaiseifes/pages/itm.vue",
-    "chunkName": "pages/itm"
   },
   {
     "name": "index",
