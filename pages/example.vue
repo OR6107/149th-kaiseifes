@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Hello! Itoh!!!</h1>
+    <h1>Hello! {{ name }}!!!</h1>
     上が赤くなってるのはassetsのmain.scssが効いているから〜
     <div class="container-didot">
       <div class="title">Didot</div>
