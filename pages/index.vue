@@ -1,165 +1,112 @@
 <template>
-  <div class="container">
-    <div class="menu">
-      <div class="Rectangle17"></div>
+  <div>
+    <Header />
+    <div class="container">
+      <div class="title">
+        <img src="../static/logo_red.svg" />
+        <div class="twilight">Twilight</div>
+      </div>
+      <div class="when">
+        <div class="when-title">開催日時</div>
+        <ul class="date">
+          <li><div class="date-text">2021.01.09(土) 09:00 ~ 17:00</div></li>
+          <li><div class="date-text">2021.01.10(日) 09:00 ~ 16:30</div></li>
+        </ul>
+        <div class="coming-soon">Coming Soon ...</div>
+      </div>
     </div>
-    <div class="logo"></div>
-    <div class="twilight">Twilight</div>
-    <div class="Ellipse3"></div>
-    <div class="Ellipse4"></div>
-    <div class="when">
-      開催日時
-      <br />
-      2021.01.09(土)09:00〜17:00
-      <br />
-      2021.01.10(日)09:00〜16:30
-    </div>
-    <div class="coming-soon">Coming Soon...</div>
   </div>
 </template>
+
 <script>
-import Logo from '~/components/Logo.vue'
+import Header from '@/components/header'
+
 export default {
-  components: {
-    Logo,
-  },
+  name: 'Index',
+  components: { Header },
 }
 </script>
-<style>
-/*フォントはUD新ゴ*/
-.container {
-  position: relative;
-  width: 1440px;
-  height: 1024px;
 
-  /* White */
-  background: #ffffff;
+<style scoped lang="scss">
+$black: #082449;
+$dark: #38444d;
+$gray: #888888;
+$light: #e5e5e5;
+$white: #ffffff;
+$purple: #611fb6;
+$orange: #ff9a70;
+$yellow: #fccf5a;
+
+@mixin center {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.logo {
-  position: absolute;
-  width: 825px;
-  height: 808px;
-  left: -25px;
-  top: 75px;
+@mixin Didot-font {
+  font-family: linotype-didot, serif;
+}
 
-  background: url(logo-red.svg);
-  background-blend-mode: darken;
+@mixin UD-sin-go-font {
+  font-family: a-otf-ud-shin-go-pr6n, sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background: $white;
+}
+
+.title {
+  @include center();
+  @include Didot-font();
+  width: calc(min(1vw, 2vh) * 45);
+  margin-top: calc((100vh - calc(min(1vw, 2vh) * (42.5 - 4.5 + 5 + 5 + 10))) / 2);
+  margin-left: 5vw;
+  img {
+    height: calc(min(1vw, 2vh) * 42.5);
+    width: calc(min(1vw, 2vh) * 42.5);
+  }
+  .twilight {
+    margin-top: calc(min(1vw, 2vh) * -4.5);
+    padding-right: calc(min(1vw, 2vh) * 1.5);
+    line-height: calc(min(1vw, 2vh) * 5);
+    font-size: calc(min(1vw, 2vh) * 5);
+    color: $black;
+  }
 }
 
 .when {
-  position: absolute;
-  width: 675px;
-  height: 214px;
-  left: 765px;
-  top: 387px;
-
-  font-family: a-otf-ud-shin-go-pr6n, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 42px; /*48pxだったが途中で改行されてしまうため変更*/
-  line-height: 71px;
-  text-align: center;
-
-  /* Black */
-  color: #082449;
-}
-.coming-soon {
-  position: absolute;
-  width: 603px;
-  height: 109px;
-  left: 786px;
-  top: 735px;
-
-  font-family: a-otf-ud-shin-go-pr6n, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 72px;
-  line-height: 106px;
-  text-align: center;
-
-  /* Black */
-  color: #082449;
-}
-
-.twilight {
-  position: absolute;
-  width: 380px;
-  height: 142px;
-  left: 191px;
-  top: 790px;
-
-  font-family: a-otf-ud-shin-go-pr6n, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 96px;
-  line-height: 142px;
-  /* identical to box height */
-
-  /* Black */
-  color: #082449;
-}
-
-.Ellipse4 {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 750px;
-  top: 555px;
-
-  /* Yellow */
-  background: #fccf5a;
-}
-
-.Ellipse3 {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  left: 750px;
-  top: 487px;
-
-  /* Yellow */
-  background: #fccf5a;
-}
-
-.menu {
-  position: absolute;
-  width: 1440px;
-  height: 60px;
-  left: 0px;
-  top: 0px;
-}
-
-.Rectangle17 {
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-
-  /* Purple */
-  background: #611fb6;
-}
-
-. menulist {
-  /*menulistは非表示*/
-  position: absolute;
-  visibility: hidden;
-  left: 0%;
-  right: 0%;
-  top: 0%;
-  bottom: 0%;
-
-  font-family: a-otf-ud-shin-go-pr6n, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 53px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  /* White */
-  color: #ffffff;
+  @include center();
+  @include UD-sin-go-font();
+  width: calc(min(1vw, 2vh) * 40);
+  margin-top: calc((100vh - calc(min(1vw, 2vh) * (3.5 + 5 + 2.5 + 4.2 + 4 + 5.3))) / 2);
+  margin-left: auto;
+  margin-right: 5vw;
+  .when-title {
+    margin-right: calc(min(1vw, 2vh) * 2.5);
+    font-size: calc(min(1vw, 2vh) * 3.5);
+    line-height: calc(min(1vw, 2vh) * 5);
+    color: $black;
+  }
+  .date {
+    text-align: center;
+    font-size: calc(min(1vw, 2vh) * 2.5);
+    line-height: calc(min(1vw, 2vh) * 4.2);
+    color: $yellow;
+    .date-text {
+      margin-left: calc(min(1vw, 2vh) * -5);
+      color: $black;
+    }
+  }
+  .coming-soon {
+    @include Didot-font();
+    margin-top: calc(min(1vw, 2vh) * 8);
+    margin-bottom: calc(min(1vw, 2vh) * 5);
+    margin-right: calc(min(1vw, 2vh) * 2.5);
+    font-size: calc(min(1vw, 2vh) * 4);
+    line-height: calc(min(1vw, 2vh) * 5.3);
+    color: $black;
+  }
 }
 </style>
