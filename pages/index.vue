@@ -1,21 +1,32 @@
 <template>
-  <div class="container">
-    <div class="title">
-      <img src="../static/logo_red.svg" />
-      <div class="twilight">Twilight</div>
-    </div>
-    <div class="when">
-      <div class="when-title">開催日時</div>
-      <ul class="date">
-        <li><div class="date-text">2021.01.09(土) 09:00 ~ 17:00</div></li>
-        <li><div class="date-text">2021.01.10(日) 09:00 ~ 16:30</div></li>
-      </ul>
-      <div class="coming-soon">Coming Soon ...</div>
+  <div>
+    <Header />
+    <div class="container">
+      <div class="title">
+        <img src="../static/logo_red.svg" />
+        <div class="twilight">Twilight</div>
+      </div>
+      <div class="when">
+        <div class="when-title">開催日時</div>
+        <ul class="date">
+          <li><div class="date-text">2021.01.09(土) 09:00 ~ 17:00</div></li>
+          <li><div class="date-text">2021.01.10(日) 09:00 ~ 16:30</div></li>
+        </ul>
+        <div class="coming-soon">Coming Soon ...</div>
+      </div>
     </div>
   </div>
 </template>
 
-<script></script>
+<script>
+import Header from '@/components/header'
+
+export default {
+  name: 'Index',
+  components: { Header },
+}
+</script>
+
 <style scoped lang="scss">
 $black: #082449;
 $dark: #38444d;
