@@ -3,7 +3,7 @@
     <Header />
     <div class="container">
       <div class="title">
-        <img src="../static/logo_red.svg" />
+        <img src="logo_red.svg" />
         <div class="title-text">Twilight</div>
       </div>
       <div class="when">
