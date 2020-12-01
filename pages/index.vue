@@ -12,6 +12,13 @@
           <li><div class="date-text">2021.01.09(土) 09:00 ~ 17:00</div></li>
           <li><div class="date-text">2021.01.10(日) 09:00 ~ 16:30</div></li>
         </ul>
+        <div class="link-to-timetable">
+          <div class="link-to-timetable-title">
+            タイムテーブルの確認はこちら！
+          </div>
+          <a href="timetable_band.pdf">バンド</a>
+          <a href="timetable_jitsuen.pdf">実演参加団体</a>
+        </div>
         <div class="coming-soon">Coming Soon ...</div>
       </div>
     </div>
@@ -99,6 +106,23 @@ $yellow: #fccf5a;
       color: $black;
     }
   }
+  .link-to-timetable {
+    margin-top: calc(min(1vw, 2vh) * 3);
+    .link-to-timetable-title {
+      margin: auto;
+      font-size: calc(min(1vw, 2vh) * 2.5);
+      line-height: calc(min(1vw, 2vh) * 4.2);
+    }
+    a {
+      margin-right: calc(min(1vw, 2vh) * 1.5);
+      font-size: calc(min(1vw, 2vh) * 2.5);
+      line-height: calc(min(1vw, 2vh) * 4.2);
+      color: $black;
+    }
+    a:hover {
+      color: $yellow;
+    }
+  }
   .coming-soon {
     @include Didot-font();
     margin-top: calc(min(1vw, 2vh) * 8);
@@ -143,6 +167,21 @@ $yellow: #fccf5a;
       margin-left: -2vw;
       .date-text {
         margin-left: -4vw;
+      }
+    }
+    .link-to-timetable {
+      .link-to-timetable-title {
+        font-size: calc(min(2vw, 1vh) * 3.2);
+        line-height: calc(min(2vw, 1vh) * 4.8);
+      }
+      a {
+        margin-right: calc(min(2vw, 1vh) * 0.75);
+        font-size: calc(min(2vw, 1vh) * 3.2);
+        line-height: calc(min(2vw, 1vh) * 4.8);
+        color: $black;
+      }
+      a:hover {
+        color: $yellow;
       }
     }
     .coming-soon {
