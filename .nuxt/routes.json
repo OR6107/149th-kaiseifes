@@ -1,10 +1,10 @@
 [
   {
-    "name": "example",
-    "path": "/example",
-    "component": "/mnt/c/Users/user/149th-kaiseifes/pages/example.vue",
-    "chunkName": "pages/example"
-  },
+    "name": "information",
+    "path": "/information",
+    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/information.vue",
+    "chunkName": "pages/information",
+    "_name": "_26f93e20"
   },
   {
     "name": "index",
