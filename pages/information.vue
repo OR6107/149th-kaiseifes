@@ -12,21 +12,21 @@
           <div class="content-rectangle" />
           <div class="content-text">タイムテーブル</div>
         </div>
-        <a href="kaiseifes-timetable.xlsx">ダウンロード</a>
+        <a href="../kaiseifes-timetable.xlsx">ダウンロード</a>
       </div>
       <div class="content">
         <div class="content-title">
           <div class="content-rectangle" />
           <div class="content-text">講演会</div>
         </div>
-        <a href="kaiseifes-lecture.pdf">ダウンロード</a>
+        <a href="../kaiseifes-lecture.pdf">ダウンロード</a>
       </div>
       <div class="content">
         <div class="content-title">
           <div class="content-rectangle" />
           <div class="content-text">ペン剣ゼミ</div>
         </div>
-        <a href="kaiseifes-penken-seminar.pdf">ダウンロード</a>
+        <a href="../kaiseifes-penken-seminar.pdf">ダウンロード</a>
       </div>
     </div>
   </div>
