@@ -98,12 +98,12 @@ $yellow: #fccf5a;
   }
   .date {
     text-align: center;
-    width: calc(min(1vw, 2vh) * 40);
+    width: calc(min(1vw, 2vh) * 45);
     font-size: calc(min(1vw, 2vh) * 2.5);
     line-height: calc(min(1vw, 2vh) * 4.2);
     color: $yellow;
     .date-text {
-      margin-left: auto;
+      margin-left: calc(min(1vw, 2vh) * -7);
       color: $black;
     }
   }
