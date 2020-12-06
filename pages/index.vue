@@ -12,10 +12,8 @@
           <li><div class="date-text">2021.01.09(土) 09:00 ~ 17:00</div></li>
           <li><div class="date-text">2021.01.10(日) 09:00 ~ 16:30</div></li>
         </ul>
-        <div class="link-to-timetable">
-          <div class="link-to-timetable-title">
-            時間限定企画の詳細はこちら！
-          </div>
+        <div class="link-to-detail">
+          <div class="link-to-detail-title">詳細情報はこちら！</div>
           <a href="information">リンク</a>
         </div>
         <div class="coming-soon">Coming Soon ...</div>
@@ -106,9 +104,9 @@ $yellow: #fccf5a;
       color: $black;
     }
   }
-  .link-to-timetable {
+  .link-to-detail {
     margin-top: calc(min(1vw, 2vh) * 3);
-    .link-to-timetable-title {
+    .link-to-detail-title {
       margin: auto;
       font-size: calc(min(1vw, 2vh) * 2.5);
       line-height: calc(min(1vw, 2vh) * 4.2);
@@ -166,9 +164,9 @@ $yellow: #fccf5a;
       line-height: calc(min(2vw, 1vh) * 4.8);
       margin: auto;
     }
-    .link-to-timetable {
+    .link-to-detail {
       margin-top: calc(min(2vw, 1vh) * 3);
-      .link-to-timetable-title {
+      .link-to-detail-title {
         font-size: calc(min(2vw, 1vh) * 3.2);
         line-height: calc(min(2vw, 1vh) * 4.8);
       }
