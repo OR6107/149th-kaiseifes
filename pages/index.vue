@@ -14,10 +14,9 @@
         </ul>
         <div class="link-to-timetable">
           <div class="link-to-timetable-title">
-            タイムテーブルの確認はこちら！
+            時間限定企画の詳細はこちら！
           </div>
-          <a href="timetable_band.pdf">バンド</a>
-          <a href="timetable_jitsuen.pdf">実演参加団体</a>
+          <a href="information">リンク</a>
         </div>
         <div class="coming-soon">Coming Soon ...</div>
       </div>
