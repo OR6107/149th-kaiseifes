@@ -12,7 +12,7 @@
           <div class="content-rectangle" />
           <div class="content-text">タイムテーブル</div>
         </div>
-        <a href="../kaiseifes-timetable.xlsx">ダウンロード</a>
+        <a href="../kaiseifes-timetable.pdf">ダウンロード</a>
       </div>
       <div class="content">
         <div class="content-title">
