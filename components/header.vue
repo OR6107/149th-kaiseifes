@@ -28,11 +28,13 @@ $orange: #ff9a70;
 $yellow: #fccf5a;
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 60px;
   width: 100vw;
   padding: 5px;
   display: flex;
-  position: fixed;
   background-color: $purple;
   color: $white;
 }
