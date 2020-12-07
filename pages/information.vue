@@ -53,7 +53,7 @@
         <div class="place">
           B会場
           <div class="place-floor">1階: どの時間でもいらっしゃることができます。</div>
-          <div class="place-floor">2階: ？</div>
+          <div class="place-floor">2階: どの時間でもいらっしゃることができます。</div>
           <div class="place-floor">3階: 12:00 〜 12:40</div>
           <div class="place-floor">4階: 11:30 〜 12:10</div>
         </div>
