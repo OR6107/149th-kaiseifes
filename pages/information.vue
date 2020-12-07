@@ -40,9 +40,7 @@
           <div class="content-rectangle" />
           <div class="content-text">昼食時間</div>
         </div>
-        <p>
-          該当する時間帯は、フロアの全参加団体が閉鎖となります。
-        </p>
+        <p>該当する時間帯は、フロアの全参加団体が閉鎖となります。</p>
         <div class="place">
           A会場
           <div class="place-floor">1階: どの時間でもいらっしゃることができます。</div>
@@ -113,6 +111,7 @@ $yellow: #fccf5a;
   @include Didot-font();
   display: flex;
   margin-top: 90px;
+
   margin-left: 25px;
   align-items: center;
   .title-rectangle {
@@ -141,7 +140,6 @@ $yellow: #fccf5a;
       margin-right: 17px;
     }
     .content-text {
-      font-size: 28px;
       padding-bottom: 2px;
     }
   }
@@ -164,6 +162,24 @@ $yellow: #fccf5a;
   p {
     font-size: 20px;
     margin-left: 45px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .content-text {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .title {
+    margin-bottom: 40px;
+  }
+  .content {
+    margin-left: 25px;
+    .content-text {
+      font-size: 20px;
+      padding-bottom: 2px;
+    }
   }
 }
 </style>
