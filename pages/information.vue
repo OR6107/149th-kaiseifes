@@ -155,6 +155,7 @@ $yellow: #fccf5a;
   a {
     font-size: 20px;
     margin-left: 45px;
+    color: $black;
   }
   a:hover {
     color: $yellow;
