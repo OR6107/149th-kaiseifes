@@ -31,6 +31,13 @@
       <div class="content">
         <div class="content-title">
           <div class="content-rectangle" />
+          <div class="content-text">開成ツアー</div>
+        </div>
+        <a href="../kaiseifes-tour.pdf">ダウンロード</a>
+      </div>
+      <div class="content">
+        <div class="content-title">
+          <div class="content-rectangle" />
           <div class="content-text">昼食時間</div>
         </div>
         <p>
