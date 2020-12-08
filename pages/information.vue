@@ -19,7 +19,8 @@
           <div class="content-rectangle" />
           <div class="content-text">講演会</div>
         </div>
-        <a href="../kaiseifes-lecture.pdf">ダウンロード</a>
+        <p>Coming Soon...</p>
+        <!-- <a href="../kaiseifes-lecture.pdf">ダウンロード</a> -->
       </div>
       <div class="content">
         <div class="content-title">
@@ -33,7 +34,8 @@
           <div class="content-rectangle" />
           <div class="content-text">開成ツアー</div>
         </div>
-        <a href="../kaiseifes-tour.pdf">ダウンロード</a>
+        <p>Coming Soon...</p>
+        <!-- <a href="../kaiseifes-tour.pdf">ダウンロード</a> -->
       </div>
       <div class="content">
         <div class="content-title">
