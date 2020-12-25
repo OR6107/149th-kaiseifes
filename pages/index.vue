@@ -15,6 +15,7 @@
         <div class="link-to-detail">
           <div class="link-to-detail-title">詳細情報はこちら！</div>
           <a href="information">リンク</a>
+          <a href="goshoku">誤植・訂正一覧</a>
         </div>
         <div class="coming-soon">Coming Soon ...</div>
       </div>

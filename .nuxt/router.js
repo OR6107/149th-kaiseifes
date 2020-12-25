@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _0474d6b0 = () => interopDefault(import('../pages/goshoku.vue' /* webpackChunkName: "pages/goshoku" */))
 const _26f93e20 = () => interopDefault(import('../pages/information.vue' /* webpackChunkName: "pages/information" */))
 const _5091b874 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -23,6 +24,10 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/goshoku",
+    component: _0474d6b0,
+    name: "goshoku"
+  }, {
     path: "/information",
     component: _26f93e20,
     name: "information"

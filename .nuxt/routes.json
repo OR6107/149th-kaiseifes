@@ -1,5 +1,12 @@
 [
   {
+    "name": "goshoku",
+    "path": "/goshoku",
+    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/goshoku.vue",
+    "chunkName": "pages/goshoku",
+    "_name": "_0474d6b0"
+  },
+  {
     "name": "information",
     "path": "/information",
     "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/information.vue",
