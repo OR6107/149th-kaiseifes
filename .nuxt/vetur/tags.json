@@ -5,6 +5,12 @@
   "LazyLogo": {
     "description": "Auto imported from components/Logo.vue"
   },
+  "Hamburger": {
+    "description": "Auto imported from components/hamburger.vue"
+  },
+  "LazyHamburger": {
+    "description": "Auto imported from components/hamburger.vue"
+  },
   "Header": {
     "description": "Auto imported from components/header.vue"
   },

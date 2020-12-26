@@ -1,20 +1,18 @@
 <template>
   <div>
     <div class="header">
-      <!-- <Hamburger class="hamburger" /> -->
+      <Hamburger class="hamburger" />
     </div>
   </div>
 </template>
 
 <script>
-/*
 import Hamburger from '@/components/hamburger'
 
 export default {
   name: 'Header',
   components: { Hamburger },
 }
-*/
 </script>
 
 <style lang="scss" scoped>
