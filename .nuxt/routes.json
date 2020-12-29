@@ -7,9 +7,17 @@
     "_name": "_26f93e20"
   },
   {
+    "name": "sandan",
+    "path": "/sandan",
+    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/sandan.vue",
+    "chunkName": "pages/sandan",
+    "_name": "_4ec55026"
+  },
+  {
     "name": "index",
     "path": "/",
-    "component": "/mnt/c/Users/user/149th-kaiseifes/pages/index.vue",
-    "chunkName": "pages/index"
+    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_5091b874"
   }
 ]
