@@ -1,9 +1,21 @@
 {
+  "InfoButton": {
+    "description": "Auto imported from components/InfoButton.vue"
+  },
+  "LazyInfoButton": {
+    "description": "Auto imported from components/InfoButton.vue"
+  },
   "Logo": {
     "description": "Auto imported from components/Logo.vue"
   },
   "LazyLogo": {
     "description": "Auto imported from components/Logo.vue"
+  },
+  "SandanCard": {
+    "description": "Auto imported from components/SandanCard.vue"
+  },
+  "LazySandanCard": {
+    "description": "Auto imported from components/SandanCard.vue"
   },
   "Header": {
     "description": "Auto imported from components/header.vue"
