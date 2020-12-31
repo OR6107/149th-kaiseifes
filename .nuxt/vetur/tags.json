@@ -1,4 +1,10 @@
 {
+  "Hamburger": {
+    "description": "Auto imported from components/Hamburger.vue"
+  },
+  "LazyHamburger": {
+    "description": "Auto imported from components/Hamburger.vue"
+  },
   "InfoButton": {
     "description": "Auto imported from components/InfoButton.vue"
   },
