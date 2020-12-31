@@ -17,23 +17,23 @@
         >
         <div class="photo-list">
           <div class="photo-item">
-            <img class="tate" src="MrMs/ms_1.jpeg" />
+            <img class="tate" src="ms_1.jpeg" />
             <div class="photo-name">01 細川朱鈴</div>
           </div>
           <div class="photo-item">
-            <img class="yoko" src="MrMs/ms_2.jpeg" />
+            <img class="yoko" src="ms_2.jpeg" />
             <div class="photo-name">02 周舞</div>
           </div>
           <div class="photo-item">
-            <img class="yoko" src="MrMs/ms_3.jpeg" />
+            <img class="yoko" src="ms_3.jpeg" />
             <div class="photo-name">03 柏村奈央</div>
           </div>
           <div class="photo-item">
-            <img class="tate" src="MrMs/ms_4.jpeg" />
+            <img class="tate" src="ms_4.jpeg" />
             <div class="photo-name">04 夢咲楓</div>
           </div>
           <div class="photo-item">
-            <img class="tate" src="MrMs/ms_5.PNG" />
+            <img class="tate" src="ms_5.PNG" />
             <div class="photo-name">05 山本有</div>
           </div>
         </div>
@@ -48,27 +48,27 @@
         >
         <div class="photo-list">
           <div class="photo-item">
-            <img class="yoko" src="MrMs/mr_1.jpeg" />
+            <img class="yoko" src="mr_1.jpeg" />
             <div class="photo-name">01 引田尚希</div>
           </div>
           <div class="photo-item">
-            <img class="yoko" src="MrMs/mr_2.jpeg" />
+            <img class="yoko" src="mr_2.jpeg" />
             <div class="photo-name">02 千葉恒輝</div>
           </div>
           <div class="photo-item">
-            <img class="yoko" src="MrMs/mr_3.jpeg" />
+            <img class="yoko" src="mr_3.jpeg" />
             <div class="photo-name">03 後藤大輝</div>
           </div>
           <div class="photo-item">
-            <img class="tate" src="MrMs/mr_4.jpeg" />
+            <img class="tate" src="mr_4.jpeg" />
             <div class="photo-name">04 後藤雅稀</div>
           </div>
           <div class="photo-item">
-            <img class="tate" src="MrMs/mr_5.jpeg" />
+            <img class="tate" src="mr_5.jpeg" />
             <div class="photo-name">05 鎌仲義紀</div>
           </div>
           <div class="photo-item">
-            <img class="tate2" src="MrMs/mr_6.jpeg" />
+            <img class="tate2" src="mr_6.jpeg" />
             <div class="photo-name">06 片岡孝介</div>
           </div>
         </div>
