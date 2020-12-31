@@ -7,6 +7,9 @@
         <div :class="{ 'sun-stick3': isSun, invisible: !isSun }" />
         <div :class="{ 'sun-stick4': isSun, invisible: !isSun }" />
       </div>
+      <div v-show="isSun" class="i">
+        <img src="only_i.svg" />
+      </div>
     </div>
   </div>
 </template>
@@ -48,6 +51,7 @@ $yellow: #fccf5a;
   height: 50px;
   display: flex;
   .sun-circle {
+    z-index: 1;
     width: 36px;
     height: 36px;
     margin: auto;
@@ -55,6 +59,15 @@ $yellow: #fccf5a;
     position: static;
     background-color: $orange;
   }
+
+  .i {
+    z-index: 10;
+    img {
+      margin-top: 10px;
+      margin-left: -31px;
+    }
+  }
+
   .sun-stick1 {
     @include sunshine();
     top: calc(50% - 2.5px);
@@ -104,7 +117,6 @@ $yellow: #fccf5a;
     background-color: $gray;
   }
 }
-
 
 .invisible {
   display: none;

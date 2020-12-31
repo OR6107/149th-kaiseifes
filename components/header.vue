@@ -14,7 +14,10 @@
             <img class="menu-icon" src="icon/alert-circle.svg" />
             <a class="menu-text" href="information">詳細情報</a>
           </div>
-        </div>
+          <div class="menu-item">
+            <img class="menu-icon" src="icon/alert-circle.svg" />
+            <a class="menu-text" href="goshoku">誤植・訂正一覧</a>
+          </div>
       </div>
     </div>
   </div>
@@ -60,6 +63,7 @@ $yellow: #fccf5a;
   width: 100vw;
   height: 60px;
   padding: 5px;
+  z-index: 100;
   display: flex;
   color: $white;
   background-color: $purple;
@@ -106,6 +110,4 @@ $yellow: #fccf5a;
     }
   }
 }
-
-
 </style>
