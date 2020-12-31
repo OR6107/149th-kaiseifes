@@ -14,6 +14,13 @@
     "_name": "_26f93e20"
   },
   {
+    "name": "mr_ms",
+    "path": "/mr_ms",
+    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/mr_ms.vue",
+    "chunkName": "pages/mr_ms",
+    "_name": "_65a28b18"
+  },
+  {
     "name": "sandan",
     "path": "/sandan",
     "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/sandan.vue",
