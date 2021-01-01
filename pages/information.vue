@@ -43,15 +43,21 @@
         <p>該当する時間帯は、フロアの全参加団体が閉鎖となります。</p>
         <div class="place">
           A会場
-          <div class="place-floor">1階: どの時間でもいらっしゃることができます。</div>
+          <div class="place-floor">
+            1階: どの時間でもいらっしゃることができます。
+          </div>
           <div class="place-floor">2階: 12:30 〜 13:10 (古本市を除く)</div>
           <div class="place-floor">3階: 12:00 〜 12:40</div>
           <div class="place-floor">4階: 11:30 〜 12:10</div>
         </div>
         <div class="place">
           B会場
-          <div class="place-floor">1階: どの時間でもいらっしゃることができます。</div>
-          <div class="place-floor">2階: どの時間でもいらっしゃることができます。</div>
+          <div class="place-floor">
+            1階: どの時間でもいらっしゃることができます。
+          </div>
+          <div class="place-floor">
+            2階: どの時間でもいらっしゃることができます。
+          </div>
           <div class="place-floor">3階: 12:00 〜 12:40</div>
           <div class="place-floor">4階: 11:30 〜 12:10</div>
         </div>
