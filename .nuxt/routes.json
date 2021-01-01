@@ -14,6 +14,13 @@
     "_name": "_26f93e20"
   },
   {
+    "name": "limitedtime",
+    "path": "/limitedtime",
+    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/limitedtime.vue",
+    "chunkName": "pages/limitedtime",
+    "_name": "_63047edb"
+  },
+  {
     "name": "mr_ms",
     "path": "/mr_ms",
     "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/mr_ms.vue",

@@ -12,7 +12,11 @@
           </div>
           <div class="menu-item">
             <img class="menu-icon" src="@/static/icon/alert-circle.svg" />
-            <NuxtLink class="menu-text" to="/information">詳細情報</NuxtLink>
+            <NuxtLink class="menu-text" to="/information">ご案内</NuxtLink>
+          </div>
+          <div class="menu-item">
+            <img class="menu-icon" src="@/static/icon/alert-circle.svg" />
+            <NuxtLink class="menu-text" to="/limitedtime">詳細情報</NuxtLink>
           </div>
           <div class="menu-item">
             <img class="menu-icon" src="@/static/icon/user.svg" />
