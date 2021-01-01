@@ -6,6 +6,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 
 const _0474d6b0 = () => interopDefault(import('../pages/goshoku.vue' /* webpackChunkName: "pages/goshoku" */))
 const _26f93e20 = () => interopDefault(import('../pages/information.vue' /* webpackChunkName: "pages/information" */))
+const _63047edb = () => interopDefault(import('../pages/limitedtime.vue' /* webpackChunkName: "pages/limitedtime" */))
 const _65a28b18 = () => interopDefault(import('../pages/mr_ms.vue' /* webpackChunkName: "pages/mr_ms" */))
 const _4ec55026 = () => interopDefault(import('../pages/sandan.vue' /* webpackChunkName: "pages/sandan" */))
 const _5091b874 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
@@ -34,6 +35,10 @@ export const routerOptions = {
     path: "/information",
     component: _26f93e20,
     name: "information"
+  }, {
+    path: "/limitedtime",
+    component: _63047edb,
+    name: "limitedtime"
   }, {
     path: "/mr_ms",
     component: _65a28b18,
