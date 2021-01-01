@@ -1,14 +1,26 @@
 <template>
-  <div>
-    <div class="frame" :class="{ border: hoge }">
-      <div class="button" @click="change">
+  <div
+    class="frame-container"
+    v-on="{ mousedown: mousedown, mouseup: mouseup }"
+    @click="change"
+  >
+    <div
+      class="frame-basic"
+      :class="{ border: hoge, 'frame-pressed': pressing }"
+    >
+      <div class="button">
         <InfoButton :is-closed="hoge" />
       </div>
       <img class="thumbnail" src="logo_red.svg" />
       <div class="place">B会場 4 階 B444</div>
       <div class="title">あいうえおかきくけこさし</div>
     </div>
-    <div v-show="!hoge" class="frame-detail" :class="{ border: !hoge }">
+
+    <div
+      v-show="!hoge"
+      class="frame-detail"
+      :class="{ border: !hoge, 'frame-pressed': pressing }"
+    >
       <div class="content-title">
         <div class="content-rectangle" />
         <div class="content-text">この企画について</div>
@@ -32,11 +44,18 @@ export default {
   data() {
     return {
       hoge: true,
+      pressing: false,
     }
   },
   methods: {
     change() {
       this.hoge = !this.hoge
+    },
+    mousedown() {
+      this.pressing = true
+    },
+    mouseup() {
+      this.pressing = false
     },
   },
 }
@@ -56,7 +75,7 @@ $yellow: #fccf5a;
   font-family: a-otf-ud-shin-go-pr6n, sans-serif;
 }
 
-.frame {
+.frame-basic {
   width: 340px;
   height: 100px;
   display: flex;
@@ -124,6 +143,14 @@ $yellow: #fccf5a;
     font-size: 14px;
     line-height: 1.5em;
   }
+}
+
+.frame-container {
+  width: 340px;
+}
+
+.frame-pressed {
+  background-color: $light;
 }
 
 .border {
