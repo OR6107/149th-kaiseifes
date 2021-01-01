@@ -131,26 +131,13 @@ $yellow: #fccf5a;
       padding-bottom: 2px;
     }
   }
-  .place {
-    font-size: 24px;
-    margin-top: 10px;
-    margin-left: 45px;
-    .place-floor {
-      font-size: 20px;
-      margin-left: 20px;
-    }
-  }
-  a {
-    font-size: 20px;
-    margin-left: 45px;
-    color: $black;
-  }
-  a:hover {
-    color: $yellow;
-  }
   p {
     font-size: 20px;
     margin-left: 45px;
+  }
+  p + .content-detail {
+    font-size: 16px;
+    margin-left: 65px;
   }
 }
 
