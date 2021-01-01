@@ -14,8 +14,8 @@
         </ul>
         <div class="link-to-detail">
           <div class="link-to-detail-title">詳細情報はこちら！</div>
-          <a href="information">リンク</a>
-          <a href="goshoku">誤植・訂正一覧</a>
+          <NuxtLink class="link" to="information">リンク</NuxtLink>
+          <NuxtLink class="link" to="goshoku">誤植・訂正一覧</NuxtLink>
         </div>
         <div class="coming-soon">Coming Soon ...</div>
       </div>
@@ -112,13 +112,13 @@ $yellow: #fccf5a;
       font-size: calc(min(1vw, 2vh) * 2.5);
       line-height: calc(min(1vw, 2vh) * 4.2);
     }
-    a {
+    .link {
       margin-right: calc(min(1vw, 2vh) * 1.5);
       font-size: calc(min(1vw, 2vh) * 2.5);
       line-height: calc(min(1vw, 2vh) * 4.2);
       color: $black;
     }
-    a:hover {
+    .link:hover {
       color: $yellow;
     }
   }
@@ -171,13 +171,13 @@ $yellow: #fccf5a;
         font-size: calc(min(2vw, 1vh) * 3.2);
         line-height: calc(min(2vw, 1vh) * 4.8);
       }
-      a {
+      .link {
         margin-right: calc(min(2vw, 1vh) * 0.75);
         font-size: calc(min(2vw, 1vh) * 3.2);
         line-height: calc(min(2vw, 1vh) * 4.8);
         color: $black;
       }
-      a:hover {
+      .link:hover {
         color: $yellow;
       }
     }

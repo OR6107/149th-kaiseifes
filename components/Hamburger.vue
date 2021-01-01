@@ -8,7 +8,7 @@
         <div :class="{ 'sun-stick4': isSun, invisible: !isSun }" />
       </div>
       <div v-show="isSun" class="i">
-        <img src="only_i.svg" />
+        <img src="@/static/only_i.svg" />
       </div>
     </div>
   </div>
