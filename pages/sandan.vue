@@ -6,8 +6,18 @@
       <div class="title-text">企画一覧</div>
     </div>
 
-    <Card />
-    <Card />
+    <div class="search" />
+
+    <div class="card-container">
+      <div class="card-list">
+        <Card />
+        <Card />
+      </div>
+      <div class="card-list">
+        <Card />
+        <Card />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -53,7 +63,17 @@ $yellow: #fccf5a;
   }
 }
 
-.card-list {
+.search {
+  height: 110px;
+  margin: 27px 30px auto 30px;
+  border: 2px solid $orange;
+}
+
+.card-container {
   margin-top: 40px;
+  .card-list {
+    display: inline-grid;
+    margin-left: 70px;
+  }
 }
 </style>
