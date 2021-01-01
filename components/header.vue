@@ -7,17 +7,28 @@
       <div v-if="!isSun" class="menu-container">
         <div>
           <div class="menu-item">
-            <img class="menu-icon" src="icon/home.svg" />
-            <a class="menu-text" href="../">ホーム</a>
+            <img class="menu-icon" src="@/static/icon/home.svg" />
+            <NuxtLink class="menu-text" to="/">ホーム</NuxtLink>
           </div>
           <div class="menu-item">
-            <img class="menu-icon" src="icon/alert-circle.svg" />
-            <a class="menu-text" href="information">詳細情報</a>
+            <img class="menu-icon" src="@/static/icon/alert-circle.svg" />
+            <NuxtLink class="menu-text" to="/information">詳細情報</NuxtLink>
           </div>
           <div class="menu-item">
-            <img class="menu-icon" src="icon/alert-circle.svg" />
-            <a class="menu-text" href="goshoku">誤植・訂正一覧</a>
+            <img class="menu-icon" src="@/static/icon/user.svg" />
+            <NuxtLink class="menu-text" to="/mr_ms">Ms.開成 & Mr.開成</NuxtLink>
           </div>
+          <div class="menu-item">
+            <img class="menu-icon" src="@/static/icon/alert-circle.svg" />
+            <NuxtLink class="menu-text" to="/goshoku">誤植・訂正一覧</NuxtLink>
+          </div>
+          <!--
+          <div class="menu-item">
+            <img class="menu-icon" src="/icon/list.svg" />
+            <NuxtLink class="menu-text" to="/sandan">企画一覧</NuxtLink>
+          </div>
+          -->
+        </div>
       </div>
     </div>
   </div>
