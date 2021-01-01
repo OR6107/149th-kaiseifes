@@ -23,6 +23,17 @@
       <div class="content">
         <div class="content-title">
           <div class="content-rectangle" />
+          <div class="content-text">パンフレット記載漏れ</div>
+        </div>
+        <p>音楽部アンサンブル (音楽部)</p>
+        <p class="content-detail">
+          小講堂での演奏とはまた違う曲目を、小編成の演奏でお送りします。<br />一日目10：30～、二日目15：00～の各日1回30分、出入り自由のステージです。是非お気軽にお越しください。
+        </p>
+      </div>
+
+      <div class="content">
+        <div class="content-title">
+          <div class="content-rectangle" />
           <div class="content-text">規模拡大 + 場所移動</div>
         </div>
         <p>大道芸、自由自在。 (A305 → A204)</p>
