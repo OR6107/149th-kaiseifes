@@ -8,12 +8,10 @@
       class="frame-basic"
       :class="{ border: hoge, 'frame-pressed': pressing }"
     >
-      <div class="button">
-        <InfoButton :is-closed="hoge" />
-      </div>
+      <InfoButton class="button" :is-closed="hoge" />
       <img class="thumbnail" src="logo_red.svg" />
-      <div class="place">B会場 4 階 B444</div>
-      <div class="title">あいうえおかきくけこさし</div>
+      <div class="place">{{ place }}</div>
+      <div class="title">{{ name }}</div>
     </div>
 
     <div
@@ -41,6 +39,16 @@ import InfoButton from '@/components/InfoButton'
 export default {
   name: 'SandanCard',
   components: { InfoButton },
+  props: {
+    name: {
+      type: String,
+      default: 'Invalid!!!',
+    },
+    place: {
+      type: String,
+      default: 'Invalid!!!',
+    },
+  },
   data() {
     return {
       hoge: true,
