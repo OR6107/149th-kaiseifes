@@ -1,10 +1,10 @@
 <template>
   <div>
     <div v-show="isClosed">
-      <img src="i.svg" />
+      <img src="@/static/i.svg" />
     </div>
     <div v-show="!isClosed">
-      <img src="x.svg" />
+      <img src="@/static/x.svg" />
     </div>
   </div>
 </template>
