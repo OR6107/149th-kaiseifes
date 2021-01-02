@@ -22,12 +22,10 @@
             <img class="menu-icon" src="@/static/icon/alert-circle.svg" />
             <NuxtLink class="menu-text" to="/goshoku">誤植・訂正一覧</NuxtLink>
           </div>
-          <!--
           <div class="menu-item">
             <img class="menu-icon" src="/icon/list.svg" />
             <NuxtLink class="menu-text" to="/sandan">企画一覧</NuxtLink>
           </div>
-          -->
         </div>
       </div>
     </div>
