@@ -109,6 +109,7 @@ $yellow: #fccf5a;
     margin-right: 15px;
   }
   .title-text {
+    color: $black;
     font-size: 40px;
     padding-bottom: 6px;
   }
