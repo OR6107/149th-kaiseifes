@@ -2,16 +2,10 @@
   <div>
     <Header />
     <div class="container">
-      <div class="title">
-        <div class="title-rectangle" />
-        <div class="title-text">Ms.開成, Mr.開成 投票</div>
-      </div>
+      <Title :is-main="true" :text="'Ms.開成, Mr.開成 投票'" />
 
+      <Title :is-main="false" :text="'Ms. 開成'" />
       <div class="content">
-        <div class="content-title">
-          <div class="content-rectangle" />
-          <div class="content-text">Ms. 開成</div>
-        </div>
         <a class="vote" href="https://forms.gle/1mLFvY6QuxSRXsm18"
           >投票はこちらから！</a
         >
@@ -38,11 +32,9 @@
           </div>
         </div>
       </div>
+
+      <Title :is-main="false" :text="'Mr. 開成'" />
       <div class="content">
-        <div class="content-title">
-          <div class="content-rectangle" />
-          <div class="content-text">Mr. 開成</div>
-        </div>
         <a class="vote" href="https://forms.gle/S61CJhmCjKAoje6WA"
           >投票はこちらから！</a
         >
@@ -79,21 +71,17 @@
 
 <script>
 import Header from '@/components/header'
+import Title from '@/components/Title'
 
 export default {
   name: 'MrMs',
-  components: { Header },
+  components: { Header, Title },
 }
 </script>
 
 <style scoped lang="scss">
 $black: #082449;
-$dark: #38444d;
-$gray: #888888;
-$light: #e5e5e5;
 $white: #ffffff;
-$purple: #611fb6;
-$orange: #ff9a70;
 $yellow: #fccf5a;
 
 @mixin Didot-font {
@@ -108,45 +96,10 @@ $yellow: #fccf5a;
   color: $black;
 }
 
-.title {
-  @include Didot-font();
-  display: flex;
-  margin-top: 90px;
-
-  margin-left: 25px;
-  align-items: center;
-  .title-rectangle {
-    background-color: $yellow;
-    width: 8px;
-    height: 48px;
-    margin-right: 15px;
-  }
-  .title-text {
-    font-size: 40px;
-    padding-bottom: 6px;
-  }
-}
-
 .content {
   @include Didot-font();
-  margin-top: 20px;
-  margin-left: 60px;
+  margin-top: 10px;
   margin-bottom: 60px;
-  .content-title {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    .content-rectangle {
-      background-color: $yellow;
-      width: 8px;
-      height: 32px;
-      margin-right: 17px;
-    }
-    .content-text {
-      font-size: 28px;
-      padding-bottom: 2px;
-    }
-  }
   .place {
     font-size: 24px;
     margin-top: 10px;
@@ -188,12 +141,15 @@ $yellow: #fccf5a;
   }
 }
 
+@media screen and (min-width: 900px) {
+  .content {
+    margin-left: 60px;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .content {
     margin-left: 25px;
-    .content-text {
-      padding-bottom: 2px;
-    }
   }
   .photo-list {
     width: 240px;

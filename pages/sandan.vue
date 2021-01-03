@@ -1,10 +1,7 @@
 <template>
   <div>
     <Header />
-    <div class="title">
-      <div class="title-rectangle" />
-      <div class="title-text">企画一覧</div>
-    </div>
+    <Title :is-main="true" :text="'企画一覧'" />
 
     <div class="search">
       <div class="search-items">
@@ -86,10 +83,11 @@
 <script>
 import Header from '@/components/header'
 import Card from '@/components/SandanCard'
+import Title from '@/components/Title'
 
 export default {
   name: 'Sandan',
-  components: { Header, Card },
+  components: { Header, Card, Title },
   data() {
     return {
       search_text: '',
@@ -842,11 +840,7 @@ export default {
 
 <style scoped lang="scss">
 $black: #082449;
-$dark: #38444d;
-$gray: #888888;
-$light: #e5e5e5;
 $white: #ffffff;
-$purple: #611fb6;
 $orange: #ff9a70;
 $yellow: #fccf5a;
 
@@ -855,25 +849,6 @@ $yellow: #fccf5a;
 }
 @mixin UD-sin-go-font {
   font-family: a-otf-ud-shin-go-pr6n, sans-serif;
-}
-
-.title {
-  @include Didot-font();
-  display: flex;
-  margin-top: 90px;
-  margin-left: 25px;
-  align-items: center;
-  .title-rectangle {
-    background-color: $yellow;
-    width: 8px;
-    height: 48px;
-    margin-right: 15px;
-  }
-  .title-text {
-    color: $black;
-    font-size: 40px;
-    padding-bottom: 6px;
-  }
 }
 
 .search {
@@ -953,6 +928,7 @@ $yellow: #fccf5a;
     margin-right: calc((100vw - 340px) / 2 - 10px);
   }
 }
+
 @media screen and (min-width: 900px) {
   .search {
     height: 110px;

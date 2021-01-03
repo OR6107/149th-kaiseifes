@@ -2,44 +2,30 @@
   <div>
     <Header />
     <div class="container">
-      <div class="title">
-        <div class="title-rectangle" />
-        <div class="title-text">詳細情報</div>
-      </div>
+      <Title :is-main="true" :text="'詳細情報'" />
 
+      <Title :is-main="false" :text="'タイムテーブル (実演参加団体, バンド)'" />
       <div class="content">
-        <div class="content-title">
-          <div class="content-rectangle" />
-          <div class="content-text">タイムテーブル (実演参加団体, バンド)</div>
-        </div>
         <a href="../kaiseifes-timetable.pdf">ダウンロード</a>
       </div>
+
+      <Title :is-main="false" :text="'講演会'" />
       <div class="content">
-        <div class="content-title">
-          <div class="content-rectangle" />
-          <div class="content-text">講演会</div>
-        </div>
         <a href="../kaiseifes-lecture.pdf">ダウンロード</a>
       </div>
+
+      <Title :is-main="false" :text="'ペン剣ゼミ'" />
       <div class="content">
-        <div class="content-title">
-          <div class="content-rectangle" />
-          <div class="content-text">ペン剣ゼミ</div>
-        </div>
         <a href="../kaiseifes-penken-seminar.pdf">ダウンロード</a>
       </div>
+
+      <Title :is-main="false" :text="'開成ツアー'" />
       <div class="content">
-        <div class="content-title">
-          <div class="content-rectangle" />
-          <div class="content-text">開成ツアー</div>
-        </div>
         <a href="../kaiseifes-tour.pdf">ダウンロード</a>
       </div>
+
+      <Title :is-main="false" :text="'昼食時間'" />
       <div class="content">
-        <div class="content-title">
-          <div class="content-rectangle" />
-          <div class="content-text">昼食時間</div>
-        </div>
         <p>該当する時間帯は、フロアの全参加団体が閉鎖となります。</p>
         <div class="place">
           A会場
@@ -69,11 +55,9 @@
           <div class="place-floor">4階: 11:30 〜 12:10</div>
         </div>
       </div>
+
+      <Title :is-main="false" :text="'父母と先生の会からのお知らせ'" />
       <div class="content">
-        <div class="content-title">
-          <div class="content-rectangle" />
-          <div class="content-text">父母と先生の会からのお知らせ</div>
-        </div>
         <p>
           今年度の文化祭において、開成グッズ販売会は、現下のコロナ感染拡大状況に鑑み、開催致しません。ご了承ください。
         </p>
@@ -84,21 +68,17 @@
 
 <script>
 import Header from '@/components/header'
+import Title from '@/components/Title'
 
 export default {
   name: 'Information',
-  components: { Header },
+  components: { Header, Title },
 }
 </script>
 
 <style scoped lang="scss">
 $black: #082449;
-$dark: #38444d;
-$gray: #888888;
-$light: #e5e5e5;
 $white: #ffffff;
-$purple: #611fb6;
-$orange: #ff9a70;
 $yellow: #fccf5a;
 
 @mixin Didot-font {
@@ -113,42 +93,9 @@ $yellow: #fccf5a;
   color: $black;
 }
 
-.title {
-  @include Didot-font();
-  display: flex;
-  margin-top: 90px;
-
-  margin-left: 25px;
-  align-items: center;
-  .title-rectangle {
-    background-color: $yellow;
-    width: 8px;
-    height: 48px;
-    margin-right: 15px;
-  }
-  .title-text {
-    font-size: 40px;
-    padding-bottom: 6px;
-  }
-}
-
 .content {
   @include Didot-font();
-  margin-top: 20px;
-  margin-left: 60px;
-  .content-title {
-    display: flex;
-    align-items: center;
-    .content-rectangle {
-      background-color: $yellow;
-      width: 8px;
-      height: 32px;
-      margin-right: 17px;
-    }
-    .content-text {
-      padding-bottom: 2px;
-    }
-  }
+  margin-bottom: 20px;
   .place {
     font-size: 24px;
     margin-top: 10px;
@@ -173,20 +120,14 @@ $yellow: #fccf5a;
 }
 
 @media screen and (min-width: 900px) {
-  .content-text {
-    font-size: 28px;
+  .content {
+    margin-left: 60px;
   }
 }
+
 @media screen and (max-width: 900px) {
-  .title {
-    margin-bottom: 40px;
-  }
   .content {
     margin-left: 25px;
-    .content-text {
-      font-size: 20px;
-      padding-bottom: 2px;
-    }
   }
 }
 </style>

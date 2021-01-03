@@ -2,49 +2,34 @@
   <div>
     <Header />
     <div class="container">
-      <div class="title">
-        <div class="title-rectangle" />
-        <div class="title-text">ご案内</div>
-      </div>
+      <Title :is-main="true" :text="'ご案内'" />
 
+      <Title :is-main="false" :text="'ご来場にあたり'" />
       <div class="content">
-        <div class="content-title">
-          <div class="content-rectangle" />
-          <div class="content-text">ご来場にあたり</div>
-        </div>
         <p>
           パンフレット p.2 <br />
           ほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげ
         </p>
       </div>
 
+      <Title :is-main="false" :text="'ご案内'" />
       <div class="content">
-        <div class="content-title">
-          <div class="content-rectangle" />
-          <div class="content-text">ご案内</div>
-        </div>
         <p>
           パンフレット p.8 <br />
           ほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげ
         </p>
       </div>
 
+      <Title :is-main="false" :text="'感染症対策'" />
       <div class="content">
-        <div class="content-title">
-          <div class="content-rectangle" />
-          <div class="content-text">感染症対策</div>
-        </div>
         <p>
           パンフレット p.9 <br />
           ほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげ
         </p>
       </div>
 
+      <Title :is-main="false" :text="'有事の際は'" />
       <div class="content">
-        <div class="content-title">
-          <div class="content-rectangle" />
-          <div class="content-text">有事の際は</div>
-        </div>
         <p>
           パンフレット p.9 <br />
           ほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげ
@@ -56,21 +41,17 @@
 
 <script>
 import Header from '@/components/header'
+import Title from '@/components/Title'
 
 export default {
   name: 'Information',
-  components: { Header },
+  components: { Header, Title },
 }
 </script>
 
 <style scoped lang="scss">
 $black: #082449;
-$dark: #38444d;
-$gray: #888888;
-$light: #e5e5e5;
 $white: #ffffff;
-$purple: #611fb6;
-$orange: #ff9a70;
 $yellow: #fccf5a;
 
 @mixin Didot-font {
@@ -85,42 +66,9 @@ $yellow: #fccf5a;
   color: $black;
 }
 
-.title {
-  @include Didot-font();
-  display: flex;
-  margin-top: 90px;
-
-  margin-left: 25px;
-  align-items: center;
-  .title-rectangle {
-    background-color: $yellow;
-    width: 8px;
-    height: 48px;
-    margin-right: 15px;
-  }
-  .title-text {
-    font-size: 40px;
-    padding-bottom: 6px;
-  }
-}
-
 .content {
   @include Didot-font();
-  margin-top: 20px;
-  margin-left: 60px;
-  .content-title {
-    display: flex;
-    align-items: center;
-    .content-rectangle {
-      background-color: $yellow;
-      width: 8px;
-      height: 32px;
-      margin-right: 17px;
-    }
-    .content-text {
-      padding-bottom: 2px;
-    }
-  }
+  margin-bottom: 20px;
   .place {
     font-size: 24px;
     margin-top: 10px;
@@ -146,20 +94,14 @@ $yellow: #fccf5a;
 }
 
 @media screen and (min-width: 900px) {
-  .content-text {
-    font-size: 28px;
+  .content {
+    margin-left: 60px;
   }
 }
+
 @media screen and (max-width: 900px) {
-  .title {
-    margin-bottom: 40px;
-  }
   .content {
     margin-left: 25px;
-    .content-text {
-      font-size: 20px;
-      padding-bottom: 2px;
-    }
   }
 }
 </style>
