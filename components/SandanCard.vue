@@ -23,12 +23,7 @@
         <div class="content-rectangle" />
         <div class="content-text">この企画について</div>
       </div>
-      <div class="detail">
-        あいうえおかきくけこさしすせそたちつてと<br />
-        あいうえおかきくけこさしすせそたちつてと<br />
-        あいうえおかきくけこさしすせそたちつてと<br />
-        あいうえおかきくけこさしすせそたちつてと<br />
-      </div>
+      <div class="detail">{{ description }}</div>
     </div>
   </div>
 </template>
@@ -45,6 +40,10 @@ export default {
       default: 'Invalid!!!',
     },
     place: {
+      type: String,
+      default: 'Invalid!!!',
+    },
+    description: {
       type: String,
       default: 'Invalid!!!',
     },
