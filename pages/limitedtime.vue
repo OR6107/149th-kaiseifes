@@ -71,7 +71,7 @@ import Header from '@/components/header'
 import Title from '@/components/Title'
 
 export default {
-  name: 'Information',
+  name: 'Limitedtime',
   components: { Header, Title },
 }
 </script>
