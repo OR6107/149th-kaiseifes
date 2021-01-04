@@ -15,8 +15,12 @@
             <NuxtLink class="menu-text" to="/information">ご案内</NuxtLink>
           </div>
           <div class="menu-item">
-            <img class="menu-icon" src="@/static/icon/alert-circle.svg" />
-            <NuxtLink class="menu-text" to="/limitedtime">詳細情報</NuxtLink>
+            <img class="menu-icon" src="/icon/list.svg" />
+            <NuxtLink class="menu-text" to="/sandan">企画一覧</NuxtLink>
+          </div>
+          <div class="menu-item">
+            <img class="menu-icon" src="/icon/monitor.svg" />
+            <NuxtLink class="menu-text" to="/online">オンライン企画</NuxtLink>
           </div>
           <div class="menu-item">
             <img class="menu-icon" src="@/static/icon/user.svg" />
@@ -27,8 +31,8 @@
             <NuxtLink class="menu-text" to="/goshoku">誤植・訂正一覧</NuxtLink>
           </div>
           <div class="menu-item">
-            <img class="menu-icon" src="/icon/list.svg" />
-            <NuxtLink class="menu-text" to="/sandan">企画一覧</NuxtLink>
+            <img class="menu-icon" src="@/static/icon/alert-circle.svg" />
+            <NuxtLink class="menu-text" to="/limitedtime">詳細情報</NuxtLink>
           </div>
         </div>
       </div>

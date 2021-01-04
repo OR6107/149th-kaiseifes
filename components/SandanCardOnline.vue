@@ -19,6 +19,10 @@
       class="frame frame-detail"
       :class="{ border: !hoge, 'frame-pressed': pressing }"
     >
+      <div class="screenshot">
+        <img v-if="pictureUrl !== ''" :src="pictureUrl" />
+      </div>
+      <a v-if="contentUrl !== ''" :href="contentUrl">Link: {{ contentUrl }}</a>
       <div class="content-title">
         <div class="content-rectangle" />
         <div class="content-text">この企画について</div>
@@ -32,7 +36,7 @@
 import InfoButton from '@/components/InfoButton'
 
 export default {
-  name: 'SandanCard',
+  name: 'SandanCardOnLine',
   components: { InfoButton },
   props: {
     name: {
@@ -42,6 +46,14 @@ export default {
     place: {
       type: String,
       default: 'Invalid!!!',
+    },
+    pictureUrl: {
+      type: String,
+      default: '',
+    },
+    contentUrl: {
+      type: String,
+      default: '',
     },
     description: {
       type: String,
@@ -121,6 +133,29 @@ $yellow: #fccf5a;
 
 .frame-detail {
   margin-top: -20px;
+
+  .screenshot {
+    margin: 5px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      border: 1px solid $black;
+      width: 240px;
+      height: 160px;
+    }
+  }
+  a {
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: $black;
+  }
+  a:hover {
+    color: $yellow;
+  }
 
   .content-title {
     margin: 8px auto auto 15px;

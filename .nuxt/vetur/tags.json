@@ -23,6 +23,12 @@
   "LazySandanCard": {
     "description": "Auto imported from components/SandanCard.vue"
   },
+  "SandanCardOnline": {
+    "description": "Auto imported from components/SandanCardOnline.vue"
+  },
+  "LazySandanCardOnline": {
+    "description": "Auto imported from components/SandanCardOnline.vue"
+  },
   "Title": {
     "description": "Auto imported from components/Title.vue"
   },

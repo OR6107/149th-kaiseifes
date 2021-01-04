@@ -28,6 +28,13 @@
     "_name": "_65a28b18"
   },
   {
+    "name": "online",
+    "path": "/online",
+    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/online.vue",
+    "chunkName": "pages/online",
+    "_name": "_45439ce2"
+  },
+  {
     "name": "sandan",
     "path": "/sandan",
     "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/sandan.vue",
