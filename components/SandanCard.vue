@@ -5,7 +5,7 @@
     @click="change"
   >
     <div
-      class="frame-basic"
+      class="frame frame-basic"
       :class="{ border: hoge, 'frame-pressed': pressing }"
     >
       <InfoButton class="button" :is-closed="hoge" />
@@ -16,7 +16,7 @@
 
     <div
       v-show="!hoge"
-      class="frame-detail"
+      class="frame frame-detail"
       :class="{ border: !hoge, 'frame-pressed': pressing }"
     >
       <div class="content-title">
@@ -82,14 +82,17 @@ $yellow: #fccf5a;
   font-family: a-otf-ud-shin-go-pr6n, sans-serif;
 }
 
-.frame-basic {
+.frame {
   width: 340px;
-  height: 100px;
-  display: flex;
-  background-color: $white;
   position: relative;
+  background-color: $white;
   @include UD-sin-go-font;
   color: $black;
+}
+
+.frame-basic {
+  height: 100px;
+  display: flex;
   font-size: 18px;
 
   .button {
@@ -117,18 +120,10 @@ $yellow: #fccf5a;
 }
 
 .frame-detail {
-  width: 340px;
-  height: 100px;
-  position: relative;
-  background-color: $white;
-  @include UD-sin-go-font;
-  color: $black;
-  font-size: 18px;
+  margin-top: -20px;
 
   .content-title {
-    position: absolute;
-    top: -15px;
-    left: 15px;
+    margin: 8px auto auto 15px;
     display: flex;
     align-items: center;
     .content-rectangle {
@@ -144,9 +139,7 @@ $yellow: #fccf5a;
   }
 
   .detail {
-    position: absolute;
-    top: 10px;
-    left: 30px;
+    margin: 0 auto 5px 30px;
     font-size: 14px;
     line-height: 1.5em;
   }
