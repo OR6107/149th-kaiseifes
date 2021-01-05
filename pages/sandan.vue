@@ -536,7 +536,7 @@ export default {
         },
         {
           id: 56,
-          name: '山岳部 ̶mountain boys̶',
+          name: '山岳部　̶ mountain boys　̶',
           place: 'B405（オセアニア）',
           type: 31,
           description:

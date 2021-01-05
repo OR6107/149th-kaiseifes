@@ -335,7 +335,7 @@ $yellow: #fccf5a;
     }
     .search-items-2 {
       .search-item {
-        width: calc((100vw - 24px - 15px * 2 * 2) / 3);
+        width: calc((100vw - 24px - 15px * 2 * 2) / 2);
         margin: 0 15px 7px 15px;
       }
     }
