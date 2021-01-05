@@ -24,7 +24,9 @@
           </div>
           <div class="menu-item">
             <img class="menu-icon" src="/icon/monitor.svg" />
-            <NuxtLink class="menu-text" to="@/static/nazotoki/index.html">謎解き</NuxtLink>
+            <NuxtLink class="menu-text" to="/nazotoki/index.html">
+              謎解き
+            </NuxtLink>
           </div>
           <div class="menu-item">
             <img class="menu-icon" src="@/static/icon/user.svg" />
