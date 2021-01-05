@@ -3,7 +3,6 @@
 # Logs
 /logs
 *.log
-
 # Runtime data
 pids
 *.pid
@@ -80,3 +79,5 @@ cmake-build-*/
 # IntelliJ
 # mpeltonen/sbt-idea plugin
 .idea_modules/
+
+static/nazotoki
