@@ -57,7 +57,7 @@
       </div>
     </div>
 
-    <div class="card-container">
+    <div v-if="width >= 900" class="card-container">
       <div class="card-list">
         <Card
           v-for="project in show_projects_1"
@@ -67,9 +67,20 @@
           :description="project.description"
         />
       </div>
-      <div v-if="width >= 900" class="card-list">
+      <div class="card-list">
         <Card
           v-for="project in show_projects_2"
+          :key="project.id"
+          :name="project.name"
+          :place="project.place"
+          :description="project.description"
+        />
+      </div>
+    </div>
+    <div v-else class="card-container">
+      <div class="card-list">
+        <Card
+          v-for="project in show_projects"
           :key="project.id"
           :name="project.name"
           :place="project.place"
@@ -774,6 +785,7 @@ export default {
             '今年はオンラインでの参加となりますが、更にレベルの上がったGPや入試予想問題が君を待っています。部員一同盛り上げてまいりますので、是非一度お越しください！',
         },
       ],
+      show_projects: [],
       show_projects_1: [],
       show_projects_2: [],
     }
@@ -822,17 +834,16 @@ export default {
         }
       }
 
-      if (this.width < 900) this.show_projects_1 = ret
-      else {
-        const ret1 = []
-        const ret2 = []
-        for (let i = 0; i < ret.length; i++) {
-          if (i % 2 === 0) ret1.push(ret[i])
-          if (i % 2 === 1) ret2.push(ret[i])
-        }
-        this.show_projects_1 = ret1
-        this.show_projects_2 = ret2
+      this.show_projects = ret
+
+      const ret1 = []
+      const ret2 = []
+      for (let i = 0; i < ret.length; i++) {
+        if (i % 2 === 0) ret1.push(ret[i])
+        if (i % 2 === 1) ret2.push(ret[i])
       }
+      this.show_projects_1 = ret1
+      this.show_projects_2 = ret2
     },
   },
 }
