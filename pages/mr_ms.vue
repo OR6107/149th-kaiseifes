@@ -82,7 +82,7 @@
           <div class="yoko photo-item">
             <img src="@/static/mr_ms/ms_5/4.jpg" />
           </div>
-          <div class="photo-name">05 山本有</div>
+          <div class="photo-name">05 山本有紗</div>
         </div>
       </div>
 
