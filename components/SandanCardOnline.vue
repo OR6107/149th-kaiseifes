@@ -28,6 +28,18 @@
         <div class="content-text">この企画について</div>
       </div>
       <div class="detail">{{ description }}</div>
+
+      <template v-if="formUrl !== ''">
+        <iframe
+          :src="formUrl"
+          width="340"
+          height="255"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          >読み込んでいます…</iframe
+        >
+      </template>
     </div>
   </div>
 </template>
@@ -62,6 +74,10 @@ export default {
     description: {
       type: String,
       default: 'Invalid!!!',
+    },
+    formUrl: {
+      type: String,
+      default: '',
     },
   },
   data() {

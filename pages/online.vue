@@ -68,6 +68,7 @@
           :content-url="project.contentUrl"
           :content-url-text="project.contentUrlText"
           :description="project.description"
+          :form-url="project.formUrl"
         />
       </div>
       <div class="card-list">
@@ -80,6 +81,7 @@
           :content-url="project.contentUrl"
           :content-url-text="project.contentUrlText"
           :description="project.description"
+          :form-url="project.formUrl"
         />
       </div>
     </div>
@@ -94,6 +96,7 @@
           :content-url="project.contentUrl"
           :content-url-text="project.contentUrlText"
           :description="project.description"
+          :form-url="project.formUrl"
         />
       </div>
     </div>
@@ -130,6 +133,8 @@ export default {
           contentUrl: 'https://www.google.com/',
           description:
             '開成生とお話がしたい小中高生の方へ！普段の生活、部活動、入試など、あなたの質問にZoom で開成生が答えます。さあ、お気軽に開成生と Letʼs talk ！',
+          formUrl:
+            'https://docs.google.com/forms/d/e/1FAIpQLSeDoOyst_7q27ofUAbUX8PtWFYFJfpl0_JdYhIIX5ekEbzp-Q/viewform?embedded=true',
         },
         {
           id: 75,
