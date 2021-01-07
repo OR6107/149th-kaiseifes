@@ -22,7 +22,7 @@
       <div class="screenshot">
         <img v-if="pictureUrl !== ''" :src="pictureUrl" />
       </div>
-      <a v-if="contentUrl !== ''" :href="contentUrl">Link: {{ contentUrl }}</a>
+      <a v-if="contentUrl !== ''" :href="contentUrl"> Link: {{ urlText }} </a>
       <div class="content-title">
         <div class="content-rectangle" />
         <div class="content-text">この企画について</div>
@@ -55,6 +55,10 @@ export default {
       type: String,
       default: '',
     },
+    contentUrlText: {
+      type: String,
+      default: '',
+    },
     description: {
       type: String,
       default: 'Invalid!!!',
@@ -64,7 +68,11 @@ export default {
     return {
       hoge: true,
       pressing: false,
+      urlText: '',
     }
+  },
+  mounted() {
+    this.fillInfo()
   },
   methods: {
     change() {
@@ -75,6 +83,16 @@ export default {
     },
     mouseup() {
       this.pressing = false
+    },
+    fillInfo() {
+      if (this.contentUrl !== '') {
+        if (this.contentUrlText !== '') this.urlText = this.contentUrlText
+        else {
+          this.urlText = this.contentUrl.substring(
+            this.contentUrl.lastIndexOf('/') + 1
+          )
+        }
+      }
     },
   },
 }

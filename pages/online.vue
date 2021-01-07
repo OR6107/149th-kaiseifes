@@ -66,6 +66,7 @@
           :place="project.place"
           :picture-url="project.pictureUrl"
           :content-url="project.contentUrl"
+          :content-url-text="project.contentUrlText"
           :description="project.description"
         />
       </div>
@@ -77,6 +78,7 @@
           :place="project.place"
           :picture-url="project.pictureUrl"
           :content-url="project.contentUrl"
+          :content-url-text="project.contentUrlText"
           :description="project.description"
         />
       </div>
@@ -90,6 +92,7 @@
           :place="project.place"
           :picture-url="project.pictureUrl"
           :content-url="project.contentUrl"
+          :content-url-text="project.contentUrlText"
           :description="project.description"
         />
       </div>
@@ -319,6 +322,7 @@ export default {
           description:
             '今も日本に残る奇妙な世界。闇を祀る民達のもとでは希望の光は絶望へと変わる。まるで一冊のホラー小説の世界に入り込むかのように…新たな恐怖体験があなたを待っている。',
           contentUrl: 'https://anzen-chitai.github.io/anchi',
+          contentUrlText: 'anzen-chitai.github.io/anchi',
         },
         {
           id: 97,
