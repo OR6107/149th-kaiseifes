@@ -28,7 +28,7 @@
           </div>
           <div class="menu-item">
             <img class="menu-icon" src="@/static/icon/alert-circle.svg" />
-            <NuxtLink class="menu-text" to="/goshoku/">誤植・訂正一覧</NuxtLink>
+            <NuxtLink class="menu-text" to="/information/">お知らせ</NuxtLink>
           </div>
         </div>
       </div>
