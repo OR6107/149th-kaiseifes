@@ -6,7 +6,7 @@
     <Title :is-main="false" :text="'コンテンツの複製・転載'" />
     <div class="content">
       <p>
-        肖像権・著作権の観点から、いずれのコンテンツにつきましても許可なく複製・転載することを堅く禁じます。
+        肖像権・著作権の観点から、いずれのコンテンツにつきましても許可なく複製・転載することを固く禁じます。
       </p>
     </div>
 
@@ -512,6 +512,7 @@ $yellow: #fccf5a;
   @include Didot-font();
   margin-bottom: 20px;
   p {
+    color: $black;
     font-size: 20px;
     margin-left: 45px;
     margin-right: 20px;
