@@ -22,8 +22,20 @@
       <div class="screenshot">
         <img v-if="pictureUrl !== ''" :src="pictureUrl" />
       </div>
-      <a v-if="contentUrl !== ''" :href="contentUrl"> Link: {{ urlText }} </a>
-      <a v-if="contentUrl2 !== ''" :href="contentUrl2">
+      <a
+        v-if="contentUrl !== ''"
+        :href="contentUrl"
+        target="_blank"
+        rel="noopener"
+      >
+        Link: {{ urlText }}
+      </a>
+      <a
+        v-if="contentUrl2 !== ''"
+        :href="contentUrl2"
+        target="_blank"
+        rel="noopener"
+      >
         Link: {{ urlText2 }}
       </a>
       <div class="content-title">
