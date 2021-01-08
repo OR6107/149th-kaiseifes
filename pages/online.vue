@@ -466,6 +466,17 @@ export default {
             'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
           contentUrlText2: 'YouTube',
         },
+        {
+          id: 101,
+          name: '新入生 (中1・高1編入) 参加団体',
+          place: 'YouTube',
+          type: YOUTUBE,
+          // description:
+          //   '大化学実験では、普段見られないような様々な化学実験を行っています。多くの実験を分かりやすく解説していますので、ぜひ見に来てください！',
+          contentUrl:
+            'https://www.youtube.com/playlist?list=PLg6BuDxA3WsvZ-QmejPwNu3IqmF97Ja_B',
+          contentUrlText: 'YouTube',
+        },
       ],
       show_projects: [],
       show_projects_1: [],
