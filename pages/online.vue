@@ -389,17 +389,17 @@ export default {
             '書道部員が丹精込めて書いた作品をオンラインでご覧いただけます。文化祭に行かないと見られない作品を是非お気軽にスマホなどで お楽しみください！<br />【謎解き】キーワード12:力',
           contentUrl: '/doc/書道展/開成書道展.pdf',
         },
-        /*
         {
           id: 95,
           name: '柔道部',
-          place: 'PDF',
-          type: PDF,
+          place: 'YouTube',
+          type: YOUTUBE,
           // description:
           //   'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
-          // contentUrl: 'hogehoge',
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
         },
-        */
         {
           id: 96,
           name: '社会科研究部',
@@ -427,6 +427,39 @@ export default {
           description:
             '2020年三冠を達成したコントレイルの矢作芳人調教師などを輩出した当校で、「ディープ」なサラブレッドの世界の展示、VRでのジョッキー体験をお楽しみいただけます。<br />【謎解き】キーワード10 花',
           contentUrl: '/doc/サラブレット研究同好会/駿馬研究会誌.pdf',
+        },
+        {
+          id: 99,
+          name: '文芸部',
+          place: 'PDF',
+          type: PDF,
+          description: '部誌として部員が執筆した小説を配布しております。',
+          contentUrl:
+            'https://drive.google.com/drive/folders/1L5cgg-MS9sOpH37hyry1NXPlHoYaH62r',
+          contentUrlText: 'Google Drive',
+        },
+        {
+          id: 100,
+          name: '紫雁俳句会',
+          place: 'YouTube, PDF',
+          type: YOUTUBE | PDF,
+          description:
+            '俳句甲子園の全国大会で叶わなかった、強豪校たちの熱い試合を見ることができます。また、部員たちの作品を見ることができます。',
+          contentUrl:
+            'https://drive.google.com/drive/folders/1MSjUQUznMlQ-x8DEUad3dPtw8D9jROCq',
+          contentUrlText: 'Google Drive',
+        },
+        {
+          id: 101,
+          name: '大化学実験',
+          place: 'YouTube, PDF',
+          type: YOUTUBE | PDF,
+          description:
+            '大化学実験では、普段見られないような様々な化学実験を行っています。多くの実験を分かりやすく解説していますので、ぜひ見に来てください！',
+          contentUrl: '/doc/大化学実験/readme.pdf',
+          contentUrl2:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText2: 'YouTube',
         },
       ],
       show_projects: [],
