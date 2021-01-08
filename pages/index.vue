@@ -163,7 +163,7 @@ $yellow: #fccf5a;
 }
 
 .counter {
-  margin-left: calc(100vw - 170px);
+  margin-left: calc(100vw - 150px);
 }
 
 @media screen and (max-width: 900px) {
