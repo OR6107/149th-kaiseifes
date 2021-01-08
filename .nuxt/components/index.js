@@ -1,3 +1,4 @@
+export { default as Footer } from '../../components/Footer.vue'
 export { default as Hamburger } from '../../components/Hamburger.vue'
 export { default as InfoButton } from '../../components/InfoButton.vue'
 export { default as Logo } from '../../components/Logo.vue'
@@ -6,6 +7,7 @@ export { default as SandanCardOnline } from '../../components/SandanCardOnline.v
 export { default as Title } from '../../components/Title.vue'
 export { default as Header } from '../../components/header.vue'
 
+export const LazyFooter = import('../../components/Footer.vue' /* webpackChunkName: "components/Footer" */).then(c => c.default || c)
 export const LazyHamburger = import('../../components/Hamburger.vue' /* webpackChunkName: "components/Hamburger" */).then(c => c.default || c)
 export const LazyInfoButton = import('../../components/InfoButton.vue' /* webpackChunkName: "components/InfoButton" */).then(c => c.default || c)
 export const LazyLogo = import('../../components/Logo.vue' /* webpackChunkName: "components/Logo" */).then(c => c.default || c)
