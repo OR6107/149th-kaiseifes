@@ -24,6 +24,7 @@
       </div>
     </div>
 
+    <div class="button-description">右上の i ボタンから各ページへアクセス出来ます。</div>
     <div class="counter">
       <p>ただ今の訪問回数</p>
       <a href="https://www.freecounterstat.com" title="free web counter"
@@ -159,9 +160,17 @@ $yellow: #fccf5a;
   }
 }
 
+.button-description {
+  color: $black;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
 .counter {
   margin-left: calc(100vw - 180px);
   p {
+    color: $black;
     padding-right: 20px;
     text-align: right;
   }
