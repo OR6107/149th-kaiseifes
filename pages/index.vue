@@ -24,7 +24,9 @@
       </div>
     </div>
 
-    <div class="button-description">右上の i ボタンから各ページへアクセス出来ます。</div>
+    <div class="button-description">
+      右上の i ボタンから各ページへアクセス出来ます。
+    </div>
     <div class="counter">
       <p>ただ今の訪問回数</p>
       <a href="https://www.freecounterstat.com" title="free web counter"
