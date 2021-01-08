@@ -133,8 +133,10 @@ export default {
         {
           id: 74,
           name: 'カードゲームの夜',
-          place: 'PDF, HP',
-          type: PDF | HP,
+          // place: 'PDF, HP',
+          place: 'PDF',
+          // type: PDF | HP,
+          type: PDF,
           contentUrl: 'doc/カードゲームの夜/カードゲームの夜.zip',
           description:
             '今年もカードゲームの夜が文化祭に参戦。オリジナルカードゲームからマニアックな記事まで作りました。オンラインにてひっそりと営業中。',
@@ -149,6 +151,7 @@ export default {
           contentUrl: 'https://anzen-chitai.github.io/anchi',
           contentUrlText: 'anzen-chitai.github.io/anchi',
         },
+        /*
         {
           id: 76,
           name: '縁日係',
@@ -156,9 +159,10 @@ export default {
           type: CLUSTER,
           // description:
           //   '今も日本に残る奇妙な世界。闇を祀る民達のもとでは希望の光は絶望へと変わる。まるで一冊のホラー小説の世界に入り込むかのように…新たな恐怖体験があなたを待っている。',
-          contentUrl: 'hoge',
-          contentUrlText: 'hogehoge',
+          // contentUrl: 'hoge',
+          // contentUrlText: 'hogehoge',
         },
+        */
         {
           id: 77,
           name: '折り紙研究部',
@@ -169,26 +173,23 @@ export default {
           contentUrl:
             'https://cluster.mu/w/c836aafc-1b54-45e9-9c15-2066e5fdc27e/',
           contentUrlText: 'Cluster',
-
-          /*
-          contentUrl:
+          contentUrl2:
             'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
-          contentUrlText: 'YouTube',
-          */
+          contentUrlText2: 'YouTube',
         },
         {
           id: 78,
           name: '飛べない蝉',
-          place: 'HP, YouTube, PDF',
-          type: HP | YOUTUBE | PDF,
+          // place: 'HP, YouTube, PDF',
+          place: 'YouTube, PDF',
+          // type: HP | YOUTUBE | PDF,
+          type: YOUTUBE | PDF,
           description:
             '分かりづらい名前ですいません、水泳部です。水泳部には 120 年以上の歴史があります。普段の部活動や合宿の映像紹介をやっていますので、是非いらして下さい！',
           contentUrl: 'doc/水泳部/開成水泳部公式パンフレット.pdf',
-          /*
-          contentUrl:
+          contentUrl2:
             'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
-          contentUrlText: 'YouTube',
-           */
+          contentUrlText2: 'YouTube',
         },
         {
           id: 79,
@@ -230,12 +231,9 @@ export default {
           description:
             '言葉を使い他人を説得する競技、ディベート。オンラインでも熱い試合を実演します。あの超有名校と繰り広げる激論の勝敗を決めるのは貴方だ？！',
           contentUrl: 'doc/弁論文春/弁論文春.zip',
-
-          /*
-          contentUrl:
+          contentUrl2:
             'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
-          contentUrlText: 'YouTube',
-          */
+          contentUrlText2: 'YouTube',
         },
         {
           id: 83,
@@ -295,8 +293,10 @@ export default {
         {
           id: 88,
           name: '不屈の生物部',
-          place: 'YouTube, HP',
-          type: YOUTUBE | HP,
+          // place: 'YouTube, HP',
+          place: 'YouTube',
+          // type: YOUTUBE | HP,
+          type: YOUTUBE,
           description:
             'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
           contentUrl:
@@ -306,8 +306,10 @@ export default {
         {
           id: 89,
           name: '最後の切り札',
-          place: 'YouTube, PDF',
-          type: YOUTUBE | PDF,
+          // place: 'YouTube, PDF',
+          place: 'YouTube',
+          // type: YOUTUBE | PDF,
+          type: YOUTUBE,
           // description:
           //   'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
           contentUrl:
@@ -373,6 +375,7 @@ export default {
             '書道部員が丹精込めて書いた作品をオンラインでご覧いただけます。文化祭に行かないと見れない作品を是非お気軽にスマホなどで お楽しみください！',
           contentUrl: 'doc/書道展/開成書道展.pdf',
         },
+        /*
         {
           id: 95,
           name: '柔道部',
@@ -380,8 +383,9 @@ export default {
           type: PDF,
           // description:
           //   'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
-          contentUrl: 'hogehoge',
+          // contentUrl: 'hogehoge',
         },
+        */
         {
           id: 96,
           name: '社会科研究部',
