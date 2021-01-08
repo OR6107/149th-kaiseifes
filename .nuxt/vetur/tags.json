@@ -1,9 +1,45 @@
 {
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "LazyFooter": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Hamburger": {
+    "description": "Auto imported from components/Hamburger.vue"
+  },
+  "LazyHamburger": {
+    "description": "Auto imported from components/Hamburger.vue"
+  },
+  "InfoButton": {
+    "description": "Auto imported from components/InfoButton.vue"
+  },
+  "LazyInfoButton": {
+    "description": "Auto imported from components/InfoButton.vue"
+  },
   "Logo": {
     "description": "Auto imported from components/Logo.vue"
   },
   "LazyLogo": {
     "description": "Auto imported from components/Logo.vue"
+  },
+  "SandanCard": {
+    "description": "Auto imported from components/SandanCard.vue"
+  },
+  "LazySandanCard": {
+    "description": "Auto imported from components/SandanCard.vue"
+  },
+  "SandanCardOnline": {
+    "description": "Auto imported from components/SandanCardOnline.vue"
+  },
+  "LazySandanCardOnline": {
+    "description": "Auto imported from components/SandanCardOnline.vue"
+  },
+  "Title": {
+    "description": "Auto imported from components/Title.vue"
+  },
+  "LazyTitle": {
+    "description": "Auto imported from components/Title.vue"
   },
   "Header": {
     "description": "Auto imported from components/header.vue"

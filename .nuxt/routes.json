@@ -7,9 +7,31 @@
     "_name": "_26f93e20"
   },
   {
+    "name": "mr_ms",
+    "path": "/mr_ms",
+    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/mr_ms.vue",
+    "chunkName": "pages/mr_ms",
+    "_name": "_65a28b18"
+  },
+  {
+    "name": "online",
+    "path": "/online",
+    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/online.vue",
+    "chunkName": "pages/online",
+    "_name": "_45439ce2"
+  },
+  {
+    "name": "timetable",
+    "path": "/timetable",
+    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/timetable.vue",
+    "chunkName": "pages/timetable",
+    "_name": "_bde062d6"
+  },
+  {
     "name": "index",
     "path": "/",
-    "component": "/mnt/c/Users/user/149th-kaiseifes/pages/index.vue",
-    "chunkName": "pages/index"
+    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_5091b874"
   }
 ]
