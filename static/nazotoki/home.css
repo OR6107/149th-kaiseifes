@@ -122,6 +122,10 @@
     padding: auto 5%;
   	text-align: left;
   }
+  .answer-partially {
+    display: block;
+    margin: 5px auto auto auto;
+  }
   .kokuban-s1 {
    position: relative;
    margin: 2em auto;
