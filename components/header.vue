@@ -14,12 +14,10 @@
             <img class="menu-icon" src="@/static/icon/monitor.svg" />
             <NuxtLink class="menu-text" to="/online/">オンライン企画</NuxtLink>
           </div>
-          <!--
           <div class="menu-item">
-            <img class="menu-icon" src="@/static/icon/monitor.svg" />
-            <a class="menu-text" href="/nazotoki/index.html">謎解き</a>
+            <img class="menu-icon" src="@/static/icon/help-circle.svg" />
+            <a class="menu-text" href="/nazotoki/">謎解き</a>
           </div>
-          -->
           <div class="menu-item">
             <img class="menu-icon" src="@/static/icon/user.svg" />
             <NuxtLink class="menu-text" to="/mr_ms/"
