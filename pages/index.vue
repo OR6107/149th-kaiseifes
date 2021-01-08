@@ -13,11 +13,9 @@
           <li><div class="date-text">2021.01.10(日) 09:00 ~ 16:30</div></li>
         </ul>
         <div class="link-to-detail">
-          <div class="link-to-detail-title">詳細情報はこちら！</div>
-          <NuxtLink class="link" to="information">リンク</NuxtLink>
-          <NuxtLink class="link" to="goshoku">誤植・訂正一覧</NuxtLink>
+          <div class="link-to-detail-title">オンライン企画はこちら！</div>
+          <NuxtLink class="link" to="/online">リンク</NuxtLink>
         </div>
-        <div class="coming-soon">Coming Soon ...</div>
       </div>
     </div>
   </div>
@@ -57,6 +55,7 @@ $yellow: #fccf5a;
 }
 
 .container {
+  margin-top: 60px;
   display: flex;
   align-items: center;
   background: $white;
