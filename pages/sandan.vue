@@ -9,14 +9,14 @@
           <div
             :class="{ selected: (search_category & (1 << 0)) > 0 }"
             class="search-item"
-            @click="search_category ^= 1 << 0"
+            @click="changeCategory(0)"
           >
             Online
           </div>
           <div
             :class="{ selected: (search_category & (1 << 1)) > 0 }"
             class="search-item"
-            @click="search_category ^= 1 << 1"
+            @click="changeCategory(1)"
           >
             参加型
           </div>
@@ -25,21 +25,21 @@
           <div
             :class="{ selected: (search_category & (1 << 2)) > 0 }"
             class="search-item"
-            @click="search_category ^= 1 << 2"
+            @click="changeCategory(2)"
           >
             展示
           </div>
           <div
             :class="{ selected: (search_category & (1 << 3)) > 0 }"
             class="search-item"
-            @click="search_category ^= 1 << 3"
+            @click="changeCategory(3)"
           >
             公演
           </div>
           <div
             :class="{ selected: (search_category & (1 << 4)) > 0 }"
             class="search-item"
-            @click="search_category ^= 1 << 4"
+            @click="changeCategory(4)"
           >
             映画
           </div>
@@ -791,9 +791,6 @@ export default {
     }
   },
   watch: {
-    search_category(_, __) {
-      this.searchProject()
-    },
     search_text(_, __) {
       this.searchProject()
     },
@@ -811,6 +808,10 @@ export default {
         this.width = window.innerWidth
         this.height = window.innerHeight
       }
+    },
+    changeCategory(x) {
+      this.search_category ^= 1 << x
+      this.searchProject()
     },
     searchProject() {
       const newText = this.search_text
