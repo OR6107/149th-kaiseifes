@@ -113,6 +113,7 @@
         />
       </div>
     </div>
+    <Footer />
   </div>
 </template>
 
@@ -120,6 +121,7 @@
 import Header from '@/components/header'
 import Card from '@/components/SandanCardOnline'
 import Title from '@/components/Title'
+import Footer from '@/components/Footer'
 
 const YOUTUBE = 1 << 0
 const PDF = 1 << 1
@@ -129,7 +131,7 @@ const HP = 1 << 4
 
 export default {
   name: 'Online',
-  components: { Header, Card, Title },
+  components: { Header, Card, Title, Footer },
   data() {
     return {
       search_text: '',

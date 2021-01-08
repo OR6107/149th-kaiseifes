@@ -18,15 +18,17 @@
         </div>
       </div>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from '@/components/header'
+import Footer from '@/components/Footer'
 
 export default {
   name: 'Index',
-  components: { Header },
+  components: { Header, Footer },
 }
 </script>
 

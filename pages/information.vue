@@ -28,16 +28,18 @@
         </p>
       </div>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from '@/components/header'
 import Title from '@/components/Title'
+import Footer from '@/components/Footer'
 
 export default {
   name: 'Information',
-  components: { Header, Title },
+  components: { Header, Title, Footer },
 }
 </script>
 

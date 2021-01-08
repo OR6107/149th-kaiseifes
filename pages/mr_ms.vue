@@ -190,16 +190,18 @@
         </div>
       </div>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Header from '@/components/header'
 import Title from '@/components/Title'
+import Footer from '@/components/Footer'
 
 export default {
   name: 'MrMs',
-  components: { Header, Title },
+  components: { Header, Title, Footer },
 }
 </script>
 
