@@ -38,12 +38,13 @@
           <div class="content-text">中後夜</div>
         </div>
         <p>
-          本来の時間と同じ時間である、 <br />
-          中夜祭: 16:20 ~ 17:50 <br />
-          後夜祭: 14:20 ~ 16:20 <br />
+          中夜祭: 14:55 ~ 16:25 <br />
+          後夜祭: 11:30 ~ 13:30 <br />
           に
-           <a href="https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g">YouTube Live</a>
-           を行う予定です。
+          <a href="https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g"
+            >YouTube Live</a
+          >
+          を行う予定です。
         </p>
       </div>
     </div>
