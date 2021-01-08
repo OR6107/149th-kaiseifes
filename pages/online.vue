@@ -375,7 +375,9 @@ export default {
           type: VOICECHAT | PDF,
           description:
             '将棋部ではお客様との対局を行っています。初心者の方も腕利きの方も大歓迎です！また、他校との対抗戦や部誌のオンライン公開もしています。是非お越しください。',
-          contentUrl: '/doc/将棋部/まやか誌2020.pdf',
+          contentUrl:
+            'https://drive.google.com/drive/folders/10WNGhsmugnXC3J_ZVUI-jhQ9lklVc8QE',
+          contentUrlText: 'Google Drive',
           contentUrl2:
             'https://docs.google.com/forms/d/e/1FAIpQLSeQNLoyPKF_knk-ACgxbtNwC0EJwq4swRgucl4lto51xQUrvA/viewform?usp=sf_link',
           contentUrlText2: 'Zoom',
