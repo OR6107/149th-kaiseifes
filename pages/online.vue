@@ -162,7 +162,6 @@ export default {
           contentUrl: 'https://anzen-chitai.github.io/anchi',
           contentUrlText: 'anzen-chitai.github.io/anchi',
         },
-        /*
         {
           id: 76,
           name: '縁日係',
@@ -170,10 +169,10 @@ export default {
           type: CLUSTER,
           // description:
           //   '今も日本に残る奇妙な世界。闇を祀る民達のもとでは希望の光は絶望へと変わる。まるで一冊のホラー小説の世界に入り込むかのように…新たな恐怖体験があなたを待っている。',
-          // contentUrl: 'hoge',
-          // contentUrlText: 'hogehoge',
+          contentUrl:
+            'https://cluster.mu/w/47aac415-da31-42fa-8d6e-46d47ba3f4c0',
+          contentUrlText: 'Cluster',
         },
-        */
         {
           id: 77,
           name: '折り紙研究部',
