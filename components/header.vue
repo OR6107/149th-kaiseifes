@@ -16,7 +16,13 @@
           </div>
           <div class="menu-item">
             <img class="menu-icon" src="@/static/icon/help-circle.svg" />
-            <a class="menu-text" href="/nazotoki/" target="_blank">謎解き</a>
+            <a
+              class="menu-text"
+              href="/nazotoki/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >謎解き</a
+            >
           </div>
           <div class="menu-item">
             <img class="menu-icon" src="@/static/icon/user.svg" />
