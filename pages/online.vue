@@ -346,14 +346,13 @@ export default {
         {
           id: 91,
           name: 'まったり TRPG 広場',
-          place: 'Zoom, PDF',
-          type: VOICECHAT | PDF,
+          place: 'PDF',
+          type: PDF,
           description:
             'インターネット上の機能を最大限活用し、経験者の方も、初めての方も TRPG を楽しんでいただけるようになっております。是非お越しください！<br />【謎解き】キーワード9: 加',
-          contentUrl: '/doc/まったりTRPG/まったりTRPG広場部誌.pdf',
-          contentUrl2:
-            'https://docs.google.com/forms/d/e/1FAIpQLSf9fj58ENDUV2YgajNzYA1MRGx8nUbgBW2qDZGbEdpiIa0s4Q/viewform?usp=sf_link',
-          contentUrlText2: 'Zoom',
+          contentUrl:
+            'https://drive.google.com/drive/folders/1TsPPGzZDF-fq6TnvALl_y2ry4OMkfdy4',
+          contentUrlText: 'Google Drive',
         },
         {
           id: 92,
