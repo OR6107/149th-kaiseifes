@@ -67,6 +67,8 @@
           :picture-url="project.pictureUrl"
           :content-url="project.contentUrl"
           :content-url-text="project.contentUrlText"
+          :content-url2="project.contentUrl2"
+          :content-url-text2="project.contentUrlText2"
           :description="project.description"
           :form-url="project.formUrl"
         />
@@ -80,6 +82,8 @@
           :picture-url="project.pictureUrl"
           :content-url="project.contentUrl"
           :content-url-text="project.contentUrlText"
+          :content-url2="project.contentUrl2"
+          :content-url-text2="project.contentUrlText2"
           :description="project.description"
           :form-url="project.formUrl"
         />
@@ -95,6 +99,8 @@
           :picture-url="project.pictureUrl"
           :content-url="project.contentUrl"
           :content-url-text="project.contentUrlText"
+          :content-url2="project.contentUrl2"
+          :content-url-text2="project.contentUrlText2"
           :description="project.description"
           :form-url="project.formUrl"
         />

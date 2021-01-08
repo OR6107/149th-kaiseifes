@@ -23,13 +23,16 @@
         <img v-if="pictureUrl !== ''" :src="pictureUrl" />
       </div>
       <a v-if="contentUrl !== ''" :href="contentUrl"> Link: {{ urlText }} </a>
+      <a v-if="contentUrl2 !== ''" :href="contentUrl2">
+        Link: {{ urlText2 }}
+      </a>
       <div class="content-title">
         <div class="content-rectangle" />
         <div class="content-text">この企画について</div>
       </div>
       <div class="detail">{{ description }}</div>
 
-      <template v-if="formUrl !== ''">
+      <template v-if="false && formUrl !== ''">
         <iframe
           :src="formUrl"
           width="340"
@@ -71,6 +74,14 @@ export default {
       type: String,
       default: '',
     },
+    contentUrl2: {
+      type: String,
+      default: '',
+    },
+    contentUrlText2: {
+      type: String,
+      default: '',
+    },
     description: {
       type: String,
       default: "Let's Enjoy!",
@@ -85,6 +96,7 @@ export default {
       hoge: true,
       pressing: false,
       urlText: '',
+      urlText2: '',
     }
   },
   mounted() {
@@ -106,6 +118,14 @@ export default {
         else {
           this.urlText = this.contentUrl.substring(
             this.contentUrl.lastIndexOf('/') + 1
+          )
+        }
+      }
+      if (this.contentUrl2 !== '') {
+        if (this.contentUrlText2 !== '') this.urlText2 = this.contentUrlText2
+        else {
+          this.urlText2 = this.contentUrl2.substring(
+            this.contentUrl2.lastIndexOf('/') + 1
           )
         }
       }
