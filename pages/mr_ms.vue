@@ -13,9 +13,6 @@
 
       <Title :is-main="false" :text="'Ms. 開成'" />
       <div class="content">
-        <a class="vote" href="https://forms.gle/1mLFvY6QuxSRXsm18"
-          >投票はこちらから！</a
-        >
         <div class="photo-list">
           <div class="yoko photo-item">
             <img
@@ -199,9 +196,6 @@
 
       <Title :is-main="false" :text="'Mr. 開成'" />
       <div class="content">
-        <a class="vote" href="https://forms.gle/S61CJhmCjKAoje6WA"
-          >投票はこちらから！</a
-        >
         <div class="photo-list">
           <div class="tate photo-item">
             <img
