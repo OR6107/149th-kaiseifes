@@ -334,11 +334,10 @@ export default {
           place: 'Zoom',
           type: VOICECHAT,
           // pictureUrl: 'i.svg',
-          contentUrl:
-            'https://docs.google.com/forms/d/e/1FAIpQLSc5Uvmgbt3QIRSlq1ABo4xNOGBI4_NriH4FNGYAg-_AF5F95Q/viewform?usp=sf_link',
+          contentUrl: 'https://forms.gle/bgY7AgBbrDKoY3Wg6',
           contentUrlText: 'Zoom',
           description:
-            '開成生とお話がしたい小中高生の方へ！普段の生活、部活動、入試など、あなたの質問に Zoom で開成生が答えます。さあ、お気軽に開成生と Letʼs talk ！',
+            '開成生とお話がしたい小中高生の方へ！普段の生活、部活動、入試など、あなたの質問に Zoom で開成生が答えます。さあ、お気軽に開成生と Letʼs talk ！<br />【謎解き】キーワード6: ブラジル',
           formUrl:
             'https://docs.google.com/forms/d/e/1FAIpQLSeDoOyst_7q27ofUAbUX8PtWFYFJfpl0_JdYhIIX5ekEbzp-Q/viewform?embedded=true',
         },
