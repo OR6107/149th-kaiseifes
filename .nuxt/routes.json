@@ -1,24 +1,10 @@
 [
   {
-    "name": "goshoku",
-    "path": "/goshoku",
-    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/goshoku.vue",
-    "chunkName": "pages/goshoku",
-    "_name": "_0474d6b0"
-  },
-  {
     "name": "information",
     "path": "/information",
     "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/information.vue",
     "chunkName": "pages/information",
     "_name": "_26f93e20"
-  },
-  {
-    "name": "limitedtime",
-    "path": "/limitedtime",
-    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/limitedtime.vue",
-    "chunkName": "pages/limitedtime",
-    "_name": "_63047edb"
   },
   {
     "name": "mr_ms",
@@ -33,13 +19,6 @@
     "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/online.vue",
     "chunkName": "pages/online",
     "_name": "_45439ce2"
-  },
-  {
-    "name": "sandan",
-    "path": "/sandan",
-    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/sandan.vue",
-    "chunkName": "pages/sandan",
-    "_name": "_4ec55026"
   },
   {
     "name": "index",
