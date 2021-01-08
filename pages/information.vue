@@ -4,6 +4,13 @@
     <div class="container">
       <Title :is-main="true" :text="'お知らせ'" />
 
+      <Title :is-main="false" :text="'コンテンツの複製・転載'" />
+      <div class="content">
+        <p>
+          肖像権・著作権の観点から、いずれのコンテンツにつきましても許可なく複製・転載することを堅く禁じます。
+        </p>
+      </div>
+
       <Title :is-main="false" :text="'コンテンツの追加'" />
       <div class="content">
         <p>
