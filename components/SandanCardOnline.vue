@@ -73,7 +73,7 @@ export default {
     },
     description: {
       type: String,
-      default: 'Invalid!!!',
+      default: "Let's Enjoy!",
     },
     formUrl: {
       type: String,
