@@ -31,6 +31,10 @@
             >
           </div>
           <div class="menu-item">
+            <img class="menu-icon" src="@/static/icon/clock.svg" />
+            <NuxtLink class="menu-text" to="/timetable/">タイムテーブル</NuxtLink>
+          </div>
+          <div class="menu-item">
             <img class="menu-icon" src="@/static/icon/alert-circle.svg" />
             <NuxtLink class="menu-text" to="/information/">お知らせ</NuxtLink>
           </div>

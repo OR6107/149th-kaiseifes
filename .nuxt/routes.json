@@ -21,6 +21,13 @@
     "_name": "_45439ce2"
   },
   {
+    "name": "timetable",
+    "path": "/timetable",
+    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/timetable.vue",
+    "chunkName": "pages/timetable",
+    "_name": "_bde062d6"
+  },
+  {
     "name": "index",
     "path": "/",
     "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/index.vue",

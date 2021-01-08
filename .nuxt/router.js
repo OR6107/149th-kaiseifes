@@ -7,6 +7,7 @@ import scrollBehavior from './router.scrollBehavior.js'
 const _26f93e20 = () => interopDefault(import('../pages/information.vue' /* webpackChunkName: "pages/information" */))
 const _65a28b18 = () => interopDefault(import('../pages/mr_ms.vue' /* webpackChunkName: "pages/mr_ms" */))
 const _45439ce2 = () => interopDefault(import('../pages/online.vue' /* webpackChunkName: "pages/online" */))
+const _bde062d6 = () => interopDefault(import('../pages/timetable.vue' /* webpackChunkName: "pages/timetable" */))
 const _5091b874 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -37,6 +38,10 @@ export const routerOptions = {
     path: "/online",
     component: _45439ce2,
     name: "online"
+  }, {
+    path: "/timetable",
+    component: _bde062d6,
+    name: "timetable"
   }, {
     path: "/",
     component: _5091b874,
