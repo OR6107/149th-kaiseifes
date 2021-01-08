@@ -185,7 +185,7 @@ export default {
             'https://cluster.mu/w/c836aafc-1b54-45e9-9c15-2066e5fdc27e/',
           contentUrlText: 'Cluster',
           contentUrl2:
-            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+            'https://www.youtube.com/playlist?list=PLg6BuDxA3Wsus1FZg_UM8_LSrw7QOP2Xu',
           contentUrlText2: 'YouTube',
         },
         {
@@ -209,7 +209,7 @@ export default {
           type: YOUTUBE,
           description: '知られざる合気道の魅力・美しさを。',
           contentUrl:
-            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+            'https://www.youtube.com/playlist?list=PLg6BuDxA3WsuU7PUC0xfo6j_cbJkxCKS-',
           contentUrlText: 'YouTube',
         },
         {
@@ -220,7 +220,7 @@ export default {
           description:
             '物理部員が電子ゲームや高電圧実験を自作する様子を動画にまとめました。',
           contentUrl:
-            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+            'https://www.youtube.com/playlist?list=PLg6BuDxA3WsvduGjxs7g_sSnEDoXE4LqJ',
           contentUrlText: 'YouTube',
         },
         {
@@ -231,7 +231,7 @@ export default {
           description:
             '手品部です！ 今年もマジックショーを開催します。不思議、驚き、興奮の数々。目の前でマジシャン達が織り成す奇跡の数々をお楽しみ下さい。誰もが楽しめる内容です。',
           contentUrl:
-            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+            'https://www.youtube.com/playlist?list=PLg6BuDxA3Wssshk2N48Q5kZk2UP5uc1bp',
           contentUrlText: 'YouTube',
         },
         {
@@ -256,7 +256,7 @@ export default {
           description:
             '今年のパフォーマンスはとにかく凄い！様々な道具をまさに " 自由自在 " に操る演技で、皆様の心をつかんで見せます！是非ご覧ください！',
           contentUrl:
-            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+            'https://www.youtube.com/playlist?list=PLg6BuDxA3Wssjk28py61olLBNgC5bi1MG',
           contentUrlText: 'YouTube',
         },
         {
@@ -267,7 +267,7 @@ export default {
           // description:
           //  '手品部です！ 今年もマジックショーを開催します。不思議、驚き、興奮の数々。目の前でマジシャン達が織り成す奇跡の数々をお楽しみ下さい。誰もが楽しめる内容です。',
           contentUrl:
-            'https://www.youtube.com/channel/UCnDbmEaE-7nH71DW-4N-8fw',
+            'https://www.youtube.com/playlist?list=PLg6BuDxA3Wst2-qwcXhZzpIBPyVt0dU0J',
           contentUrlText: '動画研究会',
         },
         {
@@ -300,7 +300,7 @@ export default {
           description:
             '「開成ピアノの会」のメンバーが、ピアノ曲をオンラインでお届けします！クラシックを中心に披露させていただきます！ぜひお聞きください！',
           contentUrl:
-            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+            'https://www.youtube.com/playlist?list=PLg6BuDxA3Wst6FoEIO9f_Wff6j1F8t5VF',
           contentUrlText: 'YouTube',
         },
         {
@@ -448,6 +448,9 @@ export default {
           contentUrl:
             'https://drive.google.com/drive/folders/1MSjUQUznMlQ-x8DEUad3dPtw8D9jROCq',
           contentUrlText: 'Google Drive',
+          contentUrl2:
+            'https://www.youtube.com/playlist?list=PLg6BuDxA3Wsvzbu8ZD1DsZgFvrBFmyLjx',
+          contentUrlText2: 'YouTube',
         },
         {
           id: 101,
