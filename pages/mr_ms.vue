@@ -49,8 +49,9 @@
               src="@/static/mr_ms/ms_1/4.jpg"
             />
           </div>
-          <div class="photo-name">01 細川朱鈴</div>
         </div>
+        <div class="photo-name">01 細川朱鈴</div>
+
         <div class="photo-list">
           <div class="yoko photo-item">
             <img
@@ -84,8 +85,9 @@
               src="@/static/mr_ms/ms_2/4.jpg"
             />
           </div>
-          <div class="photo-name">02 周舞</div>
         </div>
+        <div class="photo-name">02 周舞</div>
+
         <div class="photo-list">
           <div class="yoko photo-item">
             <img
@@ -119,8 +121,9 @@
               src="@/static/mr_ms/ms_3/4.jpg"
             />
           </div>
-          <div class="photo-name">03 柏村奈央</div>
         </div>
+        <div class="photo-name">03 柏村奈央</div>
+
         <div class="photo-list">
           <div class="tate photo-item">
             <img
@@ -154,8 +157,9 @@
               src="@/static/mr_ms/ms_4/4.jpg"
             />
           </div>
-          <div class="photo-name">04 夢咲楓</div>
         </div>
+        <div class="photo-name">04 夢咲楓</div>
+
         <div class="photo-list">
           <div class="tate photo-item">
             <img
@@ -189,8 +193,8 @@
               src="@/static/mr_ms/ms_5/4.jpg"
             />
           </div>
-          <div class="photo-name">05 山本有紗</div>
         </div>
+        <div class="photo-name">05 山本有紗</div>
       </div>
 
       <Title :is-main="false" :text="'Mr. 開成'" />
@@ -231,8 +235,9 @@
               src="@/static/mr_ms/mr_1/4.jpg"
             />
           </div>
-          <div class="photo-name">01 引田尚希</div>
         </div>
+        <div class="photo-name">01 引田尚希</div>
+
         <div class="photo-list">
           <div class="tate photo-item">
             <img
@@ -266,8 +271,9 @@
               src="@/static/mr_ms/mr_2/4.jpg"
             />
           </div>
-          <div class="photo-name">02 千葉恒輝</div>
         </div>
+        <div class="photo-name">02 千葉恒輝</div>
+
         <div class="photo-list">
           <div class="yoko photo-item">
             <img
@@ -301,8 +307,9 @@
               src="@/static/mr_ms/mr_3/4.jpg"
             />
           </div>
-          <div class="photo-name">03 後藤大輝</div>
         </div>
+        <div class="photo-name">03 後藤大輝</div>
+
         <div class="photo-list">
           <div class="tate photo-item">
             <img
@@ -336,8 +343,9 @@
               src="@/static/mr_ms/mr_4/4.jpg"
             />
           </div>
-          <div class="photo-name">04 後藤雅稀</div>
         </div>
+        <div class="photo-name">04 後藤雅稀</div>
+
         <div class="photo-list">
           <div class="tate photo-item">
             <img
@@ -371,8 +379,9 @@
               src="@/static/mr_ms/mr_5/4.jpg"
             />
           </div>
-          <div class="photo-name">05 鎌仲義紀</div>
         </div>
+        <div class="photo-name">05 鎌仲義紀</div>
+
         <div class="photo-list">
           <div class="square photo-item">
             <img
@@ -406,8 +415,8 @@
               src="@/static/mr_ms/mr_6/4.jpg"
             />
           </div>
-          <div class="photo-name">06 片岡孝介</div>
         </div>
+        <div class="photo-name">06 片岡孝介</div>
       </div>
     </div>
     <Footer />
@@ -476,6 +485,9 @@ $yellow: #fccf5a;
 }
 
 .photo-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 10px 5px 10px;
   .yoko {
     height: 160px;
     width: 240px;
@@ -501,33 +513,25 @@ $yellow: #fccf5a;
     }
   }
 
-  .photo-name {
-    font-size: 20px;
+  .photo-item {
+    margin-top: 10px;
+    margin-right: 20px;
   }
+}
+.photo-name {
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 900px) {
   .content {
     margin-left: 60px;
   }
-  .photo-list {
-    margin-bottom: 30px;
-    .photo-item {
-      margin-top: 10px;
-      margin-right: 20px;
-    }
-  }
 }
 
 @media screen and (max-width: 900px) {
   .content {
     margin-left: 25px;
-  }
-  .photo-list {
-    margin: 5px 10px 30px 10px;
-    .photo-item {
-      margin-top: 10px;
-    }
   }
 }
 </style>
