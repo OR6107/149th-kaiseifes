@@ -349,7 +349,7 @@ export default {
           place: 'Zoom, PDF',
           type: VOICECHAT | PDF,
           description:
-            'インターネット上の機能を最大限活用し、経験者の方も、初めての方も TRPG を楽しんでいただけるようになっております。是非お越しください！',
+            'インターネット上の機能を最大限活用し、経験者の方も、初めての方も TRPG を楽しんでいただけるようになっております。是非お越しください！<br />【謎解き】キーワード9: 加',
           contentUrl: '/doc/まったりTRPG/まったりTRPG広場部誌.pdf',
           contentUrl2:
             'https://docs.google.com/forms/d/e/1FAIpQLSf9fj58ENDUV2YgajNzYA1MRGx8nUbgBW2qDZGbEdpiIa0s4Q/viewform?usp=sf_link',
@@ -361,7 +361,7 @@ export default {
           place: 'Zoom, PDF',
           type: VOICECHAT | PDF,
           description:
-            '今年はオンラインでの参加となりますが、更にレベルの上がったGPや入試予想問題が君を待っています。部員一同盛り上げてまいりますので、是非一度お越しください！',
+            '今年はオンラインでの参加となりますが、更にレベルの上がったGPや入試予想問題が君を待っています。部員一同盛り上げてまいりますので、是非一度お越しください！<br />【謎解き】キーワード13: かつお',
           contentUrl:
             'https://drive.google.com/drive/folders/1T6ni8ax_tTgaNAK9sEgq_-eWkKhYaj9-',
           contentUrlText: 'Google Drive',
@@ -387,7 +387,7 @@ export default {
           place: 'PDF',
           type: PDF,
           description:
-            '書道部員が丹精込めて書いた作品をオンラインでご覧いただけます。文化祭に行かないと見られない作品を是非お気軽にスマホなどで お楽しみください！', // \n【謎解き】キーワード12:力',
+            '書道部員が丹精込めて書いた作品をオンラインでご覧いただけます。文化祭に行かないと見られない作品を是非お気軽にスマホなどで お楽しみください！<br />【謎解き】キーワード12:力',
           contentUrl: '/doc/書道展/開成書道展.pdf',
         },
         /*
@@ -417,8 +417,7 @@ export default {
           name: '映画同好会',
           place: 'PDF',
           type: PDF,
-          // description:
-          //   'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
+          description: "Let's Enjoy! <br />【謎解き】キーワード11 次",
           contentUrl: '/doc/映画同好会/幻燈機.pdf',
         },
         {
@@ -427,7 +426,7 @@ export default {
           place: 'PDF',
           type: PDF,
           description:
-            '2020年三冠を達成したコントレイルの矢作芳人調教師などを輩出した当校で、「ディープ」なサラブレッドの世界の展示、VRでのジョッキー体験をお楽しみいただけます。',
+            '2020年三冠を達成したコントレイルの矢作芳人調教師などを輩出した当校で、「ディープ」なサラブレッドの世界の展示、VRでのジョッキー体験をお楽しみいただけます。<br />【謎解き】キーワード10 花',
           contentUrl: '/doc/サラブレット研究同好会/駿馬研究会誌.pdf',
         },
       ],

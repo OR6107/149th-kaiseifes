@@ -42,7 +42,7 @@
         <div class="content-rectangle" />
         <div class="content-text">この企画について</div>
       </div>
-      <div class="detail">{{ description }}</div>
+      <div class="detail" v-html="description" />
 
       <template v-if="false && formUrl !== ''">
         <iframe
