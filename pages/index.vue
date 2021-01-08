@@ -20,7 +20,22 @@
           <div class="link-to-detail-title">オンライン企画はこちら！</div>
           <NuxtLink class="link" to="/online">リンク</NuxtLink>
         </div>
+        <div class="elfsight-app-768f923d-7be2-4517-be73-95eb0ae23f98"></div>
       </div>
+    </div>
+
+      <div class="counter">
+    <a
+      href="https://www.freecounterstat.com"
+      title="free page counter"
+    >
+      <img
+        src="https://counter8.stat.ovh/private/freecounterstat.php?c=72ttf42tb5z3gp7upbea9qlb8mc9xada"
+        border="0"
+        title="free page counter"
+        alt="free page counter"
+      />
+    </a>
     </div>
     <Footer />
   </div>
@@ -145,6 +160,10 @@ $yellow: #fccf5a;
     font-size: calc(min(1vw, 2vh) * 4);
     line-height: calc(min(1vw, 2vh) * 5.3);
   }
+}
+
+.counter {
+  margin-left: calc(100vw - 170px);
 }
 
 @media screen and (max-width: 900px) {
