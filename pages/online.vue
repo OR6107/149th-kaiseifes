@@ -126,201 +126,15 @@ export default {
       projects: [
         {
           id: 74,
-          name: 'Letʼs talk Kaisei',
-          place: 'meetnow',
-          type: VOICECHAT,
-          pictureUrl: 'i.svg',
-          contentUrl: 'https://www.google.com/',
-          description:
-            '開成生とお話がしたい小中高生の方へ！普段の生活、部活動、入試など、あなたの質問にZoom で開成生が答えます。さあ、お気軽に開成生と Letʼs talk ！',
-          formUrl:
-            'https://docs.google.com/forms/d/e/1FAIpQLSeDoOyst_7q27ofUAbUX8PtWFYFJfpl0_JdYhIIX5ekEbzp-Q/viewform?embedded=true',
-        },
-        {
-          id: 75,
           name: 'カードゲームの夜',
           place: 'PDF, HP',
           type: PDF | HP,
-          contentUrl: 'doc/カードの夜',
+          contentUrl: 'doc/カードゲームの夜/カードゲームの夜.zip',
           description:
             '今年もカードゲームの夜が文化祭に参戦。オリジナルカードゲームからマニアックな記事まで作りました。オンラインにてひっそりと営業中。',
         },
         {
-          id: 76,
-          name: 'まったり TRPG 広場',
-          place: 'PDF',
-          type: PDF,
-          contentUrl: 'doc/まったりTRPG/まったりTRPG広場部誌.pdf',
-          description:
-            'インターネット上の機能を最大限活用し、経験者の方も、初めての方も TRPG を楽しんでいただけるようになっております。是非お越しください！',
-        },
-        {
-          id: 77,
-          name: '開成ピアノの会定期演奏会',
-          place: 'YouTube',
-          type: YOUTUBE,
-          description:
-            '「開成ピアノの会」のメンバーが、ピアノ曲をオンラインでお届けします！クラシックを中心に披露させていただきます！ぜひお聞きください！',
-        },
-        {
-          id: 78,
-          name: '開成管弦楽団特別演奏会',
-          place: 'YouTube',
-          type: YOUTUBE,
-          description:
-            '部員による「花のワルツ」の演奏や、音楽部と合同の「パリのアメリカ人」アンサンブルの動画を公開します！開成管弦楽団によるクラシック音楽をオンラインの世界でも！',
-        },
-        {
-          id: 79,
-          name: '開成書道展',
-          place: 'PDF',
-          type: PDF,
-          description:
-            '書道部員が丹精込めて書いた作品をオンラインでご覧いただけます。文化祭に行かないと見れない作品を是非お気軽にスマホなどで お楽しみください！',
-          contentUrl: 'doc/書道展/開成書道展.pdf',
-        },
-        {
-          id: 80,
-          name: '大道芸、自由自在。',
-          place: 'YouTube',
-          type: YOUTUBE,
-          description:
-            '今年のパフォーマンスはとにかく凄い！様々な道具をまさに " 自由自在 " に操る演技で、皆様の心をつかんで見せます！是非ご覧ください！',
-        },
-        {
-          id: 81,
-          name: '天道流合気道',
-          place: 'YouTube',
-          type: YOUTUBE,
-          description: '知られざる合気道の魅力・美しさを。',
-        },
-        {
-          id: 82,
-          name: '飛べない蝉',
-          place: 'HP, YouTube, PDF',
-          type: HP | YOUTUBE | PDF,
-          description:
-            '分かりづらい名前ですいません、水泳部です。水泳部には 120 年以上の歴史があります。普段の部活動や合宿の映像紹介をやっていますので、是非いらして下さい！',
-          contentUrl: 'doc/水泳部/開成水泳部公式パンフレット.pdf',
-        },
-        {
-          id: 83,
-          name: '飛車ちゅうの成人式！',
-          place: 'Zoom, PDF',
-          type: VOICECHAT | PDF,
-          description:
-            '将棋部ではお客様との対局を行っています。初心者の方も腕利きの方も大歓迎です！また、他校との対抗戦や部誌のオンライン公開もしています。是非お越しください。',
-          contentUrl: 'doc/将棋部/まやか誌2020.pdf',
-        },
-        {
-          id: 84,
-          name: '物理部',
-          place: 'YouTube',
-          type: YOUTUBE,
-          description:
-            '物理部員が電子ゲームや高電圧実験を自作する様子を動画にまとめました。',
-        },
-        {
-          id: 85,
-          name: '数学研究部',
-          place: 'Zoom, PDF',
-          type: VOICECHAT | PDF,
-          description:
-            '今年はオンラインでの参加となりますが、更にレベルの上がったGPや入試予想問題が君を待っています。部員一同盛り上げてまいりますので、是非一度お越しください！',
-          contentUrl: 'doc/数学研究部/数学研究部.zip',
-        },
-        {
-          id: 86,
-          name: '折り紙研究部',
-          place: 'Cluster, YouTube',
-          type: CLUSTER | YOUTUBE,
-          description:
-            '日本の伝統文化である折り紙は、今もなお変化し、さらに高度な芸術作品へと進化しています。折り研も去年からさらに進化した展示でお客様をお待ちしております。',
-          contentUrl: 'hogehoge',
-        },
-        {
-          id: 87,
-          name: '彼女は手品好き♡',
-          place: 'YouTube',
-          type: YOUTUBE,
-          description:
-            '手品部です！ 今年もマジックショーを開催します。不思議、驚き、興奮の数々。目の前でマジシャン達が織り成す奇跡の数々をお楽しみ下さい。誰もが楽しめる内容です。',
-          contentUrl: 'hogehoge',
-        },
-        {
-          id: 88,
-          name: '弁論文春',
-          place: 'YouTube, PDF',
-          type: YOUTUBE | PDF,
-          description:
-            '言葉を使い他人を説得する競技、ディベート。オンラインでも熱い試合を実演します。あの超有名校と繰り広げる激論の勝敗を決めるのは貴方だ？！',
-          contentUrl: 'doc/弁論文春/弁論文春.zip',
-        },
-        {
-          id: 89,
-          name: '動画研究会',
-          place: 'YouTube',
-          type: YOUTUBE,
-          // description:
-          //  '手品部です！ 今年もマジックショーを開催します。不思議、驚き、興奮の数々。目の前でマジシャン達が織り成す奇跡の数々をお楽しみ下さい。誰もが楽しめる内容です。',
-          contentUrl: 'hogehoge',
-        },
-        {
-          id: 90,
-          name: 'ポケモンリーグ開成',
-          place: 'YouTubeLive',
-          type: YOUTUBE,
-          // description:
-          //  '手品部です！ 今年もマジックショーを開催します。不思議、驚き、興奮の数々。目の前でマジシャン達が織り成す奇跡の数々をお楽しみ下さい。誰もが楽しめる内容です。',
-          contentUrl: 'hogehoge',
-        },
-        {
-          id: 91,
-          name: '不屈の生物部',
-          place: 'YouTube, HP',
-          type: YOUTUBE | HP,
-          description:
-            'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
-          contentUrl: 'hogehoge',
-        },
-        {
-          id: 92,
-          name: '最後の切り札',
-          place: 'YouTube, PDF',
-          type: YOUTUBE | PDF,
-          // description:
-          //   'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
-          contentUrl: 'hogehoge',
-        },
-        {
-          id: 93,
-          name: '柔道部',
-          place: 'PDF',
-          type: PDF,
-          // description:
-          //   'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
-          contentUrl: 'hogehoge',
-        },
-        {
-          id: 94,
-          name: '社会科研究部',
-          place: 'PDF',
-          type: PDF,
-          description:
-            '社会科研究部では、今年も入試予想問題を配布!さらに、近年よく耳にする「天皇制」の展示や、時事問題、クイズなど様々な企画があります。ぜひA307にお越しください。',
-          contentUrl: 'doc/社会科研究部/社会科研究部.zip',
-        },
-        {
-          id: 95,
-          name: '映画同好会',
-          place: 'PDF',
-          type: PDF,
-          // description:
-          //   'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
-          contentUrl: 'doc/映画同好会/幻燈機.pdf',
-        },
-        {
-          id: 96,
+          id: 75,
           name: '暗染地帯',
           place: 'HP',
           type: HP,
@@ -330,13 +144,264 @@ export default {
           contentUrlText: 'anzen-chitai.github.io/anchi',
         },
         {
+          id: 76,
+          name: '縁日係',
+          place: 'Cluster',
+          type: CLUSTER,
+          // description:
+          //   '今も日本に残る奇妙な世界。闇を祀る民達のもとでは希望の光は絶望へと変わる。まるで一冊のホラー小説の世界に入り込むかのように…新たな恐怖体験があなたを待っている。',
+          contentUrl: 'hoge',
+          contentUrlText: 'hogehoge',
+        },
+        {
+          id: 77,
+          name: '折り紙研究部',
+          place: 'Cluster, YouTube',
+          type: CLUSTER | YOUTUBE,
+          description:
+            '日本の伝統文化である折り紙は、今もなお変化し、さらに高度な芸術作品へと進化しています。折り研も去年からさらに進化した展示でお客様をお待ちしております。',
+          contentUrl:
+            'https://cluster.mu/w/c836aafc-1b54-45e9-9c15-2066e5fdc27e/',
+          contentUrlText: 'Cluster',
+
+          /*
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
+          */
+        },
+        {
+          id: 78,
+          name: '飛べない蝉',
+          place: 'HP, YouTube, PDF',
+          type: HP | YOUTUBE | PDF,
+          description:
+            '分かりづらい名前ですいません、水泳部です。水泳部には 120 年以上の歴史があります。普段の部活動や合宿の映像紹介をやっていますので、是非いらして下さい！',
+          contentUrl: 'doc/水泳部/開成水泳部公式パンフレット.pdf',
+          /*
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
+           */
+        },
+        {
+          id: 79,
+          name: '天道流合気道',
+          place: 'YouTube',
+          type: YOUTUBE,
+          description: '知られざる合気道の魅力・美しさを。',
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 80,
+          name: '物理部',
+          place: 'YouTube',
+          type: YOUTUBE,
+          description:
+            '物理部員が電子ゲームや高電圧実験を自作する様子を動画にまとめました。',
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 81,
+          name: '彼女は手品好き♡',
+          place: 'YouTube',
+          type: YOUTUBE,
+          description:
+            '手品部です！ 今年もマジックショーを開催します。不思議、驚き、興奮の数々。目の前でマジシャン達が織り成す奇跡の数々をお楽しみ下さい。誰もが楽しめる内容です。',
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 82,
+          name: '弁論文春',
+          place: 'YouTube, PDF',
+          type: YOUTUBE | PDF,
+          description:
+            '言葉を使い他人を説得する競技、ディベート。オンラインでも熱い試合を実演します。あの超有名校と繰り広げる激論の勝敗を決めるのは貴方だ？！',
+          contentUrl: 'doc/弁論文春/弁論文春.zip',
+
+          /*
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
+          */
+        },
+        {
+          id: 83,
+          name: '大道芸、自由自在。',
+          place: 'YouTube',
+          type: YOUTUBE,
+          description:
+            '今年のパフォーマンスはとにかく凄い！様々な道具をまさに " 自由自在 " に操る演技で、皆様の心をつかんで見せます！是非ご覧ください！',
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 84,
+          name: '動画研究会',
+          place: 'YouTube',
+          type: YOUTUBE,
+          // description:
+          //  '手品部です！ 今年もマジックショーを開催します。不思議、驚き、興奮の数々。目の前でマジシャン達が織り成す奇跡の数々をお楽しみ下さい。誰もが楽しめる内容です。',
+          contentUrl:
+            'https://www.youtube.com/channel/UCnDbmEaE-7nH71DW-4N-8fw',
+          contentUrlText: '動画研究会',
+        },
+        {
+          id: 85,
+          name: 'ポケモンリーグ開成',
+          place: 'YouTubeLive',
+          type: YOUTUBE,
+          // description:
+          //  '手品部です！ 今年もマジックショーを開催します。不思議、驚き、興奮の数々。目の前でマジシャン達が織り成す奇跡の数々をお楽しみ下さい。誰もが楽しめる内容です。',
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 86,
+          name: '開成管弦楽団特別演奏会',
+          place: 'YouTube',
+          type: YOUTUBE,
+          description:
+            '部員による「花のワルツ」の演奏や、音楽部と合同の「パリのアメリカ人」アンサンブルの動画を公開します！開成管弦楽団によるクラシック音楽をオンラインの世界でも！',
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 87,
+          name: '開成ピアノの会定期演奏会',
+          place: 'YouTube',
+          type: YOUTUBE,
+          description:
+            '「開成ピアノの会」のメンバーが、ピアノ曲をオンラインでお届けします！クラシックを中心に披露させていただきます！ぜひお聞きください！',
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 88,
+          name: '不屈の生物部',
+          place: 'YouTube, HP',
+          type: YOUTUBE | HP,
+          description:
+            'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 89,
+          name: '最後の切り札',
+          place: 'YouTube, PDF',
+          type: YOUTUBE | PDF,
+          // description:
+          //   'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 90,
+          name: 'Letʼs talk Kaisei',
+          place: 'Zoom',
+          type: VOICECHAT,
+          // pictureUrl: 'i.svg',
+          contentUrl:
+            'https://docs.google.com/forms/d/e/1FAIpQLSc5Uvmgbt3QIRSlq1ABo4xNOGBI4_NriH4FNGYAg-_AF5F95Q/viewform?usp=sf_link',
+          contentUrlText: 'Zoom',
+          description:
+            '開成生とお話がしたい小中高生の方へ！普段の生活、部活動、入試など、あなたの質問に Zoom で開成生が答えます。さあ、お気軽に開成生と Letʼs talk ！',
+          formUrl:
+            'https://docs.google.com/forms/d/e/1FAIpQLSeDoOyst_7q27ofUAbUX8PtWFYFJfpl0_JdYhIIX5ekEbzp-Q/viewform?embedded=true',
+        },
+        {
+          id: 91,
+          name: 'まったり TRPG 広場',
+          place: 'Zoom, PDF',
+          type: VOICECHAT | PDF,
+          description:
+            'インターネット上の機能を最大限活用し、経験者の方も、初めての方も TRPG を楽しんでいただけるようになっております。是非お越しください！',
+          contentUrl: 'doc/まったりTRPG/まったりTRPG広場部誌.pdf',
+          contentUrl2:
+            'https://docs.google.com/forms/d/e/1FAIpQLSf9fj58ENDUV2YgajNzYA1MRGx8nUbgBW2qDZGbEdpiIa0s4Q/viewform?usp=sf_link',
+          contentUrlText2: 'Zoom',
+        },
+        {
+          id: 92,
+          name: '数学研究部',
+          place: 'Zoom, PDF',
+          type: VOICECHAT | PDF,
+          description:
+            '今年はオンラインでの参加となりますが、更にレベルの上がったGPや入試予想問題が君を待っています。部員一同盛り上げてまいりますので、是非一度お越しください！',
+          contentUrl: 'doc/数学研究部/数学研究部.zip',
+          contentUrl2:
+            'https://docs.google.com/forms/d/e/1FAIpQLSdr0lulyUwVyI_lFwD0pFPBIomV0fY0Q8oMsfB7hdNZOgNZrg/viewform?usp=sf_link',
+          contentUrlText2: 'Zoom',
+        },
+        {
+          id: 93,
+          name: '飛車ちゅうの成人式！',
+          place: 'Zoom, PDF',
+          type: VOICECHAT | PDF,
+          description:
+            '将棋部ではお客様との対局を行っています。初心者の方も腕利きの方も大歓迎です！また、他校との対抗戦や部誌のオンライン公開もしています。是非お越しください。',
+          contentUrl: 'doc/将棋部/まやか誌2020.pdf',
+          contentUrl2:
+            'https://docs.google.com/forms/d/e/1FAIpQLSeQNLoyPKF_knk-ACgxbtNwC0EJwq4swRgucl4lto51xQUrvA/viewform?usp=sf_link',
+          contentUrlText2: 'Zoom',
+        },
+        {
+          id: 94,
+          name: '開成書道展',
+          place: 'PDF',
+          type: PDF,
+          description:
+            '書道部員が丹精込めて書いた作品をオンラインでご覧いただけます。文化祭に行かないと見れない作品を是非お気軽にスマホなどで お楽しみください！',
+          contentUrl: 'doc/書道展/開成書道展.pdf',
+        },
+        {
+          id: 95,
+          name: '柔道部',
+          place: 'PDF',
+          type: PDF,
+          // description:
+          //   'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
+          contentUrl: 'hogehoge',
+        },
+        {
+          id: 96,
+          name: '社会科研究部',
+          place: 'PDF',
+          type: PDF,
+          description:
+            '社会科研究部では、今年も入試予想問題を配布!さらに、近年よく耳にする「天皇制」の展示や、時事問題、クイズなど様々な企画があります。ぜひA307にお越しください。',
+          contentUrl: 'doc/社会科研究部/社会科研究部.zip',
+        },
+        {
           id: 97,
+          name: '映画同好会',
+          place: 'PDF',
+          type: PDF,
+          // description:
+          //   'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
+          contentUrl: 'doc/映画同好会/幻燈機.pdf',
+        },
+        {
+          id: 98,
           name: 'サラブレット研究同好会',
           place: 'PDF',
           type: PDF,
           description:
             '2020年三冠を達成したコントレイルの矢作芳人調教師などを輩出した当校で、「ディープ」なサラブレッドの世界の展示、VRでのジョッキー体験をお楽しみいただけます。',
-          contentUrl: '/doc/サラブレット研究同好会/駿馬研究会誌.pdf',
+          contentUrl: 'doc/サラブレット研究同好会/駿馬研究会誌.pdf',
         },
       ],
       show_projects: [],
