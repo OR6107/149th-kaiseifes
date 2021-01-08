@@ -147,7 +147,7 @@ export default {
           // type: PDF | HP,
           type: PDF,
           contentUrl:
-            'https://drive.google.com/drive/folders/1dKv3IogX0KVpslwFfpLixPcPXi8wFiVj',
+            'https://drive.google.com/drive/folders/19SwT_UWXe-RGSBFx0XU0UANpKW_WijQ1',
           contentUrlText: 'Google Drive',
           description:
             '今年もカードゲームの夜が文化祭に参戦。オリジナルカードゲームからマニアックな記事まで作りました。オンラインにてひっそりと営業中。',
@@ -242,7 +242,7 @@ export default {
           description:
             '言葉を使い他人を説得する競技、ディベート。オンラインでも熱い試合を実演します。あの超有名校と繰り広げる激論の勝敗を決めるのは貴方だ？！',
           contentUrl:
-            'https://drive.google.com/drive/folders/1WZj9UorIaW_q96wQ8s5ae9HRBqNEqe4J',
+            'https://drive.google.com/drive/folders/1xOekIVnj4bIuR4npgCT2nkaSMlSa6dKP',
           contentUrlText: 'Google Drive',
           contentUrl2:
             'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
@@ -363,7 +363,7 @@ export default {
           description:
             '今年はオンラインでの参加となりますが、更にレベルの上がったGPや入試予想問題が君を待っています。部員一同盛り上げてまいりますので、是非一度お越しください！<br />【謎解き】キーワード13: かつお',
           contentUrl:
-            'https://drive.google.com/drive/folders/1T6ni8ax_tTgaNAK9sEgq_-eWkKhYaj9-',
+            'https://drive.google.com/drive/folders/1r9xZDIIS6WrCf41ANAVIuy0vOFwitdwk',
           contentUrlText: 'Google Drive',
           contentUrl2:
             'https://docs.google.com/forms/d/e/1FAIpQLSdr0lulyUwVyI_lFwD0pFPBIomV0fY0Q8oMsfB7hdNZOgNZrg/viewform?usp=sf_link',
@@ -409,7 +409,7 @@ export default {
           description:
             '社会科研究部では、今年も入試予想問題を配布!さらに、近年よく耳にする「天皇制」の展示や、時事問題、クイズなど様々な企画があります。ぜひA307にお越しください。',
           contentUrl:
-            'https://drive.google.com/drive/folders/142kQfiQNtbBWwCvSlmnh06QMrrbFYbqS',
+            'https://drive.google.com/drive/folders/1AHMGYPsnrUlysn-lKf51v5qJYwUl2Xct',
           contentUrlText: 'Google Drive',
         },
         {
