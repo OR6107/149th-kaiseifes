@@ -4,6 +4,13 @@
     <div class="container">
       <Title :is-main="true" :text="'Ms.開成, Mr.開成 投票'" />
 
+      <Title :is-main="false" :text="'コンテンツの複製・転載'" />
+      <div class="content">
+        <p>
+          肖像権・著作権の観点から、いずれのコンテンツにつきましても許可なく複製・転載することを堅く禁じます。
+        </p>
+      </div>
+
       <Title :is-main="false" :text="'Ms. 開成'" />
       <div class="content">
         <a class="vote" href="https://forms.gle/1mLFvY6QuxSRXsm18"
@@ -227,6 +234,12 @@ $yellow: #fccf5a;
       font-size: 20px;
       margin-left: 20px;
     }
+  }
+
+  p {
+    font-size: 20px;
+    margin-left: 45px;
+    margin-right: 20px;
   }
 
   a {

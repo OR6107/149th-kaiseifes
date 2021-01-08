@@ -3,6 +3,13 @@
     <Header />
     <Title :is-main="true" :text="'オンライン企画'" />
 
+    <Title :is-main="false" :text="'コンテンツの複製・転載'" />
+    <div class="content">
+      <p>
+        肖像権・著作権の観点から、いずれのコンテンツにつきましても許可なく複製・転載することを堅く禁じます。
+      </p>
+    </div>
+
     <div class="search">
       <div class="search-items">
         <div class="search-items-1">
@@ -492,6 +499,16 @@ $yellow: #fccf5a;
   font-family: a-otf-ud-shin-go-pr6n, sans-serif;
 }
 
+.content {
+  @include Didot-font();
+  margin-bottom: 20px;
+  p {
+    font-size: 20px;
+    margin-left: 45px;
+    margin-right: 20px;
+  }
+}
+
 .search {
   border: 1px solid $black;
   border-radius: 5px;
@@ -547,6 +564,10 @@ $yellow: #fccf5a;
 }
 
 @media screen and (max-width: 900px) {
+  .content {
+    margin-left: 25px;
+  }
+
   .search {
     height: 160px;
     margin: 22px 12px auto 12px;
@@ -571,6 +592,10 @@ $yellow: #fccf5a;
 }
 
 @media screen and (min-width: 900px) {
+  .content {
+    margin-left: 60px;
+  }
+
   .search {
     height: 110px;
     margin: 47px 30px auto 30px;
