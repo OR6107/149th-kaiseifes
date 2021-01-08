@@ -137,7 +137,7 @@ export default {
           place: 'PDF',
           // type: PDF | HP,
           type: PDF,
-          contentUrl: 'doc/カードゲームの夜/カードゲームの夜.zip',
+          contentUrl: '/doc/カードゲームの夜/カードゲームの夜.zip',
           description:
             '今年もカードゲームの夜が文化祭に参戦。オリジナルカードゲームからマニアックな記事まで作りました。オンラインにてひっそりと営業中。',
         },
@@ -186,7 +186,7 @@ export default {
           type: YOUTUBE | PDF,
           description:
             '分かりづらい名前ですいません、水泳部です。水泳部には 120 年以上の歴史があります。普段の部活動や合宿の映像紹介をやっていますので、是非いらして下さい！',
-          contentUrl: 'doc/水泳部/開成水泳部公式パンフレット.pdf',
+          contentUrl: '/doc/水泳部/開成水泳部公式パンフレット.pdf',
           contentUrl2:
             'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
           contentUrlText2: 'YouTube',
@@ -230,7 +230,7 @@ export default {
           type: YOUTUBE | PDF,
           description:
             '言葉を使い他人を説得する競技、ディベート。オンラインでも熱い試合を実演します。あの超有名校と繰り広げる激論の勝敗を決めるのは貴方だ？！',
-          contentUrl: 'doc/弁論文春/弁論文春.zip',
+          contentUrl: '/doc/弁論文春/弁論文春.zip',
           contentUrl2:
             'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
           contentUrlText2: 'YouTube',
@@ -337,7 +337,7 @@ export default {
           type: VOICECHAT | PDF,
           description:
             'インターネット上の機能を最大限活用し、経験者の方も、初めての方も TRPG を楽しんでいただけるようになっております。是非お越しください！',
-          contentUrl: 'doc/まったりTRPG/まったりTRPG広場部誌.pdf',
+          contentUrl: '/doc/まったりTRPG/まったりTRPG広場部誌.pdf',
           contentUrl2:
             'https://docs.google.com/forms/d/e/1FAIpQLSf9fj58ENDUV2YgajNzYA1MRGx8nUbgBW2qDZGbEdpiIa0s4Q/viewform?usp=sf_link',
           contentUrlText2: 'Zoom',
@@ -349,7 +349,7 @@ export default {
           type: VOICECHAT | PDF,
           description:
             '今年はオンラインでの参加となりますが、更にレベルの上がったGPや入試予想問題が君を待っています。部員一同盛り上げてまいりますので、是非一度お越しください！',
-          contentUrl: 'doc/数学研究部/数学研究部.zip',
+          contentUrl: '/doc/数学研究部/数学研究部.zip',
           contentUrl2:
             'https://docs.google.com/forms/d/e/1FAIpQLSdr0lulyUwVyI_lFwD0pFPBIomV0fY0Q8oMsfB7hdNZOgNZrg/viewform?usp=sf_link',
           contentUrlText2: 'Zoom',
@@ -361,7 +361,7 @@ export default {
           type: VOICECHAT | PDF,
           description:
             '将棋部ではお客様との対局を行っています。初心者の方も腕利きの方も大歓迎です！また、他校との対抗戦や部誌のオンライン公開もしています。是非お越しください。',
-          contentUrl: 'doc/将棋部/まやか誌2020.pdf',
+          contentUrl: '/doc/将棋部/まやか誌2020.pdf',
           contentUrl2:
             'https://docs.google.com/forms/d/e/1FAIpQLSeQNLoyPKF_knk-ACgxbtNwC0EJwq4swRgucl4lto51xQUrvA/viewform?usp=sf_link',
           contentUrlText2: 'Zoom',
@@ -373,7 +373,7 @@ export default {
           type: PDF,
           description:
             '書道部員が丹精込めて書いた作品をオンラインでご覧いただけます。文化祭に行かないと見れない作品を是非お気軽にスマホなどで お楽しみください！',
-          contentUrl: 'doc/書道展/開成書道展.pdf',
+          contentUrl: '/doc/書道展/開成書道展.pdf',
         },
         /*
         {
@@ -393,7 +393,7 @@ export default {
           type: PDF,
           description:
             '社会科研究部では、今年も入試予想問題を配布!さらに、近年よく耳にする「天皇制」の展示や、時事問題、クイズなど様々な企画があります。ぜひA307にお越しください。',
-          contentUrl: 'doc/社会科研究部/社会科研究部.zip',
+          contentUrl: '/doc/社会科研究部/社会科研究部.zip',
         },
         {
           id: 97,
@@ -402,7 +402,7 @@ export default {
           type: PDF,
           // description:
           //   'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
-          contentUrl: 'doc/映画同好会/幻燈機.pdf',
+          contentUrl: '/doc/映画同好会/幻燈機.pdf',
         },
         {
           id: 98,
@@ -411,7 +411,7 @@ export default {
           type: PDF,
           description:
             '2020年三冠を達成したコントレイルの矢作芳人調教師などを輩出した当校で、「ディープ」なサラブレッドの世界の展示、VRでのジョッキー体験をお楽しみいただけます。',
-          contentUrl: 'doc/サラブレット研究同好会/駿馬研究会誌.pdf',
+          contentUrl: '/doc/サラブレット研究同好会/駿馬研究会誌.pdf',
         },
       ],
       show_projects: [],

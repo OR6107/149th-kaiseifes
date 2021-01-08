@@ -9,7 +9,7 @@
       :class="{ border: hoge, 'frame-pressed': pressing }"
     >
       <InfoButton class="button" :is-closed="hoge" />
-      <img class="thumbnail" src="logo_red.svg" />
+      <img class="thumbnail" src="/logo_red.svg" />
       <div class="place">{{ place }}</div>
       <div class="title">{{ name }}</div>
     </div>

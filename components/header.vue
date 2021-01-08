@@ -11,22 +11,24 @@
             <NuxtLink class="menu-text" to="/">ホーム</NuxtLink>
           </div>
           <div class="menu-item">
-            <img class="menu-icon" src="/icon/monitor.svg" />
-            <NuxtLink class="menu-text" to="/online">オンライン企画</NuxtLink>
+            <img class="menu-icon" src="@/static/icon/monitor.svg" />
+            <NuxtLink class="menu-text" to="/online/">オンライン企画</NuxtLink>
           </div>
           <!--
           <div class="menu-item">
-            <img class="menu-icon" src="/icon/monitor.svg" />
+            <img class="menu-icon" src="@/static/icon/monitor.svg" />
             <a class="menu-text" href="/nazotoki/index.html">謎解き</a>
           </div>
           -->
           <div class="menu-item">
             <img class="menu-icon" src="@/static/icon/user.svg" />
-            <NuxtLink class="menu-text" to="/mr_ms">Ms.開成 & Mr.開成</NuxtLink>
+            <NuxtLink class="menu-text" to="/mr_ms/"
+              >Ms.開成 & Mr.開成</NuxtLink
+            >
           </div>
           <div class="menu-item">
             <img class="menu-icon" src="@/static/icon/alert-circle.svg" />
-            <NuxtLink class="menu-text" to="/goshoku">誤植・訂正一覧</NuxtLink>
+            <NuxtLink class="menu-text" to="/goshoku/">誤植・訂正一覧</NuxtLink>
           </div>
         </div>
       </div>
