@@ -24,18 +24,15 @@
       </div>
     </div>
 
-      <div class="counter">
-    <a
-      href="https://www.freecounterstat.com"
-      title="free page counter"
-    >
-      <img
-        src="https://counter8.stat.ovh/private/freecounterstat.php?c=72ttf42tb5z3gp7upbea9qlb8mc9xada"
-        border="0"
-        title="free page counter"
-        alt="free page counter"
-      />
-    </a>
+    <div class="counter">
+      <p>ただ今の訪問回数</p>
+      <a href="https://www.freecounterstat.com" title="free web counter"
+        ><img
+          src="https://counter8.stat.ovh/private/freecounterstat.php?c=fe1uars6cu33gyy6kctg3rutwmmxxyhj"
+          border="0"
+          title="free web counter"
+          alt="free web counter"
+      /></a>
     </div>
     <Footer />
   </div>
@@ -163,7 +160,11 @@ $yellow: #fccf5a;
 }
 
 .counter {
-  margin-left: calc(100vw - 150px);
+  margin-left: calc(100vw - 180px);
+  p {
+    padding-right: 20px;
+    text-align: right;
+  }
 }
 
 @media screen and (max-width: 900px) {
