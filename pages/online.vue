@@ -586,6 +586,16 @@ export default {
             'https://drive.google.com/drive/folders/1XfDRucJ5nTphnmat4zDFuKJMYuXhLmry',
           contentUrlText: 'Google Drive',
         },
+        {
+          id: 112,
+          name: '鉄研の車窓から 2020',
+          place: 'HP',
+          type: HP,
+          description:
+            '今年度の文化祭はオンライン上のみの開催となってしまいましたが、部誌「乗降場」の公開・鉄研クイズ・毎年恒例の大ジオラマの様子・合宿＆旅行会紹介・フォトコンテストなど、様々なコンテンツが楽しめます。是非ご参加ください！',
+          contentUrl: 'https://kstekken2020.localinfo.jp/',
+          contentUrlText: 'Webサイト',
+        },
       ],
       show_projects: [],
       show_projects_1: [],
