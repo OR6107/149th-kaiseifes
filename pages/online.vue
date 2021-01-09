@@ -10,6 +10,20 @@
       </p>
     </div>
 
+    <Title :is-main="false" :text="'アンケートのお願い'" />
+    <div class="content">
+      <p>
+        <a
+          href="https://forms.gle/SmvC1xUAopqS635x5"
+          target="_blank"
+          rel="noopener noreferrer"
+          >フォーム</a
+        >
+        にてアンケートをお願いしています。<br />
+        各企画を運営している生徒の励みとなりますので、ご協力いただければ幸いです。
+      </p>
+    </div>
+
     <div class="search">
       <div class="search-items">
         <div class="search-items-1">
@@ -647,6 +661,12 @@ $yellow: #fccf5a;
     font-size: 20px;
     margin-left: 45px;
     margin-right: 20px;
+  }
+  a {
+    color: $black;
+  }
+  a:hover {
+    color: $yellow;
   }
 }
 
