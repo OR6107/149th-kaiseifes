@@ -4,28 +4,6 @@
     <div class="container">
       <Title :is-main="true" :text="'お知らせ'" />
 
-      <Title :is-main="false" :text="'149th開成祭 コンテンツ一覧'" />
-      <div class="content">
-        <p>
-          <a href="https://kaiseigakuen.jp/">開成学園公式HP</a>
-          <br />
-          <a href="https://twitter.com/kaisei_festival">Twitter</a>
-          <br />
-          <a href="https://www.instagram.com/kaisei_festival/">Instagram</a>
-          <br />
-          <a href="https://note.com/kaisei_festival">note</a>
-          <br />
-          <a href="https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g"
-            >YouTube</a
-          >
-          <br />
-          <a href="https://cluster.mu/u/kaisei_festival">cluster</a>
-          <br />
-          <a href="https://soundcloud.com/kaisei_festival">ラジオ</a>
-          <br />
-        </p>
-      </div>
-
       <Title :is-main="false" :text="'コンテンツの追加'" />
       <div class="content">
         <p>
