@@ -250,16 +250,16 @@ export default {
         {
           id: 82,
           name: '弁論文春',
-          place: 'YouTube【準備中】, PDF',
+          place: 'YouTube, PDF',
           type: YOUTUBE | PDF,
           description:
             '言葉を使い他人を説得する競技、ディベート。オンラインでも熱い試合を実演します。あの超有名校と繰り広げる激論の勝敗を決めるのは貴方だ？！',
           contentUrl:
             'https://drive.google.com/drive/folders/1xOekIVnj4bIuR4npgCT2nkaSMlSa6dKP',
           contentUrlText: 'Google Drive',
-          // contentUrl2:
-          //   'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
-          // contentUrlText2: 'YouTube',
+          contentUrl2:
+            'https://www.youtube.com/playlist?list=PLg6BuDxA3WsvwKkLzRzTeSnISseINjam4',
+          contentUrlText2: 'YouTube',
         },
         {
           id: 83,
