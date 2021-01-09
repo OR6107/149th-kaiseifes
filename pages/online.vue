@@ -276,8 +276,7 @@ export default {
           type: YOUTUBE,
           // description:
           //  '手品部です！ 今年もマジックショーを開催します。不思議、驚き、興奮の数々。目の前でマジシャン達が織り成す奇跡の数々をお楽しみ下さい。誰もが楽しめる内容です。',
-          contentUrl:
-            'https://www.youtube.com/watch?v=nD_h3tvvMVY',
+          contentUrl: 'https://www.youtube.com/watch?v=nD_h3tvvMVY',
           contentUrlText: 'YouTube',
         },
         {
