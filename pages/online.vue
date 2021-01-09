@@ -538,6 +538,17 @@ export default {
             'https://www.youtube.com/playlist?list=PLg6BuDxA3WsvgOs9RomuSF1ox787VM4sy',
           contentUrlText: 'YouTube',
         },
+        {
+          id: 108,
+          name: '天文気象部',
+          place: 'PDF',
+          type: PDF,
+          description:
+            '天文気象部では宇宙や大気のことについて紹介しています。ぜひお越しください。',
+          contentUrl:
+            'https://drive.google.com/drive/folders/172ORRQ5ppwx_ilt_DjBImxpjazgMVNOf',
+          contentUrlText: 'Google Drive',
+        },
       ],
       show_projects: [],
       show_projects_1: [],
