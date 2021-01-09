@@ -549,6 +549,16 @@ export default {
             'https://drive.google.com/drive/folders/172ORRQ5ppwx_ilt_DjBImxpjazgMVNOf',
           contentUrlText: 'Google Drive',
         },
+        {
+          id: 109,
+          name: 'コンピューター部大波乱',
+          place: 'HP',
+          type: HP,
+          description:
+            '大波乱だった今年度も、コンピューター部では部員手作りのゲームや作品の展示、部誌の配布を行っています！さらに今回は、オンラインでもいろいろ企画しています！',
+          contentUrl: 'https://kclc.net/dl/',
+          contentUrlText: 'Webサイト',
+        },
       ],
       show_projects: [],
       show_projects_1: [],
