@@ -170,7 +170,7 @@ export default {
           // description:
           //   '今も日本に残る奇妙な世界。闇を祀る民達のもとでは希望の光は絶望へと変わる。まるで一冊のホラー小説の世界に入り込むかのように…新たな恐怖体験があなたを待っている。',
           contentUrl:
-            'https://cluster.mu/w/47aac415-da31-42fa-8d6e-46d47ba3f4c0',
+            'https://cluster.mu/w/8498a9cb-5ba7-46c1-93d1-2eb3073b26e6',
           contentUrlText: 'Cluster',
         },
         {
@@ -277,7 +277,7 @@ export default {
           // description:
           //  '手品部です！ 今年もマジックショーを開催します。不思議、驚き、興奮の数々。目の前でマジシャン達が織り成す奇跡の数々をお楽しみ下さい。誰もが楽しめる内容です。',
           contentUrl:
-            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+            'https://www.youtube.com/watch?v=nD_h3tvvMVY',
           contentUrlText: 'YouTube',
         },
         {
@@ -312,8 +312,7 @@ export default {
           contentUrl:
             'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
           contentUrlText: 'YouTube',
-          contentUrl2:
-            'https://kaiseibiology.wixsite.com/website',
+          contentUrl2: 'https://kaiseibiology.wixsite.com/website',
           contentUrlText2: 'Webサイト',
         },
         {
