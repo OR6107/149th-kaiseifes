@@ -308,11 +308,11 @@ export default {
           type: YOUTUBE | HP,
           description:
             'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
-          // contentUrl:
-          //   'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
-          // contentUrlText: 'YouTube',
-          contentUrl2: 'https://kaiseibiology.wixsite.com/website',
-          contentUrlText2: 'Webサイト',
+          contentUrl: 'https://kaiseibiology.wixsite.com/website',
+          contentUrlText: 'Webサイト',
+          contentUrl2:
+            'https://www.youtube.com/channel/UC0TJPe_4H_BnCGFR2f-pmEw',
+          contentUrlText2: 'YouTube',
         },
         {
           id: 89,
@@ -391,13 +391,13 @@ export default {
         {
           id: 95,
           name: '柔道部',
-          place: 'YouTube【準備中】',
+          place: 'YouTube',
           type: YOUTUBE,
           // description:
           //   'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
-          // contentUrl:
-          //   'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
-          // contentUrlText: 'YouTube',
+          contentUrl:
+            'https://www.youtube.com/playlist?list=PLg6BuDxA3WsunUHKqA9PbhdrJPDmAaDuE',
+          contentUrlText: 'YouTube',
         },
         {
           id: 96,
