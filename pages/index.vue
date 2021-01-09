@@ -257,7 +257,6 @@ $yellow: #fccf5a;
   }
 }
 
-
 @media screen and (min-width: 900px) {
   .button-description {
     margin-top: -50px;
