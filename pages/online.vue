@@ -573,6 +573,17 @@ export default {
           contentUrl: 'https://kclc.net/dl/',
           contentUrlText: 'Webサイト',
         },
+        {
+          id: 113,
+          name: '講演会',
+          place: 'YouTube',
+          type: YOUTUBE,
+          description:
+            '<a href="../kaiseifes-lecture.pdf" target="_blank" rel="noopener noreferrer">概要</a>' +
+            ' はこちらから！',
+          contentUrl: 'https://youtu.be/dgcUrqiz-Gk',
+          contentUrlText: 'YouTube',
+        },
       ],
       show_projects: [],
       show_projects_1: [],
