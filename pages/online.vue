@@ -13,7 +13,12 @@
     <Title :is-main="false" :text="'アンケートのお願い'" />
     <div class="content">
       <p>
-        <a href="https://forms.gle/SmvC1xUAopqS635x5" target="_blank" rel="noopener noreferrer">フォーム</a>
+        <a
+          href="https://forms.gle/SmvC1xUAopqS635x5"
+          target="_blank"
+          rel="noopener noreferrer"
+          >フォーム</a
+        >
         にてアンケートをお願いしています。<br />
         各企画を運営している生徒の励みとなりますので、ご協力いただければ幸いです。
       </p>
