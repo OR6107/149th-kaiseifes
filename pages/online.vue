@@ -305,15 +305,16 @@ export default {
         {
           id: 88,
           name: '不屈の生物部',
-          // place: 'YouTube, HP',
-          place: 'YouTube',
-          // type: YOUTUBE | HP,
-          type: YOUTUBE,
+          place: 'YouTube, HP',
+          type: YOUTUBE | HP,
           description:
             'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
           contentUrl:
             'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
           contentUrlText: 'YouTube',
+          contentUrl2:
+            'https://kaiseibiology.wixsite.com/website',
+          contentUrlText2: 'Webサイト',
         },
         {
           id: 89,
