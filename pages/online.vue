@@ -58,7 +58,7 @@
           <input
             v-model="search_text"
             type="text"
-            placeholder="例: A会場, グラウンド, 2階, ◯◯部"
+            placeholder="例: ◯◯部, 作品, Live"
           />
         </div>
       </div>
