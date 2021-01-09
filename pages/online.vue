@@ -472,13 +472,15 @@ export default {
           type: YOUTUBE | PDF,
           description:
             '大化学実験では、普段見られないような様々な化学実験を行っています。多くの実験を分かりやすく解説していますので、ぜひ見に来てください！',
-          contentUrl: '/doc/大化学実験/readme.pdf',
+          contentUrl:
+            'https://drive.google.com/drive/folders/1gkmda8wso7kjt5J9gShP8TuEMGWa5pJH',
+          contentUrlText: 'Google Drive',
           contentUrl2:
             'https://www.youtube.com/playlist?list=PLg6BuDxA3Wss8dPjXlgC_xPoo33wXsfMJ',
           contentUrlText2: 'YouTube',
         },
         {
-          id: 101,
+          id: 102,
           name: '新入生 (中1・高1編入) 参加団体',
           place: 'YouTube',
           type: YOUTUBE,
@@ -489,7 +491,7 @@ export default {
           contentUrlText: 'YouTube',
         },
         {
-          id: 102,
+          id: 103,
           name: 'バンド',
           place: 'YouTube Live',
           type: YOUTUBE,
@@ -500,7 +502,7 @@ export default {
           contentUrlText: 'YouTube',
         },
         {
-          id: 103,
+          id: 104,
           name: 'バンドコンテスト',
           place: 'YouTube Live',
           type: YOUTUBE,
@@ -512,7 +514,7 @@ export default {
           contentUrlText: 'YouTube',
         },
         {
-          id: 104,
+          id: 105,
           name: '中夜祭',
           place: 'YouTube Live',
           type: YOUTUBE,
@@ -521,7 +523,7 @@ export default {
           contentUrlText: 'YouTube',
         },
         {
-          id: 105,
+          id: 106,
           name: '後夜祭',
           place: 'YouTube Live',
           type: YOUTUBE,
@@ -531,7 +533,7 @@ export default {
           contentUrlText: 'YouTube',
         },
         {
-          id: 106,
+          id: 107,
           name: '開成校舎 再現ワールド',
           place: 'cluster',
           type: CLUSTER,
@@ -542,7 +544,7 @@ export default {
           contentUrlText: 'cluster',
         },
         {
-          id: 107,
+          id: 108,
           name: '開成ツアー',
           place: 'YouTube',
           type: YOUTUBE,
@@ -553,7 +555,7 @@ export default {
           contentUrlText: 'YouTube',
         },
         {
-          id: 108,
+          id: 109,
           name: '天文気象部',
           place: 'PDF',
           type: PDF,
@@ -564,7 +566,7 @@ export default {
           contentUrlText: 'Google Drive',
         },
         {
-          id: 109,
+          id: 110,
           name: 'コンピューター部大波乱',
           place: 'HP',
           type: HP,
