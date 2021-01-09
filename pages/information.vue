@@ -72,18 +72,17 @@ $yellow: #fccf5a;
       margin-left: 20px;
     }
   }
-  a {
-    font-size: 20px;
-    margin-left: 45px;
-    color: $black;
-  }
-  a:hover {
-    color: $yellow;
-  }
   p {
     font-size: 20px;
     margin-left: 45px;
     margin-right: 20px;
+    a {
+      font-size: 20px;
+      color: $black;
+    }
+    a:hover {
+      color: $yellow;
+    }
   }
 }
 

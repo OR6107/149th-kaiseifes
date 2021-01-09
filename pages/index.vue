@@ -17,8 +17,15 @@
           </li>
         </ul>
         <div class="link-to-detail">
-          <div class="link-to-detail-title">オンライン企画はこちら！</div>
-          <NuxtLink class="link" to="/online">リンク</NuxtLink>
+          <div class="link-to-detail-title">
+            オンライン企画は
+            <NuxtLink class="link" to="/online/">こちら</NuxtLink> ！
+          </div>
+          <div class="link-to-detail-title">
+            <a class="link" href="https://twitter.com/kaisei_festival" target="_blank" rel="noopener noreferrer"
+              >Twitter</a
+            > でも情報発信しています。
+          </div>
         </div>
         <div class="elfsight-app-768f923d-7be2-4517-be73-95eb0ae23f98"></div>
       </div>
@@ -107,7 +114,7 @@ $yellow: #fccf5a;
   @include center();
   @include UD-sin-go-font();
   width: calc(min(1vw, 2vh) * 40);
-  margin-top: calc((100vh - calc(min(1vw, 2vh) * 35)) / 2);
+  margin-top: calc((100vh - calc(min(1vw, 2vh) * 37.5)) / 2);
   margin-left: auto;
   margin-right: 5vw;
   color: $black;
@@ -141,7 +148,6 @@ $yellow: #fccf5a;
     }
 
     .link {
-      margin-right: calc(min(1vw, 2vh) * 1.5);
       font-size: calc(min(1vw, 2vh) * 2.5);
       line-height: calc(min(1vw, 2vh) * 4.2);
       color: $black;
@@ -185,7 +191,7 @@ $yellow: #fccf5a;
 
   .title {
     width: 100vw;
-    margin-top: 60px;
+    margin-top: 0;
     margin-left: 0;
 
     img {
@@ -242,6 +248,19 @@ $yellow: #fccf5a;
       line-height: calc(min(2vw, 1vh) * 7.1);
       color: $black;
     }
+  }
+
+  .button-description {
+    margin-top: 30px;
+  }
+  .counter {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .button-description {
+    margin-top: -50px;
   }
 }
 </style>
