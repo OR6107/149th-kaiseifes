@@ -10,6 +10,15 @@
       </p>
     </div>
 
+    <Title :is-main="false" :text="'感想記入のお願い'" />
+    <div class="content">
+      <p>
+        <a href="https://forms.gle/SmvC1xUAopqS635x5" target="_blank" rel="noopener noreferrer">フォーム</a>
+        へ感想を記入していただけると、各企画を運営している生徒の励みになります。<br />
+        よろしくお願いいたします。(1度しか記入できませんので、ご注意下さい)
+      </p>
+    </div>
+
     <div class="search">
       <div class="search-items">
         <div class="search-items-1">
@@ -636,6 +645,12 @@ $yellow: #fccf5a;
     font-size: 20px;
     margin-left: 45px;
     margin-right: 20px;
+  }
+  a {
+    color: $black;
+  }
+  a:hover {
+    color: $yellow;
   }
 }
 
