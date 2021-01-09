@@ -22,9 +22,14 @@
             <NuxtLink class="link" to="/online/">こちら</NuxtLink> ！
           </div>
           <div class="link-to-detail-title">
-            <a class="link" href="https://twitter.com/kaisei_festival" target="_blank" rel="noopener noreferrer"
+            <a
+              class="link"
+              href="https://twitter.com/kaisei_festival"
+              target="_blank"
+              rel="noopener noreferrer"
               >Twitter</a
-            > でも情報発信しています。
+            >
+            でも情報発信しています。
           </div>
         </div>
         <div class="elfsight-app-768f923d-7be2-4517-be73-95eb0ae23f98"></div>
