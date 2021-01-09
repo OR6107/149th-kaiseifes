@@ -30,8 +30,11 @@
           <div class="content-rectangle" />
           <div class="content-text">講演会</div>
         </div>
-        <p>1/10 (日) 13:00 にYoutubeで公開予定</p>
-        <a href="../kaiseifes-lecture.pdf">ダウンロード</a>
+        <p>
+          1/10 (日) 13:00 に
+          <a href="https://youtu.be/dgcUrqiz-Gk">YouTube</a>
+          で公開予定
+        </p>
       </div>
       <div class="content">
         <div class="content-title">
