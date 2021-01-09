@@ -191,7 +191,7 @@ export default {
           id: 78,
           name: '飛べない蝉',
           // place: 'HP, YouTube, PDF',
-          place: 'YouTube, PDF',
+          place: 'YouTube【準備中】, PDF',
           // type: HP | YOUTUBE | PDF,
           type: YOUTUBE | PDF,
           description:
@@ -236,7 +236,7 @@ export default {
         {
           id: 82,
           name: '弁論文春',
-          place: 'YouTube, PDF',
+          place: 'YouTube【準備中】, PDF',
           type: YOUTUBE | PDF,
           description:
             '言葉を使い他人を説得する競技、ディベート。オンラインでも熱い試合を実演します。あの超有名校と繰り広げる激論の勝敗を決めるのは貴方だ？！',
@@ -283,7 +283,7 @@ export default {
         {
           id: 86,
           name: '開成管弦楽団特別演奏会',
-          place: 'YouTube',
+          place: 'YouTube【準備中】',
           type: YOUTUBE,
           description:
             '部員による「花のワルツ」の演奏や、音楽部と合同の「パリのアメリカ人」アンサンブルの動画を公開します！開成管弦楽団によるクラシック音楽をオンラインの世界でも！',
@@ -306,7 +306,7 @@ export default {
           id: 88,
           name: '不屈の生物部',
           // place: 'YouTube, HP',
-          place: 'YouTube',
+          place: 'YouTube【準備中】',
           // type: YOUTUBE | HP,
           type: YOUTUBE,
           description:
@@ -319,7 +319,7 @@ export default {
           id: 89,
           name: '最後の切り札',
           // place: 'YouTube, PDF',
-          place: 'YouTube',
+          place: 'YouTube【準備中】',
           // type: YOUTUBE | PDF,
           type: YOUTUBE,
           // description:
@@ -392,7 +392,7 @@ export default {
         {
           id: 95,
           name: '柔道部',
-          place: 'YouTube',
+          place: 'YouTube【準備中】',
           type: YOUTUBE,
           // description:
           //   'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
@@ -460,9 +460,9 @@ export default {
           description:
             '大化学実験では、普段見られないような様々な化学実験を行っています。多くの実験を分かりやすく解説していますので、ぜひ見に来てください！',
           contentUrl: '/doc/大化学実験/readme.pdf',
-          // contentUrl2:
-          //   'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
-          // contentUrlText2: 'YouTube',
+          contentUrl2:
+            'https://www.youtube.com/playlist?list=PLg6BuDxA3Wss8dPjXlgC_xPoo33wXsfMJ',
+          contentUrlText2: 'YouTube',
         },
         {
           id: 101,
