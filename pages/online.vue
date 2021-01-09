@@ -516,7 +516,7 @@ export default {
         {
           id: 105,
           name: '中夜祭',
-          place: 'YouTube Live',
+          place: 'YouTube Live【終了】',
           type: YOUTUBE,
           description: '1/9 (土) 14:55 ~ 16:25 開催予定',
           contentUrl: 'https://youtu.be/EhUbtmi0Bcs',
