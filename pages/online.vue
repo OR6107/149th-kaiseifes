@@ -263,8 +263,8 @@ export default {
           name: '動画研究会',
           place: 'YouTube',
           type: YOUTUBE,
-          // description:
-          //  '手品部です！ 今年もマジックショーを開催します。不思議、驚き、興奮の数々。目の前でマジシャン達が織り成す奇跡の数々をお楽しみ下さい。誰もが楽しめる内容です。',
+          description:
+            '動画研究会は今年、中一を中心に新規結成された同好会です。休憩がてら、ぜひ一度ご覧ください。<a href="https://m.youtube.com/channel/UCnDbmEaE-7nH71DW-4N-8fw">動画研究会のYouTubeチャンネル</a>',
           contentUrl:
             'https://www.youtube.com/playlist?list=PLg6BuDxA3Wst2-qwcXhZzpIBPyVt0dU0J',
           contentUrlText: '動画研究会',
