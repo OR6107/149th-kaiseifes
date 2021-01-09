@@ -576,7 +576,7 @@ export default {
           contentUrlText: 'Webサイト',
         },
         {
-          id: 110,
+          id: 111,
           name: '開成鉱石化石館',
           place: 'PDF',
           type: PDF,
