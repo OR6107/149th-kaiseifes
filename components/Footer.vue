@@ -1,6 +1,9 @@
 <template>
   <div class="footer">
-    <div>©︎2020-2021 開成学園</div>
+    ©︎2020-2021
+    <a href="https://kaiseigakuen.jp/" target="_blank" rel="noopener noreferrer"
+      >開成学園</a
+    >
   </div>
 </template>
 
@@ -25,5 +28,9 @@ $yellow: #fccf5a;
   text-align: right;
   padding-top: 20px;
   padding-right: 10px;
+  a {
+    color: $gray;
+    text-decoration: none;
+  }
 }
 </style>
