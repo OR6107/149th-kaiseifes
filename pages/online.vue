@@ -517,8 +517,7 @@ export default {
           place: 'YouTube Live',
           type: YOUTUBE,
           description: '1/9 (土) 14:55 ~ 16:25 開催予定',
-          contentUrl:
-            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrl: 'https://youtu.be/EhUbtmi0Bcs',
           contentUrlText: 'YouTube',
         },
         {
