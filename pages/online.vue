@@ -575,6 +575,17 @@ export default {
           contentUrl: 'https://kclc.net/dl/',
           contentUrlText: 'Webサイト',
         },
+        {
+          id: 110,
+          name: '開成鉱石化石館',
+          place: 'PDF',
+          type: PDF,
+          description:
+            '地質部。今年もやります！開成鉱石化石館！ 今年のテーマは「火山」と「化石」です。是非来てください！',
+          contentUrl:
+            'https://drive.google.com/drive/folders/1XfDRucJ5nTphnmat4zDFuKJMYuXhLmry',
+          contentUrlText: 'Google Drive',
+        },
       ],
       show_projects: [],
       show_projects_1: [],
