@@ -474,6 +474,48 @@ export default {
             'https://www.youtube.com/playlist?list=PLg6BuDxA3WsvZ-QmejPwNu3IqmF97Ja_B',
           contentUrlText: 'YouTube',
         },
+        {
+          id: 102,
+          name: 'バンド',
+          place: 'YouTube Live',
+          type: YOUTUBE,
+          // description:
+          //   '大化学実験では、普段見られないような様々な化学実験を行っています。多くの実験を分かりやすく解説していますので、ぜひ見に来てください！',
+          contentUrl:
+            'https://www.youtube.com/channel/UC1F-_oGxG4p4S44OsXZ_xQw',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 103,
+          name: '中夜祭',
+          place: 'YouTube Live',
+          type: YOUTUBE,
+          description: '1/9 (土) 14:55 ~ 16:25 開催予定',
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 104,
+          name: '後夜祭',
+          place: 'YouTube Live',
+          type: YOUTUBE,
+          description: '1/10 (日) 11:30 ~ 13:30 開催予定',
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 105,
+          name: '開成校舎 再現ワールド',
+          place: 'Cluster',
+          type: CLUSTER,
+          description:
+            '本来別の企画で使うはずだった校舎マップを、その企画がなくなったため活用したものです。是非ご覧ください。',
+          contentUrl:
+            'https://cluster.mu/w/83937616-d2f0-4bec-a026-126b0e624b1f',
+          contentUrlText: 'Cluster',
+        },
       ],
       show_projects: [],
       show_projects_1: [],
