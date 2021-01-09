@@ -307,7 +307,7 @@ export default {
           place: 'YouTube, HP',
           type: YOUTUBE | HP,
           description:
-            'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
+            'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！',
           contentUrl: 'https://kaiseibiology.wixsite.com/website',
           contentUrlText: 'Webサイト',
           contentUrl2:
@@ -405,7 +405,7 @@ export default {
           place: 'PDF',
           type: PDF,
           description:
-            '社会科研究部では、今年も入試予想問題を配布!さらに、近年よく耳にする「天皇制」の展示や、時事問題、クイズなど様々な企画があります。ぜひA307にお越しください。',
+            '社会科研究部では、今年も入試予想問題を配布!さらに、近年よく耳にする「天皇制」の展示や、時事問題、クイズなど様々な企画があります。',
           contentUrl:
             'https://drive.google.com/drive/folders/1AHMGYPsnrUlysn-lKf51v5qJYwUl2Xct',
           contentUrlText: 'Google Drive',
