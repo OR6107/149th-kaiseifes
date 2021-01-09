@@ -41,7 +41,7 @@
             class="search-item"
             @click="changeCategory(3)"
           >
-            Cluster
+            cluster
           </div>
           <div
             :class="{ selected: (search_category & (1 << 4)) > 0 }"
@@ -165,24 +165,24 @@ export default {
         {
           id: 76,
           name: '縁日係',
-          place: 'Cluster',
+          place: 'cluster',
           type: CLUSTER,
           // description:
           //   '今も日本に残る奇妙な世界。闇を祀る民達のもとでは希望の光は絶望へと変わる。まるで一冊のホラー小説の世界に入り込むかのように…新たな恐怖体験があなたを待っている。',
           contentUrl:
             'https://cluster.mu/w/8498a9cb-5ba7-46c1-93d1-2eb3073b26e6',
-          contentUrlText: 'Cluster',
+          contentUrlText: 'cluster',
         },
         {
           id: 77,
           name: '折り紙研究部',
-          place: 'Cluster, YouTube',
+          place: 'cluster, YouTube',
           type: CLUSTER | YOUTUBE,
           description:
             '日本の伝統文化である折り紙は、今もなお変化し、さらに高度な芸術作品へと進化しています。折り研も去年からさらに進化した展示でお客様をお待ちしております。',
           contentUrl:
             'https://cluster.mu/w/c836aafc-1b54-45e9-9c15-2066e5fdc27e/',
-          contentUrlText: 'Cluster',
+          contentUrlText: 'cluster',
           contentUrl2:
             'https://www.youtube.com/playlist?list=PLg6BuDxA3Wsus1FZg_UM8_LSrw7QOP2Xu',
           contentUrlText2: 'YouTube',
@@ -519,13 +519,13 @@ export default {
         {
           id: 106,
           name: '開成校舎 再現ワールド',
-          place: 'Cluster',
+          place: 'cluster',
           type: CLUSTER,
           description:
             '本来別の企画で使うはずだった校舎マップを、その企画がなくなったため活用したものです。是非ご覧ください。',
           contentUrl:
             'https://cluster.mu/w/83937616-d2f0-4bec-a026-126b0e624b1f',
-          contentUrlText: 'Cluster',
+          contentUrlText: 'cluster',
         },
         {
           id: 107,
