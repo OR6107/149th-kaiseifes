@@ -10,12 +10,12 @@
       </p>
     </div>
 
-    <Title :is-main="false" :text="'感想記入のお願い'" />
+    <Title :is-main="false" :text="'アンケートのお願い'" />
     <div class="content">
       <p>
         <a href="https://forms.gle/SmvC1xUAopqS635x5" target="_blank" rel="noopener noreferrer">フォーム</a>
-        へ感想を記入していただけると、各企画を運営している生徒の励みになります。<br />
-        よろしくお願いいたします。(1度しか記入できませんので、ご注意下さい)
+        にてアンケートをお願いしています。<br />
+        各企画を運営している生徒の励みとなりますので、ご協力いただければ幸いです。
       </p>
     </div>
 
