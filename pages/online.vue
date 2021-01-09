@@ -170,7 +170,7 @@ export default {
           // description:
           //   '今も日本に残る奇妙な世界。闇を祀る民達のもとでは希望の光は絶望へと変わる。まるで一冊のホラー小説の世界に入り込むかのように…新たな恐怖体験があなたを待っている。',
           contentUrl:
-            'https://cluster.mu/w/47aac415-da31-42fa-8d6e-46d47ba3f4c0',
+            'https://cluster.mu/w/8498a9cb-5ba7-46c1-93d1-2eb3073b26e6',
           contentUrlText: 'Cluster',
         },
         {
@@ -263,8 +263,8 @@ export default {
           name: '動画研究会',
           place: 'YouTube',
           type: YOUTUBE,
-          // description:
-          //  '手品部です！ 今年もマジックショーを開催します。不思議、驚き、興奮の数々。目の前でマジシャン達が織り成す奇跡の数々をお楽しみ下さい。誰もが楽しめる内容です。',
+          description:
+            '動画研究会は今年、中一を中心に新規結成された同好会です。休憩がてら、ぜひ一度ご覧ください。<a href="https://m.youtube.com/channel/UCnDbmEaE-7nH71DW-4N-8fw">動画研究会のYouTubeチャンネル</a>',
           contentUrl:
             'https://www.youtube.com/playlist?list=PLg6BuDxA3Wst2-qwcXhZzpIBPyVt0dU0J',
           contentUrlText: '動画研究会',
@@ -276,8 +276,7 @@ export default {
           type: YOUTUBE,
           // description:
           //  '手品部です！ 今年もマジックショーを開催します。不思議、驚き、興奮の数々。目の前でマジシャン達が織り成す奇跡の数々をお楽しみ下さい。誰もが楽しめる内容です。',
-          contentUrl:
-            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrl: 'https://www.youtube.com/watch?v=nD_h3tvvMVY',
           contentUrlText: 'YouTube',
         },
         {
@@ -314,6 +313,8 @@ export default {
           // contentUrl:
           //   'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
           // contentUrlText: 'YouTube',
+          contentUrl2: 'https://kaiseibiology.wixsite.com/website',
+          contentUrlText2: 'Webサイト',
         },
         {
           id: 89,
@@ -473,6 +474,71 @@ export default {
           //   '大化学実験では、普段見られないような様々な化学実験を行っています。多くの実験を分かりやすく解説していますので、ぜひ見に来てください！',
           contentUrl:
             'https://www.youtube.com/playlist?list=PLg6BuDxA3WsvZ-QmejPwNu3IqmF97Ja_B',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 102,
+          name: 'バンド',
+          place: 'YouTube Live',
+          type: YOUTUBE,
+          // description:
+          //   '大化学実験では、普段見られないような様々な化学実験を行っています。多くの実験を分かりやすく解説していますので、ぜひ見に来てください！',
+          contentUrl:
+            'https://www.youtube.com/channel/UC1F-_oGxG4p4S44OsXZ_xQw',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 103,
+          name: 'バンドコンテスト',
+          place: 'YouTube Live',
+          type: YOUTUBE,
+          description: '1/10 (日) 9:00 ~ 10:40 開催予定',
+          // description:
+          //   '事前に行われたオーディションで見事上位を獲得した5バンドによる演奏勝負バンドコンテストの頂点を決める審査員はあなた！！90分で5バンドが楽しめるお得なステージにみんな集まれ～ <br /> 1/10 (日) 9:00 ~ 10:40 開催予定',
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 104,
+          name: '中夜祭',
+          place: 'YouTube Live',
+          type: YOUTUBE,
+          description: '1/9 (土) 14:55 ~ 16:25 開催予定',
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 105,
+          name: '後夜祭',
+          place: 'YouTube Live',
+          type: YOUTUBE,
+          description: '1/10 (日) 11:30 ~ 13:30 開催予定',
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 106,
+          name: '開成校舎 再現ワールド',
+          place: 'Cluster',
+          type: CLUSTER,
+          description:
+            '本来別の企画で使うはずだった校舎マップを、その企画がなくなったため活用したものです。是非ご覧ください。',
+          contentUrl:
+            'https://cluster.mu/w/83937616-d2f0-4bec-a026-126b0e624b1f',
+          contentUrlText: 'Cluster',
+        },
+        {
+          id: 107,
+          name: '開成ツアー',
+          place: 'YouTube',
+          type: YOUTUBE,
+          description:
+            '校内紹介の動画です。Mr. 開成候補の6人がナレーションを担当しております。ぜひご高覧ください。',
+          contentUrl:
+            'https://www.youtube.com/playlist?list=PLg6BuDxA3WsvgOs9RomuSF1ox787VM4sy',
           contentUrlText: 'YouTube',
         },
       ],

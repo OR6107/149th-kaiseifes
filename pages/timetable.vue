@@ -38,8 +38,8 @@
           <div class="content-text">中後夜</div>
         </div>
         <p>
-          中夜祭: 14:55 ~ 16:25 <br />
-          後夜祭: 11:30 ~ 13:30 <br />
+          中夜祭: 1/9 (土) 14:55 ~ 16:25 <br />
+          後夜祭: 1/10 (日) 11:30 ~ 13:30 <br />
           に
           <a href="https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g"
             >YouTube Live</a
