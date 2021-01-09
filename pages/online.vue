@@ -304,10 +304,8 @@ export default {
         {
           id: 88,
           name: '不屈の生物部',
-          // place: 'YouTube, HP',
-          place: 'YouTube【準備中】',
-          // type: YOUTUBE | HP,
-          type: YOUTUBE,
+          place: 'YouTube【準備中】, HP',
+          type: YOUTUBE | HP,
           description:
             'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
           // contentUrl:
