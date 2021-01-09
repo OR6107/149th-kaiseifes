@@ -35,6 +35,7 @@
           <a href="https://youtu.be/dgcUrqiz-Gk">YouTube</a>
           で公開予定
         </p>
+        <p>概要を <a href="../kaiseifes-lecture.pdf">ダウンロード</a></p>
       </div>
       <div class="content">
         <div class="content-title">
