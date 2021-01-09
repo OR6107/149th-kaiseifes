@@ -483,8 +483,7 @@ export default {
           type: YOUTUBE,
           // description:
           //   '大化学実験では、普段見られないような様々な化学実験を行っています。多くの実験を分かりやすく解説していますので、ぜひ見に来てください！',
-          contentUrl:
-            'https://www.youtube.com/channel/UC1F-_oGxG4p4S44OsXZ_xQw',
+          contentUrl: 'https://youtu.be/96oEmFBVQi0',
           contentUrlText: 'YouTube',
         },
         {
