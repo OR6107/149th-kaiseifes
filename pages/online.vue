@@ -487,6 +487,18 @@ export default {
         },
         {
           id: 103,
+          name: 'バンドコンテスト',
+          place: 'YouTube Live',
+          type: YOUTUBE,
+          description: '1/10 (日) 9:00 ~ 10:40 開催予定',
+          // description:
+          //   '事前に行われたオーディションで見事上位を獲得した5バンドによる演奏勝負バンドコンテストの頂点を決める審査員はあなた！！90分で5バンドが楽しめるお得なステージにみんな集まれ～ <br /> 1/10 (日) 9:00 ~ 10:40 開催予定',
+          contentUrl:
+            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 104,
           name: '中夜祭',
           place: 'YouTube Live',
           type: YOUTUBE,
@@ -496,7 +508,7 @@ export default {
           contentUrlText: 'YouTube',
         },
         {
-          id: 104,
+          id: 105,
           name: '後夜祭',
           place: 'YouTube Live',
           type: YOUTUBE,
@@ -506,7 +518,7 @@ export default {
           contentUrlText: 'YouTube',
         },
         {
-          id: 105,
+          id: 106,
           name: '開成校舎 再現ワールド',
           place: 'Cluster',
           type: CLUSTER,
@@ -515,6 +527,17 @@ export default {
           contentUrl:
             'https://cluster.mu/w/83937616-d2f0-4bec-a026-126b0e624b1f',
           contentUrlText: 'Cluster',
+        },
+        {
+          id: 107,
+          name: '開成ツアー',
+          place: 'YouTube',
+          type: YOUTUBE,
+          description:
+            '校内紹介の動画です。Mr. 開成候補の6人がナレーションを担当しております。ぜひご高覧ください。',
+          contentUrl:
+            'https://www.youtube.com/playlist?list=PLg6BuDxA3WsvgOs9RomuSF1ox787VM4sy',
+          contentUrlText: 'YouTube',
         },
       ],
       show_projects: [],
