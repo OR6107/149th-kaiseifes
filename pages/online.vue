@@ -197,9 +197,9 @@ export default {
           description:
             '分かりづらい名前ですいません、水泳部です。水泳部には 120 年以上の歴史があります。普段の部活動や合宿の映像紹介をやっていますので、是非いらして下さい！',
           contentUrl: '/doc/水泳部/開成水泳部公式パンフレット.pdf',
-          contentUrl2:
-            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
-          contentUrlText2: 'YouTube',
+          // contentUrl2:
+          //   'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          // contentUrlText2: 'YouTube',
         },
         {
           id: 79,
@@ -243,9 +243,9 @@ export default {
           contentUrl:
             'https://drive.google.com/drive/folders/1xOekIVnj4bIuR4npgCT2nkaSMlSa6dKP',
           contentUrlText: 'Google Drive',
-          contentUrl2:
-            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
-          contentUrlText2: 'YouTube',
+          // contentUrl2:
+          //   'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          // contentUrlText2: 'YouTube',
         },
         {
           id: 83,
@@ -287,9 +287,9 @@ export default {
           type: YOUTUBE,
           description:
             '部員による「花のワルツ」の演奏や、音楽部と合同の「パリのアメリカ人」アンサンブルの動画を公開します！開成管弦楽団によるクラシック音楽をオンラインの世界でも！',
-          contentUrl:
-            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
-          contentUrlText: 'YouTube',
+          // contentUrl:
+          //   'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          // contentUrlText: 'YouTube',
         },
         {
           id: 87,
@@ -311,9 +311,9 @@ export default {
           type: YOUTUBE,
           description:
             'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
-          contentUrl:
-            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
-          contentUrlText: 'YouTube',
+          // contentUrl:
+          //   'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          // contentUrlText: 'YouTube',
         },
         {
           id: 89,
@@ -324,9 +324,9 @@ export default {
           type: YOUTUBE,
           // description:
           //   'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
-          contentUrl:
-            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
-          contentUrlText: 'YouTube',
+          // contentUrl:
+          //   'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          // contentUrlText: 'YouTube',
         },
         {
           id: 90,
@@ -396,9 +396,9 @@ export default {
           type: YOUTUBE,
           // description:
           //   'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
-          contentUrl:
-            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
-          contentUrlText: 'YouTube',
+          // contentUrl:
+          //   'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          // contentUrlText: 'YouTube',
         },
         {
           id: 96,
@@ -460,9 +460,9 @@ export default {
           description:
             '大化学実験では、普段見られないような様々な化学実験を行っています。多くの実験を分かりやすく解説していますので、ぜひ見に来てください！',
           contentUrl: '/doc/大化学実験/readme.pdf',
-          contentUrl2:
-            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
-          contentUrlText2: 'YouTube',
+          // contentUrl2:
+          //   'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          // contentUrlText2: 'YouTube',
         },
         {
           id: 101,
