@@ -23,7 +23,9 @@
           <div class="content-rectangle" />
           <div class="content-text">バンド</div>
         </div>
-        <a href="/kaiseifes-band.pdf">ダウンロード</a>
+        <a href="/kaiseifes-band.pdf" target="_blank" rel="noopener noreferrer"
+          >ダウンロード</a
+        >
       </div>
       <div class="content">
         <div class="content-title">
@@ -32,10 +34,36 @@
         </div>
         <p>
           1/10 (日) 13:00 に
-          <a href="https://youtu.be/dgcUrqiz-Gk">YouTube</a>
+          <a
+            href="https://youtu.be/dgcUrqiz-Gk"
+            target="_blank"
+            rel="noopener noreferrer"
+            >YouTube</a
+          >
           で公開予定
         </p>
-        <p>概要を <a href="../kaiseifes-lecture.pdf">ダウンロード</a></p>
+        <p>
+          概要を
+          <a
+            href="../kaiseifes-lecture.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            >ダウンロード</a
+          >
+        </p>
+        <p>
+          今回の海野裕也さんの講演に関する質問がありましたら、<a
+            href="https://forms.gle/wbsC6g9WH7krxEZn6"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Googleフォーム</a
+          >
+          よりご回答ください。<br />
+          ※質問は、1月10日14時30分より、17日23時までに回答されたものを受け付けます。<br />
+          ※不適切な質問は控えるようお願いします。<br />
+          ※全ての質問に回答していただけるとは限りません。ご了承ください。<br />
+          回答はこの欄に追記される予定です。
+        </p>
       </div>
       <div class="content">
         <div class="content-title">
@@ -137,6 +165,7 @@ $yellow: #fccf5a;
   p {
     font-size: 20px;
     margin-left: 45px;
+    margin-bottom: 10px;
     a {
       margin-left: auto;
     }
