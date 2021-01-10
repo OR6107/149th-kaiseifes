@@ -331,15 +331,16 @@ export default {
         {
           id: 89,
           name: '最後の切り札',
-          // place: 'YouTube, PDF',
-          place: 'YouTube【準備中】',
-          // type: YOUTUBE | PDF,
-          type: YOUTUBE,
+          place: 'YouTube【準備中】, PDF',
+          type: YOUTUBE | PDF,
           // description:
           //   'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
           // contentUrl:
           //   'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
           // contentUrlText: 'YouTube',
+          contentUrl2:
+            'https://drive.google.com/drive/folders/1E4XdVyJxib9zVOnAOYSzeoAhgvJ1ALcG',
+          contentUrlText2: 'Google Drive',
         },
         {
           id: 90,
