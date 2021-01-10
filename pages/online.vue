@@ -532,7 +532,7 @@ export default {
         {
           id: 106,
           name: '後夜祭',
-          place: 'YouTube Live',
+          place: 'YouTube Live【終了】',
           type: YOUTUBE,
           description: '1/10 (日) 11:15 ~ 開催予定',
           contentUrl: 'https://youtu.be/aMi_k4j3tSI',
