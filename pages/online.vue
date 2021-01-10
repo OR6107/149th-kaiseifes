@@ -250,16 +250,16 @@ export default {
         {
           id: 82,
           name: '弁論文春',
-          place: 'YouTube【準備中】, PDF',
+          place: 'YouTube, PDF',
           type: YOUTUBE | PDF,
           description:
             '言葉を使い他人を説得する競技、ディベート。オンラインでも熱い試合を実演します。あの超有名校と繰り広げる激論の勝敗を決めるのは貴方だ？！',
           contentUrl:
             'https://drive.google.com/drive/folders/1xOekIVnj4bIuR4npgCT2nkaSMlSa6dKP',
           contentUrlText: 'Google Drive',
-          // contentUrl2:
-          //   'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
-          // contentUrlText2: 'YouTube',
+          contentUrl2:
+            'https://www.youtube.com/playlist?list=PLg6BuDxA3WsvwKkLzRzTeSnISseINjam4',
+          contentUrlText2: 'YouTube',
         },
         {
           id: 83,
@@ -472,13 +472,15 @@ export default {
           type: YOUTUBE | PDF,
           description:
             '大化学実験では、普段見られないような様々な化学実験を行っています。多くの実験を分かりやすく解説していますので、ぜひ見に来てください！',
-          contentUrl: '/doc/大化学実験/readme.pdf',
+          contentUrl:
+            'https://drive.google.com/drive/folders/1gkmda8wso7kjt5J9gShP8TuEMGWa5pJH',
+          contentUrlText: 'Google Drive',
           contentUrl2:
             'https://www.youtube.com/playlist?list=PLg6BuDxA3Wss8dPjXlgC_xPoo33wXsfMJ',
           contentUrlText2: 'YouTube',
         },
         {
-          id: 101,
+          id: 102,
           name: '新入生 (中1・高1編入) 参加団体',
           place: 'YouTube',
           type: YOUTUBE,
@@ -489,7 +491,7 @@ export default {
           contentUrlText: 'YouTube',
         },
         {
-          id: 102,
+          id: 103,
           name: 'バンド',
           place: 'YouTube Live',
           type: YOUTUBE,
@@ -500,11 +502,11 @@ export default {
           contentUrlText: 'YouTube',
         },
         {
-          id: 103,
+          id: 104,
           name: 'バンドコンテスト',
           place: 'YouTube Live',
           type: YOUTUBE,
-          description: '1/10 (日) 9:00 ~ 10:40 開催予定',
+          description: '1/10 (日) 10:10 ~ 11:30 開催予定',
           // description:
           //   '事前に行われたオーディションで見事上位を獲得した5バンドによる演奏勝負バンドコンテストの頂点を決める審査員はあなた！！90分で5バンドが楽しめるお得なステージにみんな集まれ～ <br /> 1/10 (日) 9:00 ~ 10:40 開催予定',
           contentUrl:
@@ -512,16 +514,16 @@ export default {
           contentUrlText: 'YouTube',
         },
         {
-          id: 104,
+          id: 105,
           name: '中夜祭',
-          place: 'YouTube Live',
+          place: 'YouTube Live【終了】',
           type: YOUTUBE,
           description: '1/9 (土) 14:55 ~ 16:25 開催予定',
           contentUrl: 'https://youtu.be/EhUbtmi0Bcs',
           contentUrlText: 'YouTube',
         },
         {
-          id: 105,
+          id: 106,
           name: '後夜祭',
           place: 'YouTube Live',
           type: YOUTUBE,
@@ -531,7 +533,7 @@ export default {
           contentUrlText: 'YouTube',
         },
         {
-          id: 106,
+          id: 107,
           name: '開成校舎 再現ワールド',
           place: 'cluster',
           type: CLUSTER,
@@ -542,7 +544,7 @@ export default {
           contentUrlText: 'cluster',
         },
         {
-          id: 107,
+          id: 108,
           name: '開成ツアー',
           place: 'YouTube',
           type: YOUTUBE,
@@ -553,7 +555,7 @@ export default {
           contentUrlText: 'YouTube',
         },
         {
-          id: 108,
+          id: 109,
           name: '天文気象部',
           place: 'PDF',
           type: PDF,
@@ -564,7 +566,7 @@ export default {
           contentUrlText: 'Google Drive',
         },
         {
-          id: 109,
+          id: 110,
           name: 'コンピューター部大波乱',
           place: 'HP',
           type: HP,
@@ -574,6 +576,26 @@ export default {
           contentUrlText: 'Webサイト',
         },
         {
+          id: 111,
+          name: '開成鉱石化石館',
+          place: 'PDF',
+          type: PDF,
+          description:
+            '地質部。今年もやります！開成鉱石化石館！ 今年のテーマは「火山」と「化石」です。是非来てください！',
+          contentUrl:
+            'https://drive.google.com/drive/folders/1XfDRucJ5nTphnmat4zDFuKJMYuXhLmry',
+          contentUrlText: 'Google Drive',
+        },
+        {
+          id: 112,
+          name: '鉄研の車窓から 2020',
+          place: 'HP',
+          type: HP,
+          description:
+            '今年度の文化祭はオンライン上のみの開催となってしまいましたが、部誌「乗降場」の公開・鉄研クイズ・毎年恒例の大ジオラマの様子・合宿＆旅行会紹介・フォトコンテストなど、様々なコンテンツが楽しめます。是非ご参加ください！',
+          contentUrl: 'https://kstekken2020.localinfo.jp/',
+          contentUrlText: 'Webサイト',
+        },
           id: 113,
           name: '講演会',
           place: 'YouTube',
@@ -583,6 +605,15 @@ export default {
             ' はこちらから！',
           contentUrl: 'https://youtu.be/dgcUrqiz-Gk',
           contentUrlText: 'YouTube',
+        {
+          id: 114,
+          name: '149th開成祭 note',
+          place: 'HP',
+          type: HP,
+          // description:
+          //   '今年度の文化祭はオンライン上のみの開催となってしまいましたが、部誌「乗降場」の公開・鉄研クイズ・毎年恒例の大ジオラマの様子・合宿＆旅行会紹介・フォトコンテストなど、様々なコンテンツが楽しめます。是非ご参加ください！',
+          contentUrl: 'https://note.com/kaisei_festival',
+          contentUrlText: 'note',
         },
       ],
       show_projects: [],
