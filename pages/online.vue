@@ -613,12 +613,12 @@ export default {
         },
         {
           id: 114,
-          name: '149th開成祭 note',
+          name: 'note 古本係企画',
           place: 'HP',
           type: HP,
-          // description:
-          //   '今年度の文化祭はオンライン上のみの開催となってしまいましたが、部誌「乗降場」の公開・鉄研クイズ・毎年恒例の大ジオラマの様子・合宿＆旅行会紹介・フォトコンテストなど、様々なコンテンツが楽しめます。是非ご参加ください！',
-          contentUrl: 'https://note.com/kaisei_festival',
+          description:
+            '文化祭準備委員会古本係の生徒が、お勧めの本について紹介文を書きました。新型コロナウイルス感染症拡大による対面での文化祭の中止に伴い、例年通り古本を皆様にお届けすることは叶いませんが、オンライン開成祭にご来場いただいた皆様に、この記事を通して、少しでも本への親しみを抱いていただければ幸甚です。',
+          contentUrl: 'https://note.com/kaisei_festival/n/na8f0869a6e5a',
           contentUrlText: 'note',
         },
       ],
