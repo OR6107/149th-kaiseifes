@@ -512,7 +512,7 @@ export default {
         {
           id: 104,
           name: 'バンドコンテスト',
-          place: 'YouTube Live',
+          place: 'YouTube Live【終了】',
           type: YOUTUBE,
           description: '1/10 (日) 9:50 ~ 開催予定',
           // description:
