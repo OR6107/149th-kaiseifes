@@ -36,6 +36,16 @@
           で公開予定
         </p>
         <p>概要を <a href="../kaiseifes-lecture.pdf">ダウンロード</a></p>
+        <p>
+          今回の海野裕也さんの講演に関する質問がありましたら、<a
+            href="https://forms.gle/wbsC6g9WH7krxEZn6"
+            >Googleフォーム</a
+          >
+          よりご回答ください。<br />
+          ※質問は、1月10日14時30分より、17日23時までに回答されたものを受け付けます。<br />
+          ※不適切な質問は控えるようお願いします。<br />
+          ※全ての質問に回答していただけるとは限りません。ご了承ください。<br />
+        </p>
       </div>
       <div class="content">
         <div class="content-title">
@@ -140,6 +150,7 @@ $yellow: #fccf5a;
   p {
     font-size: 20px;
     margin-left: 45px;
+    margin-bottom: 10px;
     a {
       margin-left: auto;
     }
