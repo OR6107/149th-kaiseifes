@@ -291,7 +291,7 @@ export default {
           place: 'YouTubeLive',
           type: YOUTUBE,
           description: '開成生とのフリー対戦のIP: 20210110',
-          contentUrl: 'https://www.youtube.com/watch?v=nD_h3tvvMVY',
+          contentUrl: 'https://youtu.be/UiSEPXEx76c',
           contentUrlText: 'YouTube',
         },
         {
