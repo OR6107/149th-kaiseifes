@@ -44,9 +44,9 @@
         </div>
         <p>
           中夜祭: 1/9 (土) 14:55 ~ 【終了】
-          <a href="https://youtu.be/EhUbtmi0Bcs">アーカイブ</a><br />
+          <!-- <a href="https://youtu.be/EhUbtmi0Bcs">アーカイブ</a> --><br />
           後夜祭: 1/10 (日) 11:15 ~ 【終了】
-          <a href="https://youtu.be/aMi_k4j3tSI">アーカイブ</a><br />
+          <!-- <a href="https://youtu.be/aMi_k4j3tSI">アーカイブ</a> --><br />
         </p>
       </div>
     </div>
