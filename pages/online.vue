@@ -291,7 +291,7 @@ export default {
           place: 'YouTubeLive',
           type: YOUTUBE,
           description: '開成生とのフリー対戦のIP: 20210110',
-          contentUrl: 'https://www.youtube.com/watch?v=nD_h3tvvMVY',
+          contentUrl: 'https://youtu.be/UiSEPXEx76c',
           contentUrlText: 'YouTube',
         },
         {
@@ -532,7 +532,7 @@ export default {
         {
           id: 106,
           name: '後夜祭',
-          place: 'YouTube Live',
+          place: 'YouTube Live【終了】',
           type: YOUTUBE,
           description: '1/10 (日) 11:15 ~ 開催予定',
           contentUrl: 'https://youtu.be/aMi_k4j3tSI',
