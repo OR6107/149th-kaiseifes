@@ -329,7 +329,7 @@
               src="@/static/mr_ms/mr_4/3.jpg"
             />
           </div>
-          <div class="tate photo-item">
+          <div class="tate2 photo-item">
             <img
               oncontextmenu="return false;"
               onselectstart="return false;"
@@ -365,7 +365,7 @@
               src="@/static/mr_ms/mr_5/3.jpg"
             />
           </div>
-          <div class="tate photo-item">
+          <div class="tate3 photo-item">
             <img
               oncontextmenu="return false;"
               onselectstart="return false;"
@@ -496,6 +496,22 @@ $yellow: #fccf5a;
     img {
       height: 240px;
       width: 160px;
+    }
+  }
+  .tate2 {
+    height: 240px;
+    width: 180px;
+    img {
+      height: 240px;
+      width: 180px;
+    }
+  }
+  .tate3 {
+    height: 240px;
+    width: 135px;
+    img {
+      height: 240px;
+      width: 135px;
     }
   }
   .square {
