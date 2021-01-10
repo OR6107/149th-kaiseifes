@@ -507,11 +507,10 @@ export default {
           name: 'バンドコンテスト',
           place: 'YouTube Live',
           type: YOUTUBE,
-          description: '1/10 (日) 10:10 ~ 11:30 開催予定',
+          description: '1/10 (日) 9:50 ~ 開催予定',
           // description:
           //   '事前に行われたオーディションで見事上位を獲得した5バンドによる演奏勝負バンドコンテストの頂点を決める審査員はあなた！！90分で5バンドが楽しめるお得なステージにみんな集まれ～ <br /> 1/10 (日) 9:00 ~ 10:40 開催予定',
-          contentUrl:
-            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          contentUrl: 'https://youtu.be/aMi_k4j3tSI',
           contentUrlText: 'YouTube',
         },
         {
@@ -528,9 +527,8 @@ export default {
           name: '後夜祭',
           place: 'YouTube Live',
           type: YOUTUBE,
-          description: '1/10 (日) 11:30 ~ 13:30 開催予定',
-          contentUrl:
-            'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
+          description: '1/10 (日) 11:15 ~ 開催予定',
+          contentUrl: 'https://youtu.be/aMi_k4j3tSI',
           contentUrlText: 'YouTube',
         },
         {
