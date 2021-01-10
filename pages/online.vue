@@ -210,7 +210,9 @@ export default {
           type: YOUTUBE | PDF,
           description:
             '分かりづらい名前ですいません、水泳部です。水泳部には 120 年以上の歴史があります。普段の部活動や合宿の映像紹介をやっていますので、是非いらして下さい！',
-          contentUrl: '/doc/水泳部/開成水泳部公式パンフレット.pdf',
+          contentUrl:
+            'https://drive.google.com/drive/folders/1GqSrRSI54MS2pqxPQq0JyVyArB-y2snD',
+          contentUrlText: 'Google Drive',
           // contentUrl2:
           //   'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
           // contentUrlText2: 'YouTube',
@@ -401,7 +403,9 @@ export default {
           type: PDF,
           description:
             '書道部員が丹精込めて書いた作品をオンラインでご覧いただけます。文化祭に行かないと見られない作品を是非お気軽にスマホなどで お楽しみください！<br />【謎解き】キーワード12:力',
-          contentUrl: '/doc/書道展/開成書道展.pdf',
+          contentUrl:
+            'https://drive.google.com/drive/folders/1b58Jt-Bg2VwNm6W2Ail1XMjQ4eIenZNB',
+          contentUrlText: 'Google Drive',
         },
         {
           id: 95,
@@ -431,7 +435,9 @@ export default {
           place: 'PDF',
           type: PDF,
           description: "Let's Enjoy! <br />【謎解き】キーワード11 次",
-          contentUrl: '/doc/映画同好会/幻燈機.pdf',
+          contentUrl:
+            'https://drive.google.com/drive/folders/1owxATAEJyQLT3EQmCLw183p110Jc_cG1',
+          contentUrlText: 'Google Drive',
         },
         {
           id: 98,
@@ -440,7 +446,9 @@ export default {
           type: PDF,
           description:
             '2020年三冠を達成したコントレイルの矢作芳人調教師などを輩出した当校で、「ディープ」なサラブレッドの世界の展示、VRでのジョッキー体験をお楽しみいただけます。<br />【謎解き】キーワード10 花',
-          contentUrl: '/doc/サラブレッド研究同好会/駿馬研究会誌.pdf',
+          contentUrl:
+            'https://drive.google.com/drive/folders/1616MgcNgmLI1pxV2tD246E5ArOoE1oHS',
+          contentUrlText: 'Google Drive',
         },
         {
           id: 99,
