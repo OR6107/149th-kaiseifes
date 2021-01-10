@@ -596,6 +596,15 @@ export default {
           contentUrl: 'https://kstekken2020.localinfo.jp/',
           contentUrlText: 'Webサイト',
         },
+          id: 113,
+          name: '講演会',
+          place: 'YouTube',
+          type: YOUTUBE,
+          description:
+            '<a href="../kaiseifes-lecture.pdf" target="_blank" rel="noopener noreferrer">概要</a>' +
+            ' はこちらから！',
+          contentUrl: 'https://youtu.be/dgcUrqiz-Gk',
+          contentUrlText: 'YouTube',
         {
           id: 114,
           name: '149th開成祭 note',
