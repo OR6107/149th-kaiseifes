@@ -612,11 +612,12 @@ export default {
           type: YOUTUBE,
           description:
             '<a href="../kaiseifes-lecture.pdf" target="_blank" rel="noopener noreferrer">概要</a>' +
-            ' はこちらから！ <br />' +
+            ' はこちらからご覧ください。 <br />' +
             '今回の海野裕也さんの講演に関する質問がありましたら、上記Googleフォームよりご回答ください。<br />' +
             '※ 質問は、1月10日14時30分より、17日23時までに回答されたものを受け付けます。<br />' +
             '※ 不適切な質問は控えるようお願いします。<br />' +
-            '※ 全ての質問に回答していただけるとは限りません。ご了承ください。<br />',
+            '※ 全ての質問に回答していただけるとは限りません。ご了承ください。<br />' +
+            '回答は <a href="/timetable/" target="_blank" rel="noopener noreferrer">タイムテーブルのページ</a> に追記される予定です。',
           contentUrl: 'https://youtu.be/dgcUrqiz-Gk',
           contentUrlText: 'YouTube',
           contentUrl2: 'https://forms.gle/wbsC6g9WH7krxEZn6',
