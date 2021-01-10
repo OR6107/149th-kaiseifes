@@ -23,7 +23,9 @@
           <div class="content-rectangle" />
           <div class="content-text">バンド</div>
         </div>
-        <a href="/kaiseifes-band.pdf">ダウンロード</a>
+        <a href="/kaiseifes-band.pdf" target="_blank" rel="noopener noreferrer"
+          >ダウンロード</a
+        >
       </div>
       <div class="content">
         <div class="content-title">
@@ -32,13 +34,28 @@
         </div>
         <p>
           1/10 (日) 13:00 に
-          <a href="https://youtu.be/dgcUrqiz-Gk">YouTube</a>
+          <a
+            href="https://youtu.be/dgcUrqiz-Gk"
+            target="_blank"
+            rel="noopener noreferrer"
+            >YouTube</a
+          >
           で公開予定
         </p>
-        <p>概要を <a href="../kaiseifes-lecture.pdf">ダウンロード</a></p>
+        <p>
+          概要を
+          <a
+            href="../kaiseifes-lecture.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            >ダウンロード</a
+          >
+        </p>
         <p>
           今回の海野裕也さんの講演に関する質問がありましたら、<a
             href="https://forms.gle/wbsC6g9WH7krxEZn6"
+            target="_blank"
+            rel="noopener noreferrer"
             >Googleフォーム</a
           >
           よりご回答ください。<br />
@@ -56,7 +73,10 @@
           中夜祭: 1/9 (土) 14:55 ~ 【終了】<br />
           後夜祭: 1/10 (日) 11:15 ~ <br />
           に
-          <a href="https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g"
+          <a
+            href="https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g"
+            target="_blank"
+            rel="noopener noreferrer"
             >YouTube Live</a
           >
           を行う予定です。
