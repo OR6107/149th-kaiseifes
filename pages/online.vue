@@ -633,6 +633,20 @@ export default {
           contentUrl: 'https://note.com/kaisei_festival/n/na8f0869a6e5a',
           contentUrlText: 'note',
         },
+        {
+          id: 115,
+          name: '美術部',
+          place: 'YouTube【準備中】, PDF',
+          type: YOUTUBE | PDF,
+          description:
+            '鉛筆、油絵、水彩などなど、部員たちが描いてきた作品たちを展示中。技巧を凝らした、大胆かつ精緻な筆づかいをぜひ感じてください。',
+          contentUrl:
+            'https://drive.google.com/drive/folders/1bZnMTypg4jtpymqeRL13k4sN4NcLNnxk',
+          contentUrlText: 'Google Drive',
+          // contentUrl2:
+          //   'https://www.youtube.com/playlist?list=PLg6BuDxA3Wsvzbu8ZD1DsZgFvrBFmyLjx',
+          // contentUrlText2: 'YouTube',
+        },
       ],
       show_projects: [],
       show_projects_1: [],
