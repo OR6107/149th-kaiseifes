@@ -647,6 +647,17 @@ export default {
           //   'https://www.youtube.com/playlist?list=PLg6BuDxA3Wsvzbu8ZD1DsZgFvrBFmyLjx',
           // contentUrlText2: 'YouTube',
         },
+        {
+          id: 116,
+          name: '推しを語りたい',
+          place: 'PDF',
+          type: PDF,
+          // description:
+          //   '地質部。今年もやります！開成鉱石化石館！ 今年のテーマは「火山」と「化石」です。是非来てください！',
+          contentUrl:
+            'https://drive.google.com/drive/folders/1b9u_81W-lAITMI0mqwBQsLWmBC2dGlqr',
+          contentUrlText: 'Google Drive',
+        },
       ],
       show_projects: [],
       show_projects_1: [],
