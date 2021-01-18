@@ -3,30 +3,42 @@
     "name": "information",
     "path": "/information",
     "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/information.vue",
-    "chunkName": "pages/information"
+    "chunkName": "pages/information",
+    "_name": "_26f93e20"
   },
   {
     "name": "mr_ms",
     "path": "/mr_ms",
     "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/mr_ms.vue",
-    "chunkName": "pages/mr_ms"
+    "chunkName": "pages/mr_ms",
+    "_name": "_65a28b18"
   },
   {
     "name": "online",
     "path": "/online",
     "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/online.vue",
-    "chunkName": "pages/online"
+    "chunkName": "pages/online",
+    "_name": "_45439ce2"
+  },
+  {
+    "name": "online_additional",
+    "path": "/online_additional",
+    "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/online_additional.vue",
+    "chunkName": "pages/online_additional",
+    "_name": "_4b1c03f2"
   },
   {
     "name": "timetable",
     "path": "/timetable",
     "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/timetable.vue",
-    "chunkName": "pages/timetable"
+    "chunkName": "pages/timetable",
+    "_name": "_bde062d6"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/home/mencotton/ドキュメント/GitHub/149th-kaiseifes/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_5091b874"
   }
 ]

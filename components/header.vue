@@ -15,6 +15,12 @@
             <NuxtLink class="menu-text" to="/online/">オンライン企画</NuxtLink>
           </div>
           <div class="menu-item">
+            <img class="menu-icon" src="@/static/icon/monitor.svg" />
+            <NuxtLink class="menu-text" to="/online_additional/">
+              オンライン企画 (1/20 以降追加分)
+            </NuxtLink>
+          </div>
+          <div class="menu-item">
             <img class="menu-icon" src="@/static/icon/help-circle.svg" />
             <a
               class="menu-text"
