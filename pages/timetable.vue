@@ -2,45 +2,34 @@
   <div>
     <Header />
     <div class="container">
-      <div class="title">
-        <div class="title-rectangle" />
-        <div class="title-text">タイムテーブル</div>
-      </div>
+      <Title :is-main="true" :text="'タイムテーブル'" />
 
+      <Title :is-main="false" :text="'Zoom'" />
       <div class="content">
-        <div class="content-title">
-          <div class="content-rectangle" />
-          <div class="content-text">Zoom</div>
-        </div>
         <p>
           1/9 (土) 09:00 ~ 17:00 <br />
           1/10 (土) 09:00 ~ 16:30 <br />
           の文化祭期間中、いつでもお越しいただけます。
         </p>
       </div>
+
+      <Title :is-main="false" :text="'バンド'" />
       <div class="content">
-        <div class="content-title">
-          <div class="content-rectangle" />
-          <div class="content-text">バンド</div>
-        </div>
         <a href="/kaiseifes-band.pdf" target="_blank" rel="noopener noreferrer"
           >ダウンロード</a
         >
       </div>
+
+      <Title :is-main="false" :text="'講演会'" />
       <div class="content">
-        <div class="content-title">
-          <div class="content-rectangle" />
-          <div class="content-text">講演会</div>
-        </div>
         <p>
-          1/10 (日) 13:00 に
           <a
             href="https://youtu.be/dgcUrqiz-Gk"
             target="_blank"
             rel="noopener noreferrer"
             >YouTube</a
           >
-          で公開予定
+          にて公開済み
         </p>
         <p>
           概要を
@@ -65,11 +54,9 @@
           回答はこの欄に追記される予定です。
         </p>
       </div>
+
+      <Title :is-main="false" :text="'中後夜'" />
       <div class="content">
-        <div class="content-title">
-          <div class="content-rectangle" />
-          <div class="content-text">中後夜</div>
-        </div>
         <p>
           中夜祭: 1/9 (土) 14:55 ~ 【終了】
           <!-- <a href="https://youtu.be/EhUbtmi0Bcs">アーカイブ</a> --><br />
@@ -84,11 +71,12 @@
 
 <script>
 import Header from '@/components/header'
+import Title from '@/components/Title'
 import Footer from '@/components/Footer'
 
 export default {
   name: 'Timetable',
-  components: { Header, Footer },
+  components: { Header, Title, Footer },
 }
 </script>
 
@@ -111,49 +99,11 @@ $yellow: #fccf5a;
   background: $white;
   color: $black;
 }
-.title {
-  @include Didot-font();
-  display: flex;
-  margin-top: 90px;
-  margin-left: 25px;
-  align-items: center;
-  .title-rectangle {
-    background-color: $yellow;
-    width: 8px;
-    height: 48px;
-    margin-right: 15px;
-  }
-  .title-text {
-    font-size: 40px;
-    padding-bottom: 6px;
-  }
-}
+
 .content {
   @include Didot-font();
   margin-top: 20px;
   margin-left: 60px;
-  .content-title {
-    display: flex;
-    align-items: center;
-    .content-rectangle {
-      background-color: $yellow;
-      width: 8px;
-      height: 32px;
-      margin-right: 17px;
-    }
-    .content-text {
-      padding-bottom: 2px;
-    }
-  }
-  .place {
-    font-size: 24px;
-    margin-top: 10px;
-    margin-left: 45px;
-    .place-floor {
-      font-size: 20px;
-      margin-left: 20px;
-    }
-  }
   a {
     font-size: 20px;
     margin-left: 45px;

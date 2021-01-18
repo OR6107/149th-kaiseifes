@@ -2,7 +2,7 @@
   <div>
     <Header />
     <div class="container">
-      <Title :is-main="true" :text="'Ms.開成, Mr.開成 投票'" />
+      <Title :is-main="true" :text="'Ms.開成, Mr.開成'" />
 
       <Title :is-main="false" :text="'コンテンツの複製・転載'" />
       <div class="content">
