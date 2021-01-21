@@ -233,7 +233,7 @@ export default {
           description:
             '人狼の世界へと変貌したH1-5...互いに腹の内を探り合うデスゲームが今始まる。',
           contentUrl:
-            'https://youtube.com/playlist?list=PLg6BuDxA3WsvZ-QmejPwNu3IqmF97Ja_B',
+            'https://youtube.com/playlist?list=PLg6BuDxA3WsuO_bTxnDefS_4daw3D-uF7',
           contentUrlText: 'YouTube',
         },
 
@@ -244,8 +244,8 @@ export default {
           type: YOUTUBE | CLUB,
           description:
             '本来飾る予定だった模型部の部員が作ったプラモデルを紹介します。ぜひご覧ください！',
-          // contentUrl:
-          //   '',
+          contentUrl:
+            'https://youtube.com/playlist?list=PLg6BuDxA3WssU8AsAlap1inVNjKa_s2LV',
           contentUrlText: 'YouTube',
         },
         {
@@ -266,8 +266,8 @@ export default {
           name: '物理部',
           place: 'YouTube',
           type: YOUTUBE | CLUB,
-          // description:
-          //   '',
+          description:
+            '物理部員が電子ゲームや高電圧実験を自作する様子を動画にまとめました。',
           contentUrl:
             'https://youtube.com/playlist?list=PLg6BuDxA3WsvduGjxs7g_sSnEDoXE4LqJ',
           contentUrlText: 'YouTube',
@@ -279,8 +279,8 @@ export default {
           type: YOUTUBE | CLUB,
           description:
             '部誌で公開中の作品『モリエールのデッサン』の完成までを撮ったタイムラプス動画です。石膏デッサンの、とても上手な筆致の作品ですので、どのような順番で作業しているかなどに注目して観てみてください。',
-          // contentUrl:
-          //   '',
+          contentUrl:
+            'https://youtube.com/playlist?list=PLg6BuDxA3WssC3p3Rp2CJ3z0HN1JAj72x',
           contentUrlText: 'YouTube',
         },
         {
@@ -288,9 +288,9 @@ export default {
           name: '開成写真館',
           place: 'YouTube',
           type: YOUTUBE | CLUB,
-          description: '写真部の一年の活動成果です　是非ご覧ください',
-          // contentUrl:
-          //   '',
+          description: '写真部の一年の活動成果です。是非ご覧ください。',
+          contentUrl:
+            'https://youtube.com/playlist?list=PLg6BuDxA3WssLLjth2WVBfuaWrvbNfCla',
           contentUrlText: 'YouTube',
         },
         {
@@ -307,16 +307,18 @@ export default {
         {
           id: 15,
           name: '天文気象部',
-          place: 'YouTube',
+          place: 'YouTube, HP',
           type: YOUTUBE | CLUB,
           description:
             '【A303 プラネタリウム】<br />' +
             '例年天文気象部では文化祭でプラネタリウムを上映しているのですが、今年は新型コロナウイルス感染拡大の影響でそれができなくなってしまいました。そこで、今回は代わりに星座講座を行うことになりました。<br />' +
             '【A304 展示紹介】<br />' +
-            'Twitterで普段の活動や、合宿で撮った写真などを投稿しています。',
-          // contentUrl:
-          //   '',
+            'Twitterでは普段の活動や、合宿で撮った写真などを投稿しています。',
+          contentUrl:
+            'https://youtube.com/playlist?list=PLg6BuDxA3Wstovpw70rYDiDicOguTSFm8',
           contentUrlText: 'YouTube',
+          contentUrl2: 'https://twitter.com/tenmonkisyo',
+          contentUrlText2: 'Twitter',
         },
         {
           id: 16,
@@ -324,30 +326,9 @@ export default {
           place: 'YouTube',
           type: YOUTUBE | CLUB,
           description:
-            '録音：2021年1月9日　開成学園小講堂<br />' +
-            '<br />' +
-            '曲目<br />' +
-            'チャイコフスキー作曲<br />' +
-            'スラヴ行進曲Op.31<br />' +
-            '組曲『くるみ割り人形』Op.71aより　「花のワルツ」<br />' +
-            '交響曲第3番ニ長調Op.29『ポーランド』より　第五楽章<br />' +
-            '<br />' +
-            '<br />' +
-            '本楽団は、昨年2月に学校が休校となり、3月に予定していた定期演奏会も中止と決定されて以降、半年近く一切の活動が行えない状態となりました。<br />' +
-            '生徒活動再開後も、全国の音楽団体の活動状況を考慮しながら、人数や時間の制限はもとより、楽器の取扱いや演奏形態に関する細かい規則を決め、多く段階を踏みながら進めていきました。<br />' +
-            'その後も練習時間は満足に取れず、合奏練習もひと月足らずしかできませんでした。<br />' +
-            '確実に演奏会を行える保証もない中で、今、自分たちにできることを全力でやろうと皆で心を合わせ、練習を重ねてきました。<br />' +
-            '残念ながらお客様を迎えての演奏会を開催することはできず、無観客での演奏となりましたが、このコロナ禍という未曾有の事態の真っ只中にある「開成管弦楽団」を知っていただくために、録音を公開いたします。<br />' +
-            '<br />' +
-            '高2は2021年1月9日をもって引退しました。<br />' +
-            'これからも「開成管弦楽団」というオーケストラは続いていき、そこにあるスピリットは受け継がれていきます。<br />' +
-            '人が入れ替わることは学生オーケストラの宿命ではありますが、メンバーが変わっても、困難を経験した歴史を重ねることにより、少しずつ前へと進んで行けると信じています。<br />' +
-            '<br />' +
-            '拙い演奏ですがどうか共に音楽を奏でられることの喜び・楽しさ、その一端を感じて頂ければ幸いです。<br />' +
-            '<br />' +
-            '2021年1月20日　開成管弦楽団',
-          // contentUrl:
-          //   '',
+            '部員による「花のワルツ」の演奏や、音楽部と合同の「パリのアメリカ人」アンサンブルの動画を公開します！開成管弦楽団によるクラシック音楽をオンラインの世界でも！',
+          contentUrl:
+            'https://youtube.com/playlist?list=PLg6BuDxA3WsuhAc7eANr79S6_rCRNZ2Ir',
           contentUrlText: 'YouTube',
         },
         {
@@ -356,8 +337,8 @@ export default {
           place: 'YouTube',
           type: YOUTUBE | CLUB,
           description: 'クオリティを追求した野球盤です',
-          // contentUrl:
-          //   '',
+          contentUrl:
+            'https://youtube.com/playlist?list=PLg6BuDxA3Wss4r_ZHSsPeeS0ibREyNlSs',
           contentUrlText: 'YouTube',
         },
         {
@@ -368,14 +349,41 @@ export default {
           description:
             '文化祭当日に撮影した演武です。<br />' +
             '<br />' +
-            '知られざる合気道の魅力・美しさを。（開成合気道部）',
+            '知られざる合気道の魅力・美しさを。',
           contentUrl:
             'https://youtube.com/playlist?list=PLg6BuDxA3WsuU7PUC0xfo6j_cbJkxCKS-',
           contentUrlText: 'YouTube',
         },
-
         {
           id: 19,
+          name: '飛べない蝉',
+          place: 'YouTube, PDF',
+          type: YOUTUBE | PDF,
+          description: '水泳部の夏合宿の様子です。ぜひご覧ください。',
+          contentUrl:
+            'https://drive.google.com/drive/folders/1GqSrRSI54MS2pqxPQq0JyVyArB-y2snD',
+          contentUrlText: 'Google Drive',
+          contentUrl2:
+            'https://youtube.com/playlist?list=PLg6BuDxA3Wssd_Zz3yggfbIQGRTKDv1aQ',
+          contentUrlText2: 'YouTube',
+        },
+        {
+          id: 20,
+          name: '開成鉱石化石館',
+          place: 'PDF',
+          type: PDF,
+          description:
+            '地質部。今年もやります！開成鉱石化石館！ 今年のテーマは「火山」と「化石」です。是非来てください！',
+          contentUrl:
+            'https://drive.google.com/drive/folders/1XfDRucJ5nTphnmat4zDFuKJMYuXhLmry',
+          contentUrlText: 'Google Drive',
+          contentUrl2:
+            'https://youtube.com/playlist?list=PLg6BuDxA3WstLWh5oYhFyOgvI2SuMFv0T',
+          contentUrlText2: 'YouTube',
+        },
+
+        {
+          id: 21,
           name: '模擬店係の軌跡の記録',
           place: 'YouTube',
           type: YOUTUBE | VOLUNTEER,
@@ -388,42 +396,43 @@ export default {
           contentUrlText: 'YouTube',
         },
         {
-          id: 20,
+          id: 22,
+          name: 'The Ninja Mission',
+          place: 'YouTube',
+          type: YOUTUBE | VOLUNTEER,
+          description:
+            '主人公の運命は君に託された！<br /><br />' +
+            'The Ninja Missionは中2有志で構成された文化祭参加団体です．' +
+            '文化祭はオンライン開催となったため，事前収録した動画を編集し公開しています．',
+          contentUrl: 'https://youtube.com/channel/UCGt7ld-LpcHyYqYji1-TAlA',
+          contentUrlText: 'YouTube',
+        },
+        {
+          id: 23,
           name: '中三有志',
           place: 'YouTube',
           type: YOUTUBE | VOLUNTEER,
           description:
             '中三有志の文化祭参加団体、「暗染地帯」「かいせいゆうえんち」「Codename:ZERO」が共同で製作しました。今年は対面での開催が出来ませんでしたが、いつかまた笑顔で皆様を迎えられる様に願って。そして、また帆を貼る決意を抱いて。',
-          // contentUrl:
-          //   '',
+          contentUrl:
+            'https://youtube.com/playlist?list=PLg6BuDxA3Wst_DNNUPtbFCenteFUV8k12',
           contentUrlText: 'YouTube',
         },
         {
-          id: 21,
-          name: '暗染地帯',
-          place: 'YouTube',
-          type: YOUTUBE | VOLUNTEER,
-          // description:
-          //   '',
-          // contentUrl:
-          //   '',
-          contentUrlText: 'YouTube',
-        },
-        {
-          id: 22,
+          id: 24,
           name: 'かいせいゆうえんち',
           place: 'YouTube',
           type: YOUTUBE | VOLUNTEER,
           description:
             '当団体では、教室内にジェットコースターを建設しました。乗車視点の動画を撮影しましたので、公開します。',
-          // contentUrl:
-          //   '',
+          contentUrl:
+            'https://youtube.com/playlist?list=PLg6BuDxA3Wsu83GiI25fYZZmXUQnYCQ4X',
           contentUrlText: 'YouTube',
         },
         {
-          id: 23,
+          id: 25,
           name: 'CodenameZERO',
-          place: 'YouTube, HP',
+          place: 'YouTube【準備中】, HP',
           type: YOUTUBE | HP | VOLUNTEER,
           description:
             '開成生が実際にプレイしてみた！！ <br />' +
@@ -437,36 +446,36 @@ export default {
           contentUrlText2: 'ホームページ',
         },
         {
-          id: 24,
+          id: 26,
           name: '孤独な夜の奇妙なヒゲキ',
           place: 'YouTube',
           type: YOUTUBE | VOLUNTEER,
-          // description:
-          //   '',
-          // contentUrl:
-          //   '',
+          description:
+            'とある夜、悲劇が起こる。この事件の真相はどこに。それを突き止められるのはあなただ！さぁ謎解き好きの皆よ集まれ！ たくさんの謎、そして恐ろしい真実が君を待っている！',
+          contentUrl:
+            'https://youtube.com/playlist?list=PLg6BuDxA3WssFUo1txn2P60My4kWADtU8',
           contentUrlText: 'YouTube',
         },
         {
-          id: 25,
+          id: 27,
           name: '金の匙 5G',
           place: 'YouTube',
           type: YOUTUBE | VOLUNTEER,
           description:
             '今年で5代目、金の匙の紹介動画です。アトラクションを楽しむところを主に紹介しています。リアル開催は不可能でしたが、記録に残すことができて幸せです。少しでも楽しそうだなと思っていただけたら嬉しいです！！',
-          // contentUrl:
-          //   '',
+          contentUrl:
+            'https://youtube.com/playlist?list=PLg6BuDxA3Wstpb_v2-EccVY_Xa6i5g2aD',
           contentUrlText: 'YouTube',
         },
         {
-          id: 26,
+          id: 28,
           name: 'キャップストーリーマニア',
           place: 'YouTube',
           type: YOUTUBE | VOLUNTEER,
           // description:
           //   '',
-          // contentUrl:
-          //   '',
+          contentUrl:
+            'https://youtube.com/playlist?list=PLg6BuDxA3WsvTiGD7fVAxgKebZtblqImq',
           contentUrlText: 'YouTube',
         },
       ],

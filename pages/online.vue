@@ -198,24 +198,22 @@ export default {
             'https://cluster.mu/w/c836aafc-1b54-45e9-9c15-2066e5fdc27e/',
           contentUrlText: 'cluster',
           contentUrl2:
-            'https://www.youtube.com/playlist?list=PLg6BuDxA3Wsus1FZg_UM8_LSrw7QOP2Xu',
+            'https://youtube.com/playlist?list=PLg6BuDxA3Wsus1FZg_UM8_LSrw7QOP2Xu',
           contentUrlText2: 'YouTube',
         },
         {
           id: 78,
           name: '飛べない蝉',
-          // place: 'HP, YouTube, PDF',
-          place: 'YouTube【準備中】, PDF',
-          // type: HP | YOUTUBE | PDF,
+          place: 'YouTube, PDF',
           type: YOUTUBE | PDF,
           description:
             '分かりづらい名前ですいません、水泳部です。水泳部には 120 年以上の歴史があります。普段の部活動や合宿の映像紹介をやっていますので、是非いらして下さい！',
           contentUrl:
             'https://drive.google.com/drive/folders/1GqSrRSI54MS2pqxPQq0JyVyArB-y2snD',
           contentUrlText: 'Google Drive',
-          // contentUrl2:
-          //   'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
-          // contentUrlText2: 'YouTube',
+          contentUrl2:
+            'https://youtube.com/playlist?list=PLg6BuDxA3Wssd_Zz3yggfbIQGRTKDv1aQ',
+          contentUrlText2: 'YouTube',
         },
         {
           id: 79,
@@ -224,7 +222,7 @@ export default {
           type: YOUTUBE,
           description: '知られざる合気道の魅力・美しさを。',
           contentUrl:
-            'https://www.youtube.com/playlist?list=PLg6BuDxA3WsuU7PUC0xfo6j_cbJkxCKS-',
+            'https://youtube.com/playlist?list=PLg6BuDxA3WsuU7PUC0xfo6j_cbJkxCKS-',
           contentUrlText: 'YouTube',
         },
         {
@@ -235,7 +233,7 @@ export default {
           description:
             '物理部員が電子ゲームや高電圧実験を自作する様子を動画にまとめました。',
           contentUrl:
-            'https://www.youtube.com/playlist?list=PLg6BuDxA3WsvduGjxs7g_sSnEDoXE4LqJ',
+            'https://youtube.com/playlist?list=PLg6BuDxA3WsvduGjxs7g_sSnEDoXE4LqJ',
           contentUrlText: 'YouTube',
         },
         {
@@ -246,7 +244,7 @@ export default {
           description:
             '手品部です！ 今年もマジックショーを開催します。不思議、驚き、興奮の数々。目の前でマジシャン達が織り成す奇跡の数々をお楽しみ下さい。誰もが楽しめる内容です。',
           contentUrl:
-            'https://www.youtube.com/playlist?list=PLg6BuDxA3Wssshk2N48Q5kZk2UP5uc1bp',
+            'https://youtube.com/playlist?list=PLg6BuDxA3Wssshk2N48Q5kZk2UP5uc1bp',
           contentUrlText: 'YouTube',
         },
         {
@@ -260,7 +258,7 @@ export default {
             'https://drive.google.com/drive/folders/1xOekIVnj4bIuR4npgCT2nkaSMlSa6dKP',
           contentUrlText: 'Google Drive',
           contentUrl2:
-            'https://www.youtube.com/playlist?list=PLg6BuDxA3WsvwKkLzRzTeSnISseINjam4',
+            'https://youtube.com/playlist?list=PLg6BuDxA3WsvwKkLzRzTeSnISseINjam4',
           contentUrlText2: 'YouTube',
         },
         {
@@ -271,7 +269,7 @@ export default {
           description:
             '今年のパフォーマンスはとにかく凄い！様々な道具をまさに " 自由自在 " に操る演技で、皆様の心をつかんで見せます！是非ご覧ください！',
           contentUrl:
-            'https://www.youtube.com/playlist?list=PLg6BuDxA3Wssjk28py61olLBNgC5bi1MG',
+            'https://youtube.com/playlist?list=PLg6BuDxA3Wssjk28py61olLBNgC5bi1MG',
           contentUrlText: 'YouTube',
         },
         {
@@ -282,7 +280,7 @@ export default {
           description:
             '動画研究会は今年、中一を中心に新規結成された同好会です。休憩がてら、ぜひ一度ご覧ください。<a href="https://m.youtube.com/channel/UCnDbmEaE-7nH71DW-4N-8fw">動画研究会のYouTubeチャンネル</a>',
           contentUrl:
-            'https://www.youtube.com/playlist?list=PLg6BuDxA3Wst2-qwcXhZzpIBPyVt0dU0J',
+            'https://youtube.com/playlist?list=PLg6BuDxA3Wst2-qwcXhZzpIBPyVt0dU0J',
           contentUrlText: '動画研究会',
         },
         {
@@ -297,13 +295,13 @@ export default {
         {
           id: 86,
           name: '開成管弦楽団特別演奏会',
-          place: 'YouTube【準備中】',
+          place: 'YouTube',
           type: YOUTUBE,
           description:
             '部員による「花のワルツ」の演奏や、音楽部と合同の「パリのアメリカ人」アンサンブルの動画を公開します！開成管弦楽団によるクラシック音楽をオンラインの世界でも！',
-          // contentUrl:
-          //   'https://www.youtube.com/channel/UCd4nufEmpABSr1hdLWqWj6g',
-          // contentUrlText: 'YouTube',
+          contentUrl:
+            'https://youtube.com/playlist?list=PLg6BuDxA3WsuhAc7eANr79S6_rCRNZ2Ir',
+          contentUrlText: 'YouTube',
         },
         {
           id: 87,
@@ -313,7 +311,7 @@ export default {
           description:
             '「開成ピアノの会」のメンバーが、ピアノ曲をオンラインでお届けします！クラシックを中心に披露させていただきます！ぜひお聞きください！',
           contentUrl:
-            'https://www.youtube.com/playlist?list=PLg6BuDxA3Wst6FoEIO9f_Wff6j1F8t5VF',
+            'https://youtube.com/playlist?list=PLg6BuDxA3Wst6FoEIO9f_Wff6j1F8t5VF',
           contentUrlText: 'YouTube',
         },
         {
@@ -326,7 +324,7 @@ export default {
           contentUrl: 'https://kaiseibiology.wixsite.com/website',
           contentUrlText: 'Webサイト',
           contentUrl2:
-            'https://www.youtube.com/channel/UC0TJPe_4H_BnCGFR2f-pmEw',
+            'https://youtube.com/channel/UC0TJPe_4H_BnCGFR2f-pmEw',
           contentUrlText2: 'YouTube',
         },
         {
@@ -337,7 +335,7 @@ export default {
           // description:
           //   'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
           contentUrl:
-            'https://www.youtube.com/playlist?list=PLg6BuDxA3Wsu6I-MJm8ssXjUbccmblcXh',
+            'https://youtube.com/playlist?list=PLg6BuDxA3Wsu6I-MJm8ssXjUbccmblcXh',
           contentUrlText: 'YouTube',
           contentUrl2:
             'https://drive.google.com/drive/folders/1E4XdVyJxib9zVOnAOYSzeoAhgvJ1ALcG',
@@ -414,7 +412,7 @@ export default {
           // description:
           //   'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！ ぜひ特別棟入ってすぐのC101へ',
           contentUrl:
-            'https://www.youtube.com/playlist?list=PLg6BuDxA3WsunUHKqA9PbhdrJPDmAaDuE',
+            'https://youtube.com/playlist?list=PLg6BuDxA3WsunUHKqA9PbhdrJPDmAaDuE',
           contentUrlText: 'YouTube',
         },
         {
@@ -470,7 +468,7 @@ export default {
             'https://drive.google.com/drive/folders/1MSjUQUznMlQ-x8DEUad3dPtw8D9jROCq',
           contentUrlText: 'Google Drive',
           contentUrl2:
-            'https://www.youtube.com/playlist?list=PLg6BuDxA3Wsvzbu8ZD1DsZgFvrBFmyLjx',
+            'https://youtube.com/playlist?list=PLg6BuDxA3Wsvzbu8ZD1DsZgFvrBFmyLjx',
           contentUrlText2: 'YouTube',
         },
         {
@@ -484,7 +482,7 @@ export default {
             'https://drive.google.com/drive/folders/1gkmda8wso7kjt5J9gShP8TuEMGWa5pJH',
           contentUrlText: 'Google Drive',
           contentUrl2:
-            'https://www.youtube.com/playlist?list=PLg6BuDxA3Wss8dPjXlgC_xPoo33wXsfMJ',
+            'https://youtube.com/playlist?list=PLg6BuDxA3Wss8dPjXlgC_xPoo33wXsfMJ',
           contentUrlText2: 'YouTube',
         },
         {
@@ -495,7 +493,7 @@ export default {
           // description:
           //   '大化学実験では、普段見られないような様々な化学実験を行っています。多くの実験を分かりやすく解説していますので、ぜひ見に来てください！',
           contentUrl:
-            'https://www.youtube.com/playlist?list=PLg6BuDxA3WsvZ-QmejPwNu3IqmF97Ja_B',
+            'https://youtube.com/playlist?list=PLg6BuDxA3WsvZ-QmejPwNu3IqmF97Ja_B',
           contentUrlText: 'YouTube',
         },
         {
@@ -506,7 +504,7 @@ export default {
           // description:
           //   '大化学実験では、普段見られないような様々な化学実験を行っています。多くの実験を分かりやすく解説していますので、ぜひ見に来てください！',
           contentUrl:
-            'https://www.youtube.com/channel/UCAbcWw-w8k-KmjtG-cYsqyA/featured',
+            'https://youtube.com/channel/UCAbcWw-w8k-KmjtG-cYsqyA/featured',
           contentUrlText: 'YouTube',
         },
         {
@@ -557,7 +555,7 @@ export default {
           description:
             '校内紹介の動画です。Mr. 開成候補の6人がナレーションを担当しております。ぜひご高覧ください。',
           contentUrl:
-            'https://www.youtube.com/playlist?list=PLg6BuDxA3WsvgOs9RomuSF1ox787VM4sy',
+            'https://youtube.com/playlist?list=PLg6BuDxA3WsvgOs9RomuSF1ox787VM4sy',
           contentUrlText: 'YouTube',
         },
         {
@@ -602,7 +600,7 @@ export default {
           contentUrl: 'https://kstekken2020.localinfo.jp/',
           contentUrlText: 'Webサイト',
           contentUrl2:
-            'https://www.youtube.com/channel/UC43iU_l6cYFFB6J9331cwwA/featured',
+            'https://youtube.com/channel/UC43iU_l6cYFFB6J9331cwwA/featured',
           contentUrlText2: 'YouTube',
         },
         {
@@ -636,16 +634,16 @@ export default {
         {
           id: 115,
           name: '美術部',
-          place: 'YouTube【準備中】, PDF',
+          place: 'YouTube, PDF',
           type: YOUTUBE | PDF,
           description:
             '鉛筆、油絵、水彩などなど、部員たちが描いてきた作品たちを展示中。技巧を凝らした、大胆かつ精緻な筆づかいをぜひ感じてください。',
           contentUrl:
             'https://drive.google.com/drive/folders/1bZnMTypg4jtpymqeRL13k4sN4NcLNnxk',
           contentUrlText: 'Google Drive',
-          // contentUrl2:
-          //   'https://www.youtube.com/playlist?list=PLg6BuDxA3Wsvzbu8ZD1DsZgFvrBFmyLjx',
-          // contentUrlText2: 'YouTube',
+          contentUrl2:
+            'https://youtube.com/playlist?list=PLg6BuDxA3WssC3p3Rp2CJ3z0HN1JAj72x',
+          contentUrlText2: 'YouTube',
         },
         {
           id: 116,
