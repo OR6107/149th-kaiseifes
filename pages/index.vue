@@ -22,6 +22,10 @@
             <NuxtLink class="link" to="/online/">こちら</NuxtLink> ！
           </div>
           <div class="link-to-detail-title">
+            1/20 以降追加分の企画は
+            <NuxtLink class="link" to="/online_additional/">こちら</NuxtLink> ！
+          </div>
+          <div class="link-to-detail-title">
             <a
               class="link"
               href="https://twitter.com/kaisei_festival"
