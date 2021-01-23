@@ -22,6 +22,10 @@
             <NuxtLink class="link" to="/online/">こちら</NuxtLink> ！
           </div>
           <div class="link-to-detail-title">
+            1/20 以降追加分の企画は
+            <NuxtLink class="link" to="/online_additional/">こちら</NuxtLink> ！
+          </div>
+          <div class="link-to-detail-title">
             <a
               class="link"
               href="https://twitter.com/kaisei_festival"
@@ -119,7 +123,7 @@ $yellow: #fccf5a;
   @include center();
   @include UD-sin-go-font();
   width: calc(min(1vw, 2vh) * 40);
-  margin-top: calc((100vh - calc(min(1vw, 2vh) * 37.5)) / 2);
+  margin-top: calc((100vh - calc(min(1vw, 2vh) * 50)) / 2);
   margin-left: auto;
   margin-right: 5vw;
   color: $black;
@@ -148,13 +152,13 @@ $yellow: #fccf5a;
 
     .link-to-detail-title {
       margin: auto;
-      font-size: calc(min(1vw, 2vh) * 2.5);
-      line-height: calc(min(1vw, 2vh) * 4.2);
+      font-size: calc(min(1vw, 2vh) * 2);
+      line-height: calc(min(1vw, 2vh) * 3.5);
     }
 
     .link {
       font-size: calc(min(1vw, 2vh) * 2.5);
-      line-height: calc(min(1vw, 2vh) * 4.2);
+      line-height: calc(min(1vw, 2vh) * 3.5);
       color: $black;
     }
 
@@ -162,21 +166,11 @@ $yellow: #fccf5a;
       color: $yellow;
     }
   }
-
-  .coming-soon {
-    @include Didot-font();
-    margin-top: calc(min(1vw, 2vh) * 3);
-    margin-bottom: calc(min(1vw, 2vh) * 5);
-    margin-right: calc(min(1vw, 2vh) * 2.5);
-    font-size: calc(min(1vw, 2vh) * 4);
-    line-height: calc(min(1vw, 2vh) * 5.3);
-  }
 }
 
 .button-description {
   color: $black;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  margin: 10px;
   text-align: right;
 }
 
@@ -246,13 +240,6 @@ $yellow: #fccf5a;
         color: $yellow;
       }
     }
-
-    .coming-soon {
-      margin: calc(min(2vw, 1vh) * 2) 0 0 0;
-      font-size: calc(min(2vw, 1vh) * 4.8);
-      line-height: calc(min(2vw, 1vh) * 7.1);
-      color: $black;
-    }
   }
 
   .button-description {
@@ -265,7 +252,7 @@ $yellow: #fccf5a;
 
 @media screen and (min-width: 900px) {
   .button-description {
-    margin-top: -50px;
+    margin-top: -30px;
   }
 }
 </style>
