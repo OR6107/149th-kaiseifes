@@ -162,15 +162,6 @@ $yellow: #fccf5a;
       color: $yellow;
     }
   }
-
-  .coming-soon {
-    @include Didot-font();
-    margin-top: calc(min(1vw, 2vh) * 3);
-    margin-bottom: calc(min(1vw, 2vh) * 5);
-    margin-right: calc(min(1vw, 2vh) * 2.5);
-    font-size: calc(min(1vw, 2vh) * 4);
-    line-height: calc(min(1vw, 2vh) * 5.3);
-  }
 }
 
 .button-description {
@@ -245,13 +236,6 @@ $yellow: #fccf5a;
       .link:hover {
         color: $yellow;
       }
-    }
-
-    .coming-soon {
-      margin: calc(min(2vw, 1vh) * 2) 0 0 0;
-      font-size: calc(min(2vw, 1vh) * 4.8);
-      line-height: calc(min(2vw, 1vh) * 7.1);
-      color: $black;
     }
   }
 
