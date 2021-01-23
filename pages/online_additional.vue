@@ -10,6 +10,20 @@
       </p>
     </div>
 
+    <Title :is-main="false" :text="'アンケートのお願い'" />
+    <div class="content">
+      <p>
+        <a
+          href="https://forms.gle/FpWK1Uve9wEeAdNJA"
+          target="_blank"
+          rel="noopener noreferrer"
+          >フォーム</a
+        >
+        にてアンケートをお願いしています。（文化祭期間中に実施されたものとは別です。）<br />
+        各企画を運営している生徒の励みとなりますので、ご協力いただければ幸いです。
+      </p>
+    </div>
+
     <div class="search">
       <div class="search-items">
         <div class="search-items-1">
