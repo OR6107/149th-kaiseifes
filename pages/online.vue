@@ -323,8 +323,7 @@ export default {
             'コロナ渦にも屈しない生物部をご覧あれ。 生き物について様々な展示もしています！',
           contentUrl: 'https://kaiseibiology.wixsite.com/website',
           contentUrlText: 'Webサイト',
-          contentUrl2:
-            'https://youtube.com/channel/UC0TJPe_4H_BnCGFR2f-pmEw',
+          contentUrl2: 'https://youtube.com/channel/UC0TJPe_4H_BnCGFR2f-pmEw',
           contentUrlText2: 'YouTube',
         },
         {
