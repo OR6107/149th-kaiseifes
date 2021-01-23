@@ -123,7 +123,7 @@ $yellow: #fccf5a;
   @include center();
   @include UD-sin-go-font();
   width: calc(min(1vw, 2vh) * 40);
-  margin-top: calc((100vh - calc(min(1vw, 2vh) * 37.5)) / 2);
+  margin-top: calc((100vh - calc(min(1vw, 2vh) * 50)) / 2);
   margin-left: auto;
   margin-right: 5vw;
   color: $black;
@@ -152,13 +152,13 @@ $yellow: #fccf5a;
 
     .link-to-detail-title {
       margin: auto;
-      font-size: calc(min(1vw, 2vh) * 2.5);
-      line-height: calc(min(1vw, 2vh) * 4.2);
+      font-size: calc(min(1vw, 2vh) * 2);
+      line-height: calc(min(1vw, 2vh) * 3);
     }
 
     .link {
       font-size: calc(min(1vw, 2vh) * 2.5);
-      line-height: calc(min(1vw, 2vh) * 4.2);
+      line-height: calc(min(1vw, 2vh) * 3);
       color: $black;
     }
 
@@ -170,8 +170,7 @@ $yellow: #fccf5a;
 
 .button-description {
   color: $black;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  margin: 10px;
   text-align: right;
 }
 
@@ -253,7 +252,7 @@ $yellow: #fccf5a;
 
 @media screen and (min-width: 900px) {
   .button-description {
-    margin-top: -50px;
+    margin-top: -30px;
   }
 }
 </style>
