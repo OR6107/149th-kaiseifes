@@ -153,12 +153,12 @@ $yellow: #fccf5a;
     .link-to-detail-title {
       margin: auto;
       font-size: calc(min(1vw, 2vh) * 2);
-      line-height: calc(min(1vw, 2vh) * 3);
+      line-height: calc(min(1vw, 2vh) * 3.5);
     }
 
     .link {
       font-size: calc(min(1vw, 2vh) * 2.5);
-      line-height: calc(min(1vw, 2vh) * 3);
+      line-height: calc(min(1vw, 2vh) * 3.5);
       color: $black;
     }
 
