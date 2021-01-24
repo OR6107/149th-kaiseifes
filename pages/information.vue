@@ -4,19 +4,13 @@
     <div class="container">
       <Title :is-main="true" :text="'お知らせ'" />
 
-      <Title :is-main="false" :text="'コンテンツの追加'" />
-      <div class="content">
-        <p>
-          コンテンツは随時追加されていきます。<br />
-          1月中旬まで追加は行われる予定です。
-        </p>
-      </div>
-
       <Title :is-main="false" :text="'文化祭期間中の動画'" />
       <div class="content">
         <p>
-          文化祭期間中に撮影した動画を、1/15 (金) ごろに公開予定です。<br />
-          しばらくお待ち下さい。
+          文化祭期間中に撮影した動画を、
+          <NuxtLink class="link" to="/online_additional/">こちら</NuxtLink>
+          で公開しています。
+          <br />
         </p>
       </div>
 
@@ -24,7 +18,7 @@
       <div class="content">
         <p>
           このページは、コンテンツ更新終了後もしばらく公開を続けます。<br />
-          2月中旬までは公開する予定です。
+          2月下旬までは公開する予定です。
         </p>
       </div>
     </div>
