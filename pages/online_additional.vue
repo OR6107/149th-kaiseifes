@@ -321,7 +321,7 @@ export default {
         {
           id: 15,
           name: '天文気象部',
-          place: 'YouTube, HP',
+          place: 'YouTube, Twitter',
           type: YOUTUBE | CLUB,
           description:
             '【A303 プラネタリウム】<br />' +
@@ -384,7 +384,7 @@ export default {
         {
           id: 20,
           name: '開成鉱石化石館',
-          place: 'PDF',
+          place: 'YouTube, PDF',
           type: PDF,
           description:
             '地質部。今年もやります！開成鉱石化石館！ 今年のテーマは「火山」と「化石」です。是非来てください！',
