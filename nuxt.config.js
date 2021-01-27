@@ -7,7 +7,7 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: '' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.jpeg' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: 'favicon.jpeg' }],
   },
   // Global CSS (https://go.nuxtjs.dev/config-css)
   css: ['@/assets/main.scss'],
@@ -29,4 +29,6 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {},
+
+  target: 'static',
 }
